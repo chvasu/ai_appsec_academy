@@ -26,7 +26,7 @@ export default async function Home() {
           {/* RSA Badge */}
           <div className="flex justify-center mb-8">
             <a
-              href="https://www.rsaconference.com"
+              href="https://path.rsaconference.com/flow/rsac/us26/FullAgenda/page/catalog/session/1753456619857001mrPA"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cyber-surface border border-cyber-accent/30 text-sm text-cyber-accent hover:bg-cyber-accent/10 transition group"
