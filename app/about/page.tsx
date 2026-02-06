@@ -21,7 +21,7 @@ export default function AboutPage() {
         </h1>
         <p className="text-lg text-cyber-muted leading-relaxed">
           Product Security &amp; Gen AI Expert | GSE #335 | CompTIA SME |
-          D.Eng. Cybersecurity Analytics | RSA 2026 Speaker
+          D.Eng. Cybersecurity Analytics | RSA 2024 &amp; 2026 Speaker
         </p>
       </div>
 
@@ -60,7 +60,7 @@ export default function AboutPage() {
           GIAC Security Expert (GSE #335) with 35+ industry certifications.
         </p>
         <p className="text-cyber-muted leading-relaxed">
-          I am a featured speaker at RSA Conference 2026 and a key contributor
+          I am a featured speaker at RSA Conference (2024 &amp; 2026) and a key contributor
           to the open-source Secure Machine Learning project. My career spans
           leadership roles across financial services, banking, and technology
           sectors including Credit Agricole CIB, J.P. Morgan, and CA
@@ -113,7 +113,7 @@ export default function AboutPage() {
             </li>
             <li className="flex items-center gap-2">
               <span className="text-cyber-accent">&gt;</span> RSA Conference
-              2026 — Featured Speaker
+              2024 &amp; 2026 — Featured Speaker
             </li>
             <li className="flex items-center gap-2">
               <span className="text-cyber-accent">&gt;</span> D.Eng.

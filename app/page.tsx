@@ -94,7 +94,7 @@ export default async function Home() {
             <span className="hidden sm:inline text-cyber-border">|</span>
             <div className="flex items-center gap-2">
               <Zap className="w-4 h-4 text-cyber-accent" />
-              <span>RSA 2026 Speaker</span>
+              <span>RSA 2024 & 2026 Speaker</span>
             </div>
           </div>
         </div>
@@ -194,7 +194,7 @@ export default async function Home() {
             {[
               { value: "20+", label: "Years in Cybersecurity" },
               { value: "35+", label: "Industry Certifications" },
-              { value: "RSA", label: "2026 Speaker" },
+              { value: "RSA", label: "2024 & 2026 Speaker" },
               { value: "SANS", label: "Teaching Assistant & GSE" },
             ].map((stat) => (
               <div key={stat.label}>
