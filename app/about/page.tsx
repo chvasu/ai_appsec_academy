@@ -20,7 +20,7 @@ export default function AboutPage() {
           Viswanath Srinivasan Chirravuri
         </h1>
         <p className="text-lg text-cyber-muted leading-relaxed">
-          SANS Instructor | Thales CDI Expert | AI/ML Security Specialist |
+          SANS Instructor | AI/ML Security Specialist |
           RSA 2026 Speaker
         </p>
       </div>
@@ -77,10 +77,6 @@ export default function AboutPage() {
             <h3 className="text-lg font-bold text-cyber-text">Roles</h3>
           </div>
           <ul className="space-y-2 text-sm text-cyber-muted">
-            <li className="flex items-center gap-2">
-              <span className="text-cyber-accent">&gt;</span> Thales CDI —
-              Cybersecurity & Digital Identity Expert
-            </li>
             <li className="flex items-center gap-2">
               <span className="text-cyber-accent">&gt;</span> SANS Institute —
               Certified Instructor

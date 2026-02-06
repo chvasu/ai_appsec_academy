@@ -48,7 +48,7 @@ export default async function Home() {
             <span className="text-cyber-text font-medium">
               Viswanath Chirravuri
             </span>
-            , SANS instructor &amp; Thales CDI expert.
+            , SANS instructor &amp; AI/ML security expert.
           </p>
 
           {/* CTA Buttons */}
@@ -75,11 +75,6 @@ export default async function Home() {
             <div className="flex items-center gap-2">
               <Award className="w-4 h-4 text-cyber-accent" />
               <span>SANS Instructor</span>
-            </div>
-            <span className="hidden sm:inline text-cyber-border">|</span>
-            <div className="flex items-center gap-2">
-              <Shield className="w-4 h-4 text-cyber-accent" />
-              <span>Thales CDI Expert</span>
             </div>
             <span className="hidden sm:inline text-cyber-border">|</span>
             <div className="flex items-center gap-2">
