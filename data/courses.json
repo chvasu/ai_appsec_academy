@@ -3,14 +3,14 @@
     "id": "power-hour",
     "title": "The Power Hour",
     "subtitle": "Executive Consultation & Career Coaching",
-    "description": "A focused 60-minute session with Viswanath Chirravuri covering strategic career guidance in cybersecurity, AI/ML security roadmaps, certification paths (GIAC, CISSP, CEH), or executive-level threat landscape briefings. Ideal for professionals pivoting into AppSec or leaders needing clarity on Agentic AI risks.",
+    "description": "A focused 60-minute session with Viswanath Chirravuri covering strategic career guidance in cybersecurity, AI/ML security roadmaps, certification paths (SANS/GIAC, CISSP, CompTIA, Public Cloud), or executive-level threat landscape briefings. Ideal for professionals pivoting into AppSec or leaders needing clarity on Agentic AI risks.",
     "price": 300,
     "priceDisplay": "$300",
     "duration": "60 minutes",
     "format": "1-on-1 Video Call",
     "highlights": [
       "Personalized career roadmap in AI/ML Security",
-      "Certification guidance (SANS GIAC, CISSP, CEH)",
+      "Certification guidance (SANS/GIAC, CISSP, CompTIA, Public Cloud)",
       "Executive threat briefing on Agentic AI risks",
       "Resume & interview coaching for AppSec roles",
       "Actionable next steps delivered within 24 hours"
