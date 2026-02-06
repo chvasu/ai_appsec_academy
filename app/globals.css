@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap");
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-cyber-bg text-cyber-text font-mono antialiased;
+  }
+
+  ::selection {
+    @apply bg-emerald-500/30 text-emerald-200;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-cyber-bg;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-cyber-border rounded-full;
+  }
+}
+
+@layer components {
+  .cyber-glow {
+    box-shadow: 0 0 15px rgba(16, 185, 129, 0.15),
+      0 0 30px rgba(16, 185, 129, 0.05);
+  }
+
+  .cyber-glow-strong {
+    box-shadow: 0 0 20px rgba(16, 185, 129, 0.3),
+      0 0 60px rgba(16, 185, 129, 0.1);
+  }
+
+  .cyber-border {
+    @apply border border-cyber-border hover:border-cyber-accent/50 transition-colors;
+  }
+
+  .terminal-prompt::before {
+    content: "$ ";
+    @apply text-cyber-accent font-bold;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-emerald-400 via-emerald-300 to-sky-400 bg-clip-text text-transparent;
+  }
+
+  .scan-line {
+    background-color: #000000;
+    background-image: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(16, 185, 129, 0.03) 2px,
+      rgba(16, 185, 129, 0.03) 4px
+    );
+  }
+}

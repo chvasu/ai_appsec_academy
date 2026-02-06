@@ -1,0 +1,62 @@
+[
+  {
+    "id": "power-hour",
+    "title": "The Power Hour",
+    "subtitle": "Executive Consultation & Career Coaching",
+    "description": "A focused 60-minute session with Viswanath Chirravuri covering strategic career guidance in cybersecurity, AI/ML security roadmaps, certification paths (GIAC, CISSP, CEH), or executive-level threat landscape briefings. Ideal for professionals pivoting into AppSec or leaders needing clarity on Agentic AI risks.",
+    "price": 300,
+    "priceDisplay": "$300",
+    "duration": "60 minutes",
+    "format": "1-on-1 Video Call",
+    "highlights": [
+      "Personalized career roadmap in AI/ML Security",
+      "Certification guidance (SANS GIAC, CISSP, CEH)",
+      "Executive threat briefing on Agentic AI risks",
+      "Resume & interview coaching for AppSec roles",
+      "Actionable next steps delivered within 24 hours"
+    ],
+    "icon": "terminal",
+    "tier": "starter",
+    "stripePriceId": "price_power_hour_REPLACE"
+  },
+  {
+    "id": "deep-dive",
+    "title": "The Deep Dive",
+    "subtitle": "Hands-On Technical Workshop",
+    "description": "An intensive half-day workshop on 'Agentic AI for AppSec & Conversational SAST.' Learn to build and attack AI-powered security pipelines, implement conversational static analysis, and defend against prompt injection, tool-use abuse, and model manipulation in production agentic systems.",
+    "price": 1500,
+    "priceDisplay": "$1,500",
+    "duration": "4 hours",
+    "format": "Live Workshop (Virtual or On-Site)",
+    "highlights": [
+      "Build an Agentic AI security pipeline from scratch",
+      "Conversational SAST: AI-driven code review workflows",
+      "Attack & defend: prompt injection, tool-use exploits",
+      "Hands-on labs with real-world vulnerable AI agents",
+      "Certificate of completion & lab environment access (30 days)"
+    ],
+    "icon": "code",
+    "tier": "professional",
+    "stripePriceId": "price_deep_dive_REPLACE"
+  },
+  {
+    "id": "team-bootcamp",
+    "title": "Team Security Bootcamp",
+    "subtitle": "Corporate Training Program",
+    "description": "A multi-day corporate training program covering the Secure-ML Framework and LLM Application Security. Tailored for engineering teams building or integrating AI/ML systems. Covers threat modeling for LLMs, secure RAG architectures, red-teaming AI systems, and building an internal AI security governance framework.",
+    "price": 0,
+    "priceDisplay": "Custom Pricing",
+    "duration": "2-5 days (customizable)",
+    "format": "On-Site or Virtual Team Training",
+    "highlights": [
+      "Secure-ML Framework: end-to-end ML pipeline security",
+      "LLM AppSec: OWASP Top 10 for LLMs in practice",
+      "Red-teaming AI systems with automated tooling",
+      "Secure RAG architecture design & implementation",
+      "Custom curriculum aligned to your tech stack"
+    ],
+    "icon": "shield",
+    "tier": "enterprise",
+    "stripePriceId": null
+  }
+]
