@@ -18,7 +18,7 @@ const sections = [
   {
     title: "2. Training Disclaimer",
     content: [
-      "All training programs, courses, workshops, and educational materials provided by AI AppSec Academy are for informational and educational purposes only. They do not constitute professional security consulting, legal advice, or certification guarantees.",
+      "AI AppSec Academy provides professional cybersecurity training and education. However, enrollment in any course does not establish a consultant-client relationship, and training content is not a substitute for a formal security assessment, audit, or legal advice specific to your organization or systems.",
       "While every effort is made to ensure accuracy and relevance, the cybersecurity landscape evolves rapidly. Course content may not reflect the most recent threats, vulnerabilities, or regulatory changes at the time of delivery.",
       "Completion of any AI AppSec Academy course does not guarantee employment, certification by third parties (such as GIAC, CompTIA, or ISC²), or specific career outcomes. Training is intended to supplement your professional development, not replace formal certification programs.",
     ],
