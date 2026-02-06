@@ -48,7 +48,8 @@ export default async function Home() {
             <span className="text-cyber-text font-medium">
               Viswanath Chirravuri
             </span>
-            , SANS instructor &amp; AI/ML security expert.
+            , SANS instructor, GSE #335 &amp; Doctor of Engineering
+            in Cybersecurity.
           </p>
 
           {/* CTA Buttons */}
@@ -78,8 +79,13 @@ export default async function Home() {
             </div>
             <span className="hidden sm:inline text-cyber-border">|</span>
             <div className="flex items-center gap-2">
+              <Shield className="w-4 h-4 text-cyber-accent" />
+              <span>GSE #335</span>
+            </div>
+            <span className="hidden sm:inline text-cyber-border">|</span>
+            <div className="flex items-center gap-2">
               <GraduationCap className="w-4 h-4 text-cyber-accent" />
-              <span>CISSP, CEH, GIAC</span>
+              <span>D.Eng. Cybersecurity</span>
             </div>
             <span className="hidden sm:inline text-cyber-border">|</span>
             <div className="flex items-center gap-2">
@@ -162,10 +168,10 @@ export default async function Home() {
         <div className="bg-cyber-surface rounded-lg border border-cyber-border p-8 md:p-12">
           <div className="grid md:grid-cols-4 gap-8 text-center">
             {[
-              { value: "15+", label: "Years in AppSec" },
-              { value: "500+", label: "Professionals Trained" },
+              { value: "20+", label: "Years in Cybersecurity" },
+              { value: "35+", label: "Industry Certifications" },
               { value: "RSA", label: "2026 Speaker" },
-              { value: "SANS", label: "Certified Instructor" },
+              { value: "SANS", label: "Instructor & GSE" },
             ].map((stat) => (
               <div key={stat.label}>
                 <div className="text-3xl font-bold gradient-text mb-1">

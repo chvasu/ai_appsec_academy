@@ -20,29 +20,35 @@ export default function AboutPage() {
           Viswanath Srinivasan Chirravuri
         </h1>
         <p className="text-lg text-cyber-muted leading-relaxed">
-          SANS Instructor | AI/ML Security Specialist |
-          RSA 2026 Speaker
+          Product Security &amp; Gen AI Expert | SANS Instructor | GSE #335 |
+          D.Eng. Cybersecurity Analytics | RSA 2026 Speaker
         </p>
       </div>
 
       {/* Bio */}
       <div className="bg-cyber-surface border border-cyber-border rounded-lg p-8 mb-12">
         <p className="text-cyber-muted leading-relaxed mb-4">
-          I specialize in the intersection of artificial intelligence and
-          application security. With over 15 years in cybersecurity, I have
-          built and secured systems across financial services, defense, and
-          technology sectors.
+          Cybersecurity and product security leader with 20+ years driving
+          enterprise security strategy, global program leadership, and
+          innovation in secure software development and operations. Proven
+          expertise in building and managing high-performing teams, developing
+          security governance frameworks, and aligning cybersecurity initiatives
+          with business goals.
         </p>
         <p className="text-cyber-muted leading-relaxed mb-4">
-          As a SANS instructor, I train security professionals on cutting-edge
-          topics including Agentic AI security, conversational SAST, LLM
-          application security, and the Secure-ML framework. My work focuses on
-          making AI systems safe and trustworthy at scale.
+          As a SANS Institute instructor for SEC545 (GenAI and LLM Application
+          Security), I train security professionals on Agentic AI security,
+          conversational SAST, LLM application security, and the Secure-ML
+          framework. I hold a Doctor of Engineering in Cybersecurity Analytics
+          from The George Washington University and am a GIAC Security Expert
+          (GSE #335) with 35+ industry certifications.
         </p>
         <p className="text-cyber-muted leading-relaxed">
-          I am a featured speaker at RSA Conference 2026, where I present on
-          defending autonomous AI agents against emerging attack vectors in
-          enterprise environments.
+          I am a featured speaker at RSA Conference 2026 and a key contributor
+          to the open-source Secure Machine Learning project. My career spans
+          leadership roles across financial services, banking, and technology
+          sectors including Credit Agricole CIB, J.P. Morgan, and CA
+          Technologies.
         </p>
       </div>
 
@@ -57,16 +63,20 @@ export default function AboutPage() {
           </div>
           <ul className="space-y-2 text-sm text-cyber-muted">
             <li className="flex items-center gap-2">
+              <span className="text-cyber-accent">&gt;</span> GSE #335 — GIAC
+              Security Expert
+            </li>
+            <li className="flex items-center gap-2">
               <span className="text-cyber-accent">&gt;</span> CISSP — Certified
               Information Systems Security Professional
             </li>
             <li className="flex items-center gap-2">
-              <span className="text-cyber-accent">&gt;</span> CEH — Certified
-              Ethical Hacker
+              <span className="text-cyber-accent">&gt;</span> PMP — Project
+              Management Professional
             </li>
             <li className="flex items-center gap-2">
-              <span className="text-cyber-accent">&gt;</span> GIAC — SANS
-              Global Information Assurance Certification
+              <span className="text-cyber-accent">&gt;</span> 35+ certifications
+              including 23 GIAC, CompTIA, AWS &amp; Azure
             </li>
           </ul>
         </div>
@@ -79,11 +89,19 @@ export default function AboutPage() {
           <ul className="space-y-2 text-sm text-cyber-muted">
             <li className="flex items-center gap-2">
               <span className="text-cyber-accent">&gt;</span> SANS Institute —
-              Certified Instructor
+              Instructor (SEC545: GenAI &amp; LLM AppSec)
             </li>
             <li className="flex items-center gap-2">
               <span className="text-cyber-accent">&gt;</span> RSA Conference
               2026 — Featured Speaker
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-cyber-accent">&gt;</span> D.Eng.
+              Cybersecurity Analytics — George Washington University
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-cyber-accent">&gt;</span> M.S. Information
+              Security Engineering — SANS Technology Institute
             </li>
           </ul>
         </div>
@@ -97,12 +115,14 @@ export default function AboutPage() {
         </h2>
         <div className="grid sm:grid-cols-2 gap-4">
           {[
-            "Agentic AI Security & Defense",
+            "Product Security & DevSecOps",
+            "Securing AI/ML (Adversarial AI)",
+            "Applied AI: RAG, Fine-tuning, MLSecOps, Agentic AI",
             "LLM Application Security (OWASP Top 10)",
-            "Conversational SAST & AI-Driven Code Review",
+            "Cyber Red & Blue Team Management (Offensive AI)",
+            "Software Supply Chain Security",
             "Secure-ML Framework & ML Pipeline Security",
-            "AI Red-Teaming & Adversarial ML",
-            "Enterprise AI Security Governance",
+            "Data Security Governance, Risk & Compliance",
           ].map((area) => (
             <div
               key={area}
@@ -133,6 +153,33 @@ export default function AboutPage() {
           className="flex items-center gap-2 px-5 py-2.5 bg-cyber-surface border border-cyber-border rounded-lg text-sm text-cyber-muted hover:text-cyber-accent hover:border-cyber-accent/30 transition"
         >
           GitHub
+          <ExternalLink className="w-3.5 h-3.5" />
+        </a>
+        <a
+          href="https://www.sans.org/profiles/viswanath-chirravuri"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 px-5 py-2.5 bg-cyber-surface border border-cyber-border rounded-lg text-sm text-cyber-muted hover:text-cyber-accent hover:border-cyber-accent/30 transition"
+        >
+          SANS Profile
+          <ExternalLink className="w-3.5 h-3.5" />
+        </a>
+        <a
+          href="https://www.credly.com/users/vchirrav"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 px-5 py-2.5 bg-cyber-surface border border-cyber-border rounded-lg text-sm text-cyber-muted hover:text-cyber-accent hover:border-cyber-accent/30 transition"
+        >
+          Credly
+          <ExternalLink className="w-3.5 h-3.5" />
+        </a>
+        <a
+          href="https://www.rsaconference.com/experts/viswanath-chirravuri"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 px-5 py-2.5 bg-cyber-surface border border-cyber-border rounded-lg text-sm text-cyber-muted hover:text-cyber-accent hover:border-cyber-accent/30 transition"
+        >
+          RSA Profile
           <ExternalLink className="w-3.5 h-3.5" />
         </a>
         <Link

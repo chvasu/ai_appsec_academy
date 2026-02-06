@@ -47,7 +47,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="https://www.sans.org"
+                  href="https://www.sans.org/profiles/viswanath-chirravuri"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-cyber-accent transition"

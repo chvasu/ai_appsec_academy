@@ -6,7 +6,7 @@ import { Footer } from "@/components/Footer";
 export const metadata: Metadata = {
   title: "AI AppSec Academy | Viswanath Chirravuri",
   description:
-    "Elite cybersecurity training in AI/ML Security, Agentic AI AppSec, and LLM Security. Led by SANS instructor Viswanath Chirravuri.",
+    "Elite cybersecurity training in AI/ML Security, Agentic AI AppSec, and LLM Security. Led by SANS instructor & GSE #335 Viswanath Chirravuri, D.Eng. Cybersecurity.",
   keywords: [
     "AI Security Training",
     "LLM Security",
