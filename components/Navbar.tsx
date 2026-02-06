@@ -21,7 +21,7 @@ export function Navbar() {
           <span className="text-lg font-bold tracking-tight">
             <span className="text-cyber-accent">AI</span>
             <span className="text-cyber-text">AppSec</span>
-            <span className="text-cyber-muted">.academy</span>
+            <span className="text-cyber-muted">Academy</span>
           </span>
         </Link>
 
