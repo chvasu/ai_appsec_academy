@@ -48,7 +48,7 @@ export default async function Home() {
             <span className="text-cyber-text font-medium">
               Viswanath Chirravuri
             </span>
-            , SANS instructor, GSE #335 &amp; Doctor of Engineering
+            , SANS instructor, GSE&nbsp;#335 &amp; Doctor of Engineering
             in Cybersecurity.
           </p>
 
