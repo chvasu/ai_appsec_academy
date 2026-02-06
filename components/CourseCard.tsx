@@ -1,6 +1,6 @@
 "use client";
 
-import { Terminal, Code, ShieldCheck } from "lucide-react";
+import { Terminal, Code, ShieldCheck, Clock, Globe } from "lucide-react";
 import type { Course } from "@/lib/db";
 
 const iconMap: Record<string, React.ElementType> = {
@@ -105,6 +105,18 @@ export function CourseCard({ course }: { course: Course }) {
             </li>
           ))}
         </ul>
+      </div>
+
+      {/* Availability Notice */}
+      <div className="px-6 py-3 border-t border-cyber-border/50 space-y-1.5">
+        <div className="flex items-center gap-2 text-xs text-cyber-muted">
+          <Clock className="w-3.5 h-3.5 text-cyber-accent shrink-0" />
+          <span>You will be contacted within 24 hours of payment</span>
+        </div>
+        <div className="flex items-center gap-2 text-xs text-cyber-muted">
+          <Globe className="w-3.5 h-3.5 text-cyber-accent shrink-0" />
+          <span>Available across all time zones, including weekends</span>
+        </div>
       </div>
 
       {/* CTA */}

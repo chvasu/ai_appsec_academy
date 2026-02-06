@@ -1,0 +1,50 @@
+[
+  {
+    "title": "From Monolith to Micro-Agents: My 4-Stage Journey in Building Secure Local AI Systems",
+    "date": "2026-01-05",
+    "url": "https://www.linkedin.com/pulse/from-monolith-micro-agents-my-4-stage-journey-secure-local-2qcjc/",
+    "summary": "An evolutionary progression through four architectural phases for building a local AI system, from a single monolithic agent to a distributed multi-agent network with security safeguards at each stage."
+  },
+  {
+    "title": "AppSec Using Agentic AI: Running SCA Scans via Claude CLI Skills",
+    "date": "2025-12-25",
+    "url": "https://www.linkedin.com/pulse/appsec-using-agentic-ai-running-sca-scans-via-claude-cli-chirravuri-564cc/",
+    "summary": "Using Claude Skills to automate security scanning workflows, specifically implementing Software Composition Analysis (SCA) scans through the Bandit tool via Claude CLI."
+  },
+  {
+    "title": "Why \"AI Skills Developer\" Will Be the Breakout Role of 2026",
+    "date": "2025-12-24",
+    "url": "https://www.linkedin.com/pulse/why-ai-skills-developer-breakout-role-2026-viswanath-s-chirravuri-lpyzc/",
+    "summary": "An emerging specialized role combining software engineering with LLM orchestration, where prompt engineering evolves into a structured discipline using Claude Skills, Sub-agents, Hooks, and MCP."
+  },
+  {
+    "title": "Secure Source Code by Design with Cline: A Practical Guide for Engineering Teams",
+    "date": "2025-12-02",
+    "url": "https://www.linkedin.com/pulse/secure-source-code-design-cline-practical-guide-teams-chirravuri-pfemc/",
+    "summary": "A methodology for configuring Cline (VS Code AI extension) to enforce OWASP security standards during code generation, combining Memory Bank, .clinerules, and modular secure coding standards."
+  },
+  {
+    "title": "AI/ML Security: Old Attacks, New Targets",
+    "date": "2025-08-16",
+    "url": "https://www.linkedin.com/pulse/aiml-security-old-attacks-new-targets-viswanath-s-chirravuri-m7i3c/",
+    "summary": "Threats targeting AI systems aren't fundamentally novel — adversaries use the same tricks (injection, tampering, leaking secrets) but now focus on training datasets, models, and AI outputs."
+  },
+  {
+    "title": "Evolving Protocols Around Agentic AI: MCP, A2A, ACP, AGNTCY",
+    "date": "2025-06-12",
+    "url": "https://www.linkedin.com/pulse/agentic-ai-mcp-a2a-acp-agntcy-viswanath-s-chirravuri-x3cuc/",
+    "summary": "Examining emerging standards for agent-based AI systems including MCP, A2A, ACP, and AGNTCY protocols anticipating an Internet of Agents (IoA)."
+  },
+  {
+    "title": "The 3 Phases of AI Mastery: Skills, Tools, Roles, and Privacy Practices",
+    "date": "2024-12-16",
+    "url": "https://www.linkedin.com/pulse/path-mastering-aiml-step-by-step-approach-viswanath-chirravuri-i9lyc/",
+    "summary": "Three distinct AI proficiency levels — from end-user to ML specialist — along with corresponding competencies, recommended tools, and security considerations for each stage."
+  },
+  {
+    "title": "ML Cyberattacks Taxonomy",
+    "date": "2023-09-29",
+    "url": "https://www.linkedin.com/pulse/ml-cyberattacks-taxonomy-vis-chirravuri/",
+    "summary": "A comprehensive framework for understanding cyberattacks targeting machine learning systems, organized across training data, model, and inference stages."
+  }
+]

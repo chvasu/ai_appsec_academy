@@ -5,6 +5,9 @@ import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://aiappsecacademy.com"),
+  icons: {
+    icon: "/favicon.svg",
+  },
   title: "AI AppSec Academy | Viswanath Chirravuri",
   description:
     "Elite cybersecurity training in AI/ML Security, Agentic AI AppSec, and LLM Security. Led by SANS instructor & GSE #335 Viswanath Chirravuri, D.Eng. Cybersecurity.",
