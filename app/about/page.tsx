@@ -21,7 +21,7 @@ export default function AboutPage() {
         </h1>
         <p className="text-lg text-cyber-muted leading-relaxed">
           Product Security &amp; Gen AI Expert | GSE #335 | CompTIA SME |
-          D.Eng. Cybersecurity Analytics | RSA 2024 &amp; 2026 Speaker
+          D.Eng. Cybersecurity Analytics (expected Aug 2026) | RSA 2024 &amp; 2026 Speaker
         </p>
       </div>
 
@@ -55,8 +55,8 @@ export default function AboutPage() {
           >
             CompTIA Subject Matter Expert (SME)
           </a>
-          {" "}for Security+ and Cloud+. I hold a Doctor of Engineering in
-          Cybersecurity Analytics from The George Washington University and am a
+          {" "}for Security+ and Cloud+. I am pursuing a Doctor of Engineering in
+          Cybersecurity Analytics at The George Washington University (expected August 2026) and am a
           GIAC Security Expert (GSE #335) with 35+ industry certifications.
         </p>
         <p className="text-cyber-muted leading-relaxed">
@@ -117,7 +117,7 @@ export default function AboutPage() {
             </li>
             <li className="flex items-center gap-2">
               <span className="text-cyber-accent">&gt;</span> D.Eng.
-              Cybersecurity Analytics — George Washington University
+              Cybersecurity Analytics — George Washington University (expected Aug 2026)
             </li>
             <li className="flex items-center gap-2">
               <span className="text-cyber-accent">&gt;</span> M.S. Information

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   },
   title: "AI AppSec Academy | Viswanath Chirravuri",
   description:
-    "Elite cybersecurity training in AppSec, DevSecOps, Product Security, Supply Chain Security, and AI/ML Defense. Led by GSE #335 & CompTIA SME Viswanath Chirravuri, D.Eng. Cybersecurity.",
+    "Elite cybersecurity training in AppSec, DevSecOps, Product Security, Supply Chain Security, and AI/ML Defense. Led by GSE #335 & CompTIA SME Viswanath Chirravuri, D.Eng. Cybersecurity candidate.",
   keywords: [
     "AI Security Training",
     "LLM Security",

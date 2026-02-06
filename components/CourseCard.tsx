@@ -1,7 +1,9 @@
 "use client";
 
+import { useState } from "react";
 import { Terminal, Code, ShieldCheck, Clock, Globe } from "lucide-react";
 import type { Course } from "@/lib/db";
+import { TermsCheckbox } from "./TermsCheckbox";
 
 const iconMap: Record<string, React.ElementType> = {
   terminal: Terminal,
@@ -36,6 +38,7 @@ const tierBadge: Record<string, string> = {
 export function CourseCard({ course }: { course: Course }) {
   const Icon = iconMap[course.icon] || Terminal;
   const isPurchasable = course.price > 0;
+  const [termsAccepted, setTermsAccepted] = useState(false);
 
   async function handleCheckout() {
     const res = await fetch("/api/checkout", {
@@ -131,18 +134,24 @@ export function CourseCard({ course }: { course: Course }) {
             )}
           </div>
         </div>
+        <TermsCheckbox onAcceptChange={setTermsAccepted} className="mb-4" />
         {isPurchasable ? (
           <button
             onClick={handleCheckout}
-            className={`w-full py-3 px-4 rounded-lg font-semibold text-sm text-cyber-bg transition-all duration-200 ${
-              course.tier === "professional"
-                ? "bg-sky-500 hover:bg-sky-400 hover:shadow-[0_0_20px_rgba(56,189,248,0.3)]"
-                : "bg-emerald-500 hover:bg-emerald-400 hover:shadow-[0_0_20px_rgba(16,185,129,0.3)]"
+            disabled={!termsAccepted}
+            className={`w-full py-3 px-4 rounded-lg font-semibold text-sm transition-all duration-200 ${
+              termsAccepted
+                ? `text-cyber-bg ${
+                    course.tier === "professional"
+                      ? "bg-sky-500 hover:bg-sky-400 hover:shadow-[0_0_20px_rgba(56,189,248,0.3)]"
+                      : "bg-emerald-500 hover:bg-emerald-400 hover:shadow-[0_0_20px_rgba(16,185,129,0.3)]"
+                  }`
+                : "bg-gray-600 opacity-50 cursor-not-allowed text-gray-400"
             }`}
           >
             <span className="font-mono">$</span> Enroll Now
           </button>
-        ) : (
+        ) : termsAccepted ? (
           <a
             href="https://www.linkedin.com/in/vchirrav/"
             target="_blank"
@@ -151,6 +160,10 @@ export function CourseCard({ course }: { course: Course }) {
           >
             <span className="font-mono">&gt;</span> Request Custom Quote
           </a>
+        ) : (
+          <span className="block w-full py-3 px-4 rounded-lg font-semibold text-sm text-center border border-gray-600/50 text-gray-500 opacity-50 cursor-not-allowed">
+            <span className="font-mono">&gt;</span> Request Custom Quote
+          </span>
         )}
       </div>
     </div>

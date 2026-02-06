@@ -53,7 +53,7 @@ export default async function Home() {
               Viswanath Chirravuri
             </span>
             , GSE&nbsp;#335, CompTIA&nbsp;SME &amp; Doctor of Engineering
-            in Cybersecurity.
+            candidate in Cybersecurity.
           </p>
 
           {/* CTA Buttons */}
@@ -89,7 +89,7 @@ export default async function Home() {
             <span className="hidden sm:inline text-cyber-border">|</span>
             <div className="flex items-center gap-2">
               <GraduationCap className="w-4 h-4 text-cyber-accent" />
-              <span>D.Eng. Cybersecurity</span>
+              <span>D.Eng. Cybersecurity (exp. 2026)</span>
             </div>
             <span className="hidden sm:inline text-cyber-border">|</span>
             <div className="flex items-center gap-2">

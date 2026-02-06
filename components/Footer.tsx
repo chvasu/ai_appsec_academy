@@ -1,6 +1,13 @@
+"use client";
+
+import { useState } from "react";
 import { Shield } from "lucide-react";
+import Link from "next/link";
+import { TermsCheckbox } from "./TermsCheckbox";
 
 export function Footer() {
+  const [contactTermsAccepted, setContactTermsAccepted] = useState(false);
+
   return (
     <footer className="border-t border-cyber-border bg-cyber-bg/50">
       <div className="max-w-6xl mx-auto px-4 py-12">
@@ -10,7 +17,7 @@ export function Footer() {
             <div className="flex items-center gap-2 mb-3">
               <Shield className="w-5 h-5 text-cyber-accent" />
               <span className="font-bold text-cyber-text">
-                AI AppSec Academy
+                AI AppSec Academy™
               </span>
             </div>
             <p className="text-sm text-cyber-muted leading-relaxed">
@@ -55,6 +62,14 @@ export function Footer() {
                   SANS Institute
                 </a>
               </li>
+              <li>
+                <Link
+                  href="/terms"
+                  className="hover:text-cyber-accent transition"
+                >
+                  Terms &amp; Conditions
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -63,26 +78,36 @@ export function Footer() {
             <h4 className="text-sm font-semibold text-cyber-text mb-3 uppercase tracking-wider">
               Contact
             </h4>
-            <p className="text-sm text-cyber-muted leading-relaxed">
+            <p className="text-sm text-cyber-muted leading-relaxed mb-3">
               For corporate training inquiries, speaking engagements, or custom
-              workshops, reach out via{" "}
+              workshops, reach out via LinkedIn.
+            </p>
+            <TermsCheckbox
+              onAcceptChange={setContactTermsAccepted}
+              className="mb-3"
+            />
+            {contactTermsAccepted ? (
               <a
                 href="https://www.linkedin.com/in/vchirrav/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-cyber-accent hover:underline"
+                className="inline-block text-sm text-cyber-accent hover:underline"
               >
-                LinkedIn
+                Connect on LinkedIn
               </a>
-              .
-            </p>
+            ) : (
+              <span className="inline-block text-sm text-gray-500 opacity-50 cursor-not-allowed">
+                Connect on LinkedIn
+              </span>
+            )}
           </div>
         </div>
 
         <div className="mt-10 pt-6 border-t border-cyber-border text-center text-xs text-cyber-muted">
-          <span className="text-cyber-accent">&gt;</span>{" "}
+          <span className="text-cyber-accent">&gt;</span> &copy;{" "}
           {new Date().getFullYear()} Viswanath Srinivasan Chirravuri. All rights
-          reserved.
+          reserved. AI AppSec Academy™ is a trademark of Viswanath Srinivasan
+          Chirravuri.
         </div>
       </div>
     </footer>
