@@ -48,7 +48,7 @@ export default async function Home() {
             <span className="text-cyber-text font-medium">
               Viswanath Chirravuri
             </span>
-            , SANS instructor, GSE&nbsp;#335 &amp; Doctor of Engineering
+            , GSE&nbsp;#335, CompTIA&nbsp;SME &amp; Doctor of Engineering
             in Cybersecurity.
           </p>
 
@@ -75,7 +75,7 @@ export default async function Home() {
           <div className="flex flex-wrap items-center justify-center gap-6 text-xs text-cyber-muted">
             <div className="flex items-center gap-2">
               <Award className="w-4 h-4 text-cyber-accent" />
-              <span>SANS Instructor</span>
+              <span>SANS Teaching Assistant</span>
             </div>
             <span className="hidden sm:inline text-cyber-border">|</span>
             <div className="flex items-center gap-2">
@@ -171,7 +171,7 @@ export default async function Home() {
               { value: "20+", label: "Years in Cybersecurity" },
               { value: "35+", label: "Industry Certifications" },
               { value: "RSA", label: "2026 Speaker" },
-              { value: "SANS", label: "Instructor & GSE" },
+              { value: "SANS", label: "Teaching Assistant & GSE" },
             ].map((stat) => (
               <div key={stat.label}>
                 <div className="text-3xl font-bold gradient-text mb-1">

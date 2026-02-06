@@ -20,7 +20,7 @@ export default function AboutPage() {
           Viswanath Srinivasan Chirravuri
         </h1>
         <p className="text-lg text-cyber-muted leading-relaxed">
-          Product Security &amp; Gen AI Expert | SANS Instructor | GSE #335 |
+          Product Security &amp; Gen AI Expert | GSE #335 | CompTIA SME |
           D.Eng. Cybersecurity Analytics | RSA 2026 Speaker
         </p>
       </div>
@@ -36,12 +36,28 @@ export default function AboutPage() {
           with business goals.
         </p>
         <p className="text-cyber-muted leading-relaxed mb-4">
-          As a SANS Institute instructor for SEC545 (GenAI and LLM Application
-          Security), I train security professionals on Agentic AI security,
-          conversational SAST, LLM application security, and the Secure-ML
-          framework. I hold a Doctor of Engineering in Cybersecurity Analytics
-          from The George Washington University and am a GIAC Security Expert
-          (GSE #335) with 35+ industry certifications.
+          I am a{" "}
+          <a
+            href="https://www.sans.org/profiles/viswanath-chirravuri"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-cyber-accent hover:underline"
+          >
+            Teaching Assistant for multiple SANS Institute courses
+          </a>
+          {" "}and a regular webinar presenter on AI/ML security topics. I am
+          also a{" "}
+          <a
+            href="https://production-comptiawebsite.azurewebsites.net/certifications/become-a-subject-matter-expert/current-smes"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-cyber-accent hover:underline"
+          >
+            CompTIA Subject Matter Expert (SME)
+          </a>
+          {" "}for Security+ and Cloud+. I hold a Doctor of Engineering in
+          Cybersecurity Analytics from The George Washington University and am a
+          GIAC Security Expert (GSE #335) with 35+ industry certifications.
         </p>
         <p className="text-cyber-muted leading-relaxed">
           I am a featured speaker at RSA Conference 2026 and a key contributor
@@ -89,7 +105,11 @@ export default function AboutPage() {
           <ul className="space-y-2 text-sm text-cyber-muted">
             <li className="flex items-center gap-2">
               <span className="text-cyber-accent">&gt;</span> SANS Institute —
-              Instructor (SEC545: GenAI &amp; LLM AppSec)
+              Teaching Assistant &amp; Webinar Presenter
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-cyber-accent">&gt;</span> CompTIA —
+              Subject Matter Expert (Security+, Cloud+)
             </li>
             <li className="flex items-center gap-2">
               <span className="text-cyber-accent">&gt;</span> RSA Conference
