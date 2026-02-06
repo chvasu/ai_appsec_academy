@@ -7,6 +7,10 @@ import {
   GraduationCap,
   Lock,
   Brain,
+  Workflow,
+  Bug,
+  Package,
+  ShieldCheck,
 } from "lucide-react";
 import { getCourses } from "@/lib/db";
 import { CourseCard } from "@/components/CourseCard";
@@ -38,13 +42,13 @@ export default async function Home() {
           </div>
 
           <h1 className="text-center text-4xl md:text-6xl lg:text-7xl font-bold leading-tight tracking-tight mb-6">
-            <span className="block text-cyber-text">Secure the Future of</span>
-            <span className="block gradient-text">Agentic AI</span>
+            <span className="block text-cyber-text">Secure Software.</span>
+            <span className="block gradient-text">Secure AI.</span>
           </h1>
 
           <p className="text-center text-lg md:text-xl text-cyber-muted max-w-2xl mx-auto mb-10 leading-relaxed">
-            Elite training in AI/ML Security, LLM AppSec, and Agentic AI
-            defense. Led by{" "}
+            Elite training in AppSec, DevSecOps, Product Security, Supply Chain
+            Security, and AI/ML Defense. Led by{" "}
             <span className="text-cyber-text font-medium">
               Viswanath Chirravuri
             </span>
@@ -107,8 +111,28 @@ export default async function Home() {
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {[
+            {
+              icon: Bug,
+              title: "Software Application Security",
+              desc: "SAST, DAST, SCA, penetration testing, secure code review, and OWASP Top 10 remediation across the full application stack.",
+            },
+            {
+              icon: Workflow,
+              title: "DevSecOps",
+              desc: "Embedding security into CI/CD pipelines, automated security gates, infrastructure as code scanning, and shift-left security culture.",
+            },
+            {
+              icon: ShieldCheck,
+              title: "Product Security",
+              desc: "Building security into the product lifecycle — threat modeling, secure architecture review, security requirements, and release governance.",
+            },
+            {
+              icon: Package,
+              title: "Software Supply Chain Security",
+              desc: "SBOM management, dependency risk analysis, build provenance, artifact signing, and defending against supply chain compromise.",
+            },
             {
               icon: Brain,
               title: "Agentic AI Security",

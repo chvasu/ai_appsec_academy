@@ -13,6 +13,7 @@ export interface Course {
   highlights: string[];
   icon: string;
   tier: "starter" | "professional" | "enterprise";
+  category: "general" | "ai" | "appsec";
   stripePriceId: string | null;
 }
 

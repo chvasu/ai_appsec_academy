@@ -9,7 +9,7 @@
     "duration": "60 minutes",
     "format": "1-on-1 Video Call",
     "highlights": [
-      "Personalized career roadmap in AI/ML Security",
+      "Personalized career roadmap in AI/ML Security or AppSec",
       "Certification guidance (SANS/GIAC, CISSP, CompTIA, Public Cloud)",
       "Executive threat briefing on Agentic AI risks",
       "Resume & interview coaching for AppSec roles",
@@ -17,12 +17,13 @@
     ],
     "icon": "terminal",
     "tier": "starter",
+    "category": "general",
     "stripePriceId": "price_power_hour_REPLACE"
   },
   {
     "id": "deep-dive",
     "title": "The Deep Dive",
-    "subtitle": "Hands-On Technical Workshop",
+    "subtitle": "Agentic AI & LLM Security Workshop",
     "description": "An intensive half-day workshop on 'Agentic AI for AppSec & Conversational SAST.' Learn to build and attack AI-powered security pipelines, implement conversational static analysis, and defend against prompt injection, tool-use abuse, and model manipulation in production agentic systems.",
     "price": 1500,
     "priceDisplay": "$1,500",
@@ -37,12 +38,55 @@
     ],
     "icon": "code",
     "tier": "professional",
+    "category": "ai",
     "stripePriceId": "price_deep_dive_REPLACE"
   },
   {
+    "id": "devsecops-workshop",
+    "title": "DevSecOps & AppSec Workshop",
+    "subtitle": "Secure SDLC & Pipeline Security",
+    "description": "A hands-on half-day workshop covering DevSecOps pipeline design, automated security testing (SAST, DAST, SCA), secure CI/CD configuration, and embedding security gates into the software development lifecycle. Includes real-world pipeline exercises using industry-standard tools.",
+    "price": 1200,
+    "priceDisplay": "$1,200",
+    "duration": "4 hours",
+    "format": "Live Workshop (Virtual or On-Site)",
+    "highlights": [
+      "Design a full DevSecOps pipeline from scratch",
+      "Hands-on SAST, DAST & SCA tool integration",
+      "Secure CI/CD: GitHub Actions, Jenkins, GitLab security gates",
+      "OWASP Top 10 vulnerability detection & remediation",
+      "Certificate of completion & pipeline templates"
+    ],
+    "icon": "code",
+    "tier": "professional",
+    "category": "appsec",
+    "stripePriceId": "price_devsecops_REPLACE"
+  },
+  {
+    "id": "product-security",
+    "title": "Product Security Strategy",
+    "subtitle": "Security Architecture & Supply Chain",
+    "description": "A focused 2-hour session on building a product security program from the ground up. Covers threat modeling, secure architecture review, software supply chain risk management, SBOM strategies, and establishing security governance across product teams.",
+    "price": 500,
+    "priceDisplay": "$500",
+    "duration": "2 hours",
+    "format": "1-on-1 or Small Group Video Call",
+    "highlights": [
+      "Product security program design & maturity assessment",
+      "Threat modeling frameworks (STRIDE, PASTA, Attack Trees)",
+      "Software supply chain risk & SBOM strategy",
+      "Secure architecture review methodology",
+      "Actionable roadmap delivered within 24 hours"
+    ],
+    "icon": "shield",
+    "tier": "starter",
+    "category": "appsec",
+    "stripePriceId": "price_product_security_REPLACE"
+  },
+  {
     "id": "team-bootcamp",
-    "title": "Team Security Bootcamp",
-    "subtitle": "Corporate Training Program",
+    "title": "AI Security Bootcamp",
+    "subtitle": "Corporate AI/ML Training Program",
     "description": "A multi-day corporate training program covering the Secure-ML Framework and LLM Application Security. Tailored for engineering teams building or integrating AI/ML systems. Covers threat modeling for LLMs, secure RAG architectures, red-teaming AI systems, and building an internal AI security governance framework.",
     "price": 0,
     "priceDisplay": "Custom Pricing",
@@ -57,6 +101,28 @@
     ],
     "icon": "shield",
     "tier": "enterprise",
+    "category": "ai",
+    "stripePriceId": null
+  },
+  {
+    "id": "appsec-bootcamp",
+    "title": "Enterprise AppSec Bootcamp",
+    "subtitle": "Corporate DevSecOps & Product Security",
+    "description": "A comprehensive multi-day corporate program covering DevSecOps transformation, application security program building, product security governance, and software supply chain defense. Tailored for engineering and security teams modernizing their secure development practices.",
+    "price": 0,
+    "priceDisplay": "Custom Pricing",
+    "duration": "2-5 days (customizable)",
+    "format": "On-Site or Virtual Team Training",
+    "highlights": [
+      "DevSecOps maturity assessment & transformation roadmap",
+      "Application security program design (SAST, DAST, SCA)",
+      "Product security governance & release management",
+      "Software supply chain security & SBOM implementation",
+      "Custom curriculum aligned to your tech stack"
+    ],
+    "icon": "shield",
+    "tier": "enterprise",
+    "category": "appsec",
     "stripePriceId": null
   }
 ]

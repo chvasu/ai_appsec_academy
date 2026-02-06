@@ -10,12 +10,15 @@ export const metadata: Metadata = {
   },
   title: "AI AppSec Academy | Viswanath Chirravuri",
   description:
-    "Elite cybersecurity training in AI/ML Security, Agentic AI AppSec, and LLM Security. Led by GSE #335 & CompTIA SME Viswanath Chirravuri, D.Eng. Cybersecurity.",
+    "Elite cybersecurity training in AppSec, DevSecOps, Product Security, Supply Chain Security, and AI/ML Defense. Led by GSE #335 & CompTIA SME Viswanath Chirravuri, D.Eng. Cybersecurity.",
   keywords: [
     "AI Security Training",
     "LLM Security",
     "Agentic AI",
     "AppSec",
+    "DevSecOps",
+    "Product Security",
+    "Supply Chain Security",
     "SANS",
     "Cybersecurity",
     "ML Security",
@@ -23,7 +26,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "AI AppSec Academy | Viswanath Chirravuri",
     description:
-      "Elite cybersecurity training in AI/ML Security & Agentic AI.",
+      "Elite cybersecurity training in AppSec, DevSecOps, Product Security & AI/ML Defense.",
     type: "website",
     url: "https://aiappsecacademy.com",
   },
