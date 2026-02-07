@@ -1,5 +1,11 @@
 [
   {
+    "title": "Introducing ThreatModelingGPT: Your AI-Powered Threat Intelligence Partner",
+    "date": "2026-02-07",
+    "url": "/blog/threatmodelinggpt",
+    "summary": "A free, public Custom GPT that helps security teams identify risks, analyze attack surfaces, and suggest mitigation strategies using STRIDE, PASTA, LINDDUN, MAESTRO, and more."
+  },
+  {
     "title": "Introducing ViswanathSChirravuri_GPT: The Next Phase of Resume Exchange",
     "date": "2026-02-06",
     "url": "/blog/viswanathschirravuri-gpt",
