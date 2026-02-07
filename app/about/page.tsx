@@ -5,6 +5,7 @@ import {
   GraduationCap,
   Briefcase,
   Zap,
+  Bot,
 } from "lucide-react";
 import Link from "next/link";
 
@@ -152,6 +153,40 @@ export default function AboutPage() {
               {area}
             </div>
           ))}
+        </div>
+      </div>
+
+      {/* Custom GPT */}
+      <div className="bg-cyber-surface border border-cyber-accent/30 rounded-lg p-6 mb-12">
+        <div className="flex items-center gap-3 mb-3">
+          <Bot className="w-6 h-6 text-cyber-accent" />
+          <h3 className="text-lg font-bold text-cyber-text">
+            Ask My AI Profile
+          </h3>
+        </div>
+        <p className="text-sm text-cyber-muted leading-relaxed mb-4">
+          Want to learn more about me? Have a conversation with{" "}
+          <strong className="text-cyber-text">ViswanathSChirravuri_GPT</strong>{" "}
+          &mdash; a Custom GPT built on OpenAI that answers questions
+          exclusively about my professional profile, certifications, career, and
+          expertise.
+        </p>
+        <div className="flex flex-wrap gap-3">
+          <a
+            href="https://chatgpt.com/g/g-696faf9860bc81919e34414ed24a9c8a-viswanathschirravuri-profile"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-5 py-2.5 bg-cyber-accent/10 border border-cyber-accent/30 rounded-lg text-sm text-cyber-accent hover:bg-cyber-accent/20 transition"
+          >
+            Try ViswanathSChirravuri_GPT
+            <ExternalLink className="w-3.5 h-3.5" />
+          </a>
+          <Link
+            href="/blog/viswanathschirravuri-gpt"
+            className="inline-flex items-center gap-2 px-5 py-2.5 bg-cyber-surface border border-cyber-border rounded-lg text-sm text-cyber-muted hover:text-cyber-accent hover:border-cyber-accent/30 transition"
+          >
+            Read the Blog Post
+          </Link>
         </div>
       </div>
 

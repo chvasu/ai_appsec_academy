@@ -1,4 +1,5 @@
 import { ExternalLink, Calendar, BookOpen } from "lucide-react";
+import Link from "next/link";
 import path from "path";
 import { promises as fs } from "fs";
 
@@ -45,14 +46,9 @@ export default async function BlogPage() {
       </div>
 
       <div className="space-y-6">
-        {articles.map((article) => (
-          <a
-            key={article.url}
-            href={article.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block group bg-cyber-surface border border-cyber-border rounded-lg p-6 hover:border-cyber-accent/40 transition-all duration-300"
-          >
+        {articles.map((article) => {
+          const isExternal = article.url.startsWith("http");
+          const cardContent = (
             <div className="flex items-start gap-4">
               <div className="p-2.5 rounded-lg bg-cyber-bg border border-cyber-border text-cyber-accent group-hover:drop-shadow-[0_0_8px_rgba(16,185,129,0.4)] transition shrink-0 mt-1">
                 <BookOpen className="w-5 h-5" />
@@ -66,15 +62,37 @@ export default async function BlogPage() {
                 </div>
                 <h2 className="text-lg font-bold text-cyber-text group-hover:text-cyber-accent transition mb-2 flex items-start gap-2">
                   <span>{article.title}</span>
-                  <ExternalLink className="w-4 h-4 shrink-0 mt-1 opacity-0 group-hover:opacity-100 transition" />
+                  {isExternal && (
+                    <ExternalLink className="w-4 h-4 shrink-0 mt-1 opacity-0 group-hover:opacity-100 transition" />
+                  )}
                 </h2>
                 <p className="text-sm text-cyber-muted leading-relaxed">
                   {article.summary}
                 </p>
               </div>
             </div>
-          </a>
-        ))}
+          );
+
+          return isExternal ? (
+            <a
+              key={article.url}
+              href={article.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block group bg-cyber-surface border border-cyber-border rounded-lg p-6 hover:border-cyber-accent/40 transition-all duration-300"
+            >
+              {cardContent}
+            </a>
+          ) : (
+            <Link
+              key={article.url}
+              href={article.url}
+              className="block group bg-cyber-surface border border-cyber-border rounded-lg p-6 hover:border-cyber-accent/40 transition-all duration-300"
+            >
+              {cardContent}
+            </Link>
+          );
+        })}
       </div>
     </div>
   );
