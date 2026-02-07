@@ -38,15 +38,15 @@ const projects = [
     role: "Creator & Maintainer",
     accent: "sky",
     summary:
-      "A machine-readable, Markdown-optimized implementation of the OWASP Secure Coding Practices Quick Reference Guide (v2.1), extended with modern security domains. Includes an MCP server and Claude Code skill for AI-driven security audits. Designed specifically for AI agents (Claude Code, GitHub Copilot) and LLMs to enable token-efficient, context-aware security audits and code generation.",
+      "A machine-readable, Markdown-optimized implementation of the OWASP Secure Coding Practices Quick Reference Guide (v2.1), extended with modern security domains including API Security, Cloud/Kubernetes, CI/CD, Supply Chain, IaC, and Secrets Management. Designed specifically for AI agents (Claude Code, GitHub Copilot) and LLMs to enable token-efficient, context-aware security audits and code generation.",
     highlights: [
-      "22 modular rule files covering OWASP, API Security, Cloud/K8s, CI/CD, Supply Chain, IaC, and Secrets Management",
-      "MCP server exposing 22 resources and 3 tools (list_rules, get_rule, audit_checklist) via Model Context Protocol",
-      "Claude Code SKILL.md for automated security audits and secure code generation with Rule ID citations",
+      "22 modular rule files covering Access Control, API Security, Authentication, CI/CD, Cloud/K8s, Docker, IaC, Secrets Management, Supply Chain, and more",
+      "3 integration options: CLAUDE.md persona reference, Claude Code Skills (audit & generate), or MCP server (Docker & Docker Compose ready)",
+      "Two dedicated Claude Code skills: /secure-coding-audit for code review with findings tables, and /secure-coding-generate for producing secure code with inline Rule ID citations",
+      "MCP server exposing 22 resources and 3 tools (list_rules, get_rule, audit_checklist) with Docker, Docker Compose, and native Node.js deployment",
       "Each rule follows a consistent 6-field pattern: Identity, Rule, Rationale, Implementation, Verification, Examples",
-      "4 integration options: Git submodule, skill copy, CLAUDE.md reference, or MCP server (Docker-ready)",
+      "Automatic domain detection in Skills mode — identifies relevant security domains from the code being audited or generated",
       "Optimized for Just-In-Time context injection into LLM workflows without exhausting token budgets",
-      "Covers Dockerfile security, software supply chain (SBOM, signing, provenance), and memory management",
     ],
   },
   {
