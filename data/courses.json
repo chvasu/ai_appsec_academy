@@ -273,24 +273,24 @@
     "stripePriceId": "price_tech_owasp_REPLACE"
   },
   {
-    "id": "tech-iast",
-    "title": "IAST Implementation",
-    "subtitle": "Interactive Application Security Testing",
-    "description": "Deep dive into IAST (Interactive Application Security Testing) tools and techniques. Learn to instrument applications for runtime security monitoring, detect vulnerabilities during testing, and integrate IAST into your CI/CD pipeline. Covers open-source IAST tools, instrumentation strategies, and vulnerability validation workflows.",
+    "id": "tech-applied-ai",
+    "title": "Applied AI: RAG, Fine-tuning & MLSecOps",
+    "subtitle": "Practical AI/ML Implementation & Security Operations",
+    "description": "Hands-on training in building production-ready AI systems covering RAG (Retrieval Augmented Generation) architecture, LLM fine-tuning with LoRA/QLoRA, and MLSecOps pipeline design. Learn to implement secure RAG systems, fine-tune models locally, and establish ML model lifecycle security. Covers LangChain, HuggingFace, Ollama, and open-source ML tooling.",
     "price": 500,
     "priceDisplay": "$500",
     "duration": "2 hours",
     "format": "1-on-1 Technical Session",
     "highlights": [
-      "IAST fundamentals: instrumentation & runtime analysis techniques",
-      "Open-source IAST tools: Contrast Community, HCL AppScan alternatives",
-      "Application instrumentation for testing-phase security monitoring",
-      "Integration with CI/CD pipelines for automated security testing",
-      "Vulnerability validation & triage workflows with IAST findings"
+      "RAG architecture: vector databases (ChromaDB, Weaviate), embeddings, retrieval",
+      "LLM fine-tuning: LoRA/QLoRA with HuggingFace PEFT, Unsloth, Axolotl",
+      "Local model deployment: Ollama, vLLM, quantization (GGUF, GPTQ, AWQ)",
+      "MLSecOps: model versioning, artifact security, training pipeline hardening",
+      "Secure RAG implementation: prompt injection defense, data leakage prevention"
     ],
     "icon": "code",
     "tier": "starter",
-    "category": "appsec",
-    "stripePriceId": "price_tech_iast_REPLACE"
+    "category": "ai",
+    "stripePriceId": "price_tech_applied_ai_REPLACE"
   }
 ]
