@@ -2,10 +2,19 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { Shield, Menu, X } from "lucide-react";
+import { Shield, Menu, X, ChevronDown, Brain, ShieldCheck } from "lucide-react";
 
 const navLinks = [
-  { href: "/#courses", label: "Training" },
+  {
+    href: "/courses",
+    label: "Training",
+    hasDropdown: true,
+    submenu: [
+      { href: "/courses#ai-security", label: "AI/ML Security", icon: Brain },
+      { href: "/courses#appsec", label: "Application Security", icon: ShieldCheck },
+      { href: "/courses", label: "All Courses" },
+    ]
+  },
   { href: "/why-us", label: "Why Us?" },
   { href: "/open-source", label: "Open Source" },
   { href: "/blog", label: "Blog" },
@@ -16,6 +25,7 @@ const navLinks = [
 
 export function Navbar() {
   const [open, setOpen] = useState(false);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
 
   return (
     <header className="sticky top-0 z-50 bg-cyber-bg/80 backdrop-blur-md border-b border-cyber-border">
@@ -32,16 +42,47 @@ export function Navbar() {
         {/* Desktop */}
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className="text-sm text-cyber-muted hover:text-cyber-accent transition"
-            >
-              {link.label}
-            </Link>
+            link.hasDropdown ? (
+              <div
+                key={link.href}
+                className="relative"
+                onMouseEnter={() => setDropdownOpen(true)}
+                onMouseLeave={() => setDropdownOpen(false)}
+              >
+                <button
+                  className="flex items-center gap-1 text-sm text-cyber-muted hover:text-cyber-accent transition"
+                >
+                  {link.label}
+                  <ChevronDown className="w-3 h-3" />
+                </button>
+
+                {dropdownOpen && (
+                  <div className="absolute top-full left-0 mt-2 w-56 bg-cyber-surface border border-cyber-border rounded-lg shadow-lg overflow-hidden">
+                    {link.submenu?.map((item) => (
+                      <Link
+                        key={item.href}
+                        href={item.href}
+                        className="flex items-center gap-3 px-4 py-3 text-sm text-cyber-muted hover:bg-cyber-bg hover:text-cyber-accent transition"
+                      >
+                        {item.icon && <item.icon className="w-4 h-4" />}
+                        <span>{item.label}</span>
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ) : (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="text-sm text-cyber-muted hover:text-cyber-accent transition"
+              >
+                {link.label}
+              </Link>
+            )
           ))}
           <Link
-            href="/#courses"
+            href="/courses"
             className="text-sm px-4 py-2 bg-cyber-accent/10 border border-cyber-accent/30 text-cyber-accent rounded hover:bg-cyber-accent/20 transition"
           >
             Get Started
@@ -63,14 +104,39 @@ export function Navbar() {
         <div className="md:hidden border-t border-cyber-border bg-cyber-bg/95 backdrop-blur-md">
           <div className="px-4 py-4 flex flex-col gap-3">
             {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                onClick={() => setOpen(false)}
-                className="text-sm text-cyber-muted hover:text-cyber-accent transition py-2"
-              >
-                {link.label}
-              </Link>
+              link.hasDropdown ? (
+                <div key={link.href}>
+                  <Link
+                    href={link.href}
+                    onClick={() => setOpen(false)}
+                    className="text-sm text-cyber-muted hover:text-cyber-accent transition py-2 block"
+                  >
+                    {link.label}
+                  </Link>
+                  <div className="ml-4 mt-2 space-y-2">
+                    {link.submenu?.map((item) => (
+                      <Link
+                        key={item.href}
+                        href={item.href}
+                        onClick={() => setOpen(false)}
+                        className="flex items-center gap-2 text-xs text-cyber-muted hover:text-cyber-accent transition py-2"
+                      >
+                        {item.icon && <item.icon className="w-3 h-3" />}
+                        <span>{item.label}</span>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              ) : (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  onClick={() => setOpen(false)}
+                  className="text-sm text-cyber-muted hover:text-cyber-accent transition py-2"
+                >
+                  {link.label}
+                </Link>
+              )
             ))}
           </div>
         </div>
