@@ -161,10 +161,6 @@ const faqs = [
         q: "What is 'Vibecoding'?",
         a: "Vibecoding is AI-assisted development with security by default. Our Vibecoding course teaches you to use Claude Code, Cline, Cursor, and Gemini CLI to generate secure code, implement security rules, and run automated SAST/SCA scans on AI-generated code.",
       },
-      {
-        q: "Do courses cover Kubernetes security?",
-        a: "No. Our DevSecOps course focuses on Docker container security and IaC scanning but does not cover Kubernetes orchestration security.",
-      },
     ],
   },
   {
