@@ -234,17 +234,17 @@
     "id": "tech-devsecops-tools",
     "title": "DevSecOps Tooling & Pipeline Security",
     "subtitle": "CI/CD Security, IaC Scanning & Container Security",
-    "description": "Master DevSecOps tools including Trivy, Hadolint, Checkov, TFSec, and Kics for container security and Infrastructure as Code scanning. Learn to secure CI/CD pipelines (GitHub Actions, Jenkins, GitLab), implement security gates, and automate compliance checks. Covers Docker/Kubernetes security scanning and policy enforcement.",
+    "description": "Master DevSecOps tools including Trivy, Hadolint, Checkov, TFSec, and Kics for container security and Infrastructure as Code scanning. Learn to secure CI/CD pipelines (GitHub Actions, Jenkins, GitLab), implement security gates, and automate compliance checks. Covers Docker security scanning and policy enforcement.",
     "price": 500,
     "priceDisplay": "$500",
     "duration": "2 hours",
     "format": "1-on-1 Technical Session",
     "highlights": [
       "Container security: Trivy, Grype, Docker Bench for Security",
-      "IaC scanning: Checkov, TFSec, Kics for Terraform/CloudFormation",
+      "IaC scanning: Checkov, TFSec, Kics for Terraform/CloudFormation/ARM",
       "CI/CD pipeline security: GitHub Actions, Jenkins, GitLab hardening",
-      "Kubernetes security scanning: Kubesec, Polaris, Kube-bench",
-      "Security gate implementation & policy-as-code (OPA, Kyverno)"
+      "Docker image scanning & vulnerability management workflows",
+      "Security gate implementation & policy-as-code with OPA"
     ],
     "icon": "terminal",
     "tier": "starter",
@@ -273,20 +273,20 @@
     "stripePriceId": "price_tech_owasp_REPLACE"
   },
   {
-    "id": "tech-iast-rasp",
-    "title": "IAST & RASP Implementation",
-    "subtitle": "Interactive & Runtime Application Security Protection",
-    "description": "Deep dive into IAST (Interactive Application Security Testing) and RASP (Runtime Application Self-Protection) tools. Learn to instrument applications for runtime security monitoring, detect zero-day vulnerabilities, and implement self-defending applications. Covers Contrast Security, Hdiv, and open-source IAST/RASP alternatives.",
+    "id": "tech-iast",
+    "title": "IAST Implementation",
+    "subtitle": "Interactive Application Security Testing",
+    "description": "Deep dive into IAST (Interactive Application Security Testing) tools and techniques. Learn to instrument applications for runtime security monitoring, detect vulnerabilities during testing, and integrate IAST into your CI/CD pipeline. Covers open-source IAST tools, instrumentation strategies, and vulnerability validation workflows.",
     "price": 500,
     "priceDisplay": "$500",
     "duration": "2 hours",
     "format": "1-on-1 Technical Session",
     "highlights": [
-      "IAST fundamentals: instrumentation & runtime analysis",
-      "RASP implementation: self-defending application patterns",
-      "Tool comparison: Contrast Security, Hdiv, Sqreen alternatives",
-      "Application instrumentation for runtime security monitoring",
-      "Zero-day vulnerability detection & automated remediation"
+      "IAST fundamentals: instrumentation & runtime analysis techniques",
+      "Open-source IAST tools: Contrast Community, HCL AppScan alternatives",
+      "Application instrumentation for testing-phase security monitoring",
+      "Integration with CI/CD pipelines for automated security testing",
+      "Vulnerability validation & triage workflows with IAST findings"
     ],
     "icon": "code",
     "tier": "starter",
