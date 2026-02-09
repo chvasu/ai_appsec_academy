@@ -166,6 +166,9 @@ export default function Home() {
       {/* ──────────────── SOCIAL PROOF ──────────────── */}
       <section className="max-w-6xl mx-auto px-4 py-20">
         <div className="bg-cyber-surface rounded-lg border border-cyber-border p-8 md:p-12">
+          <h2 className="text-2xl md:text-3xl font-bold text-cyber-text text-center mb-8">
+            Instructor Profile
+          </h2>
           <div className="grid md:grid-cols-4 gap-8 text-center">
             {[
               { value: "20+", label: "Years in Cybersecurity" },
