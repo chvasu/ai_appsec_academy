@@ -84,27 +84,6 @@
     "stripePriceId": "price_product_security_REPLACE"
   },
   {
-    "id": "team-bootcamp",
-    "title": "AI Security Bootcamp",
-    "subtitle": "Corporate AI/ML Training Program",
-    "description": "A multi-day corporate training program covering the Secure-ML Framework and LLM Application Security. Tailored for engineering teams building or integrating AI/ML systems. Covers threat modeling for LLMs, secure RAG architectures, red-teaming AI systems, and building an internal AI security governance framework.",
-    "price": 0,
-    "priceDisplay": "Custom Pricing",
-    "duration": "2-5 days (customizable)",
-    "format": "On-Site or Virtual Team Training",
-    "highlights": [
-      "Secure-ML Framework: end-to-end ML pipeline security",
-      "LLM AppSec: OWASP Top 10 for LLMs in practice",
-      "Red-teaming AI systems with automated tooling",
-      "Secure RAG architecture design & implementation",
-      "Custom curriculum aligned to your tech stack"
-    ],
-    "icon": "shield",
-    "tier": "enterprise",
-    "category": "ai",
-    "stripePriceId": null
-  },
-  {
     "id": "tech-sast",
     "title": "SAST Tools Deep Dive",
     "subtitle": "Static Application Security Testing Setup & Implementation",
@@ -292,5 +271,26 @@
     "tier": "professional",
     "category": "ai",
     "stripePriceId": "price_tech_vibecoding_REPLACE"
+  },
+  {
+    "id": "team-bootcamp",
+    "title": "AI Security Bootcamp",
+    "subtitle": "Corporate AI/ML Training Program",
+    "description": "A multi-day corporate training program covering the Secure-ML Framework and LLM Application Security. Tailored for engineering teams building or integrating AI/ML systems. Covers threat modeling for LLMs, secure RAG architectures, red-teaming AI systems, and building an internal AI security governance framework.",
+    "price": 0,
+    "priceDisplay": "Custom Pricing",
+    "duration": "2-5 days (customizable)",
+    "format": "On-Site or Virtual Team Training",
+    "highlights": [
+      "Secure-ML Framework: end-to-end ML pipeline security",
+      "LLM AppSec: OWASP Top 10 for LLMs in practice",
+      "Red-teaming AI systems with automated tooling",
+      "Secure RAG architecture design & implementation",
+      "Custom curriculum aligned to your tech stack"
+    ],
+    "icon": "shield",
+    "tier": "enterprise",
+    "category": "ai",
+    "stripePriceId": null
   }
 ]

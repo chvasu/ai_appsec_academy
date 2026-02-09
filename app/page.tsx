@@ -181,13 +181,13 @@ export default async function Home() {
           <div className="flex items-center justify-center gap-4">
             <a
               href="/courses#ai-security"
-              className="px-6 py-2 bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 rounded-lg hover:bg-emerald-500/20 transition text-sm font-semibold"
+              className="px-6 py-2 bg-violet-500/10 border border-violet-500/30 text-violet-400 rounded-lg hover:bg-violet-500/20 transition text-sm font-semibold"
             >
               AI/ML Security
             </a>
             <a
               href="/courses#appsec"
-              className="px-6 py-2 bg-sky-500/10 border border-sky-500/30 text-sky-400 rounded-lg hover:bg-sky-500/20 transition text-sm font-semibold"
+              className="px-6 py-2 bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 rounded-lg hover:bg-cyan-500/20 transition text-sm font-semibold"
             >
               Application Security
             </a>
