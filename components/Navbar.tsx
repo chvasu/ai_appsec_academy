@@ -9,6 +9,7 @@ const navLinks = [
   { href: "/why-us", label: "Why Us?" },
   { href: "/open-source", label: "Open Source" },
   { href: "/blog", label: "Blog" },
+  { href: "/faq", label: "FAQ" },
   { href: "/about", label: "About" },
   { href: "/#contact", label: "Contact" },
 ];

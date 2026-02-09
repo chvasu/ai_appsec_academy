@@ -11,7 +11,7 @@ export function Footer() {
   return (
     <footer className="border-t border-cyber-border bg-cyber-bg/50">
       <div className="max-w-6xl mx-auto px-4 py-12">
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-4 gap-8">
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-3">
@@ -32,6 +32,11 @@ export function Footer() {
               Links
             </h4>
             <ul className="space-y-2 text-sm text-cyber-muted">
+              <li>
+                <Link href="/faq" className="hover:text-cyber-accent transition">
+                  FAQ
+                </Link>
+              </li>
               <li>
                 <a
                   href="https://www.linkedin.com/in/vchirrav/"
@@ -62,12 +67,37 @@ export function Footer() {
                   SANS Institute
                 </a>
               </li>
+            </ul>
+          </div>
+
+          {/* Legal */}
+          <div>
+            <h4 className="text-sm font-semibold text-cyber-text mb-3 uppercase tracking-wider">
+              Legal
+            </h4>
+            <ul className="space-y-2 text-sm text-cyber-muted">
               <li>
                 <Link
                   href="/terms"
                   className="hover:text-cyber-accent transition"
                 >
                   Terms &amp; Conditions
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/privacy"
+                  className="hover:text-cyber-accent transition"
+                >
+                  Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/refund-policy"
+                  className="hover:text-cyber-accent transition"
+                >
+                  Refund Policy
                 </Link>
               </li>
             </ul>

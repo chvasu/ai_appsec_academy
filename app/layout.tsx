@@ -9,7 +9,10 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.svg",
   },
-  title: "AI AppSec Academy | Viswanath Chirravuri",
+  title: {
+    default: "AI AppSec Academy | Viswanath Chirravuri",
+    template: "%s | AI AppSec Academy",
+  },
   description:
     "Elite cybersecurity training in AppSec, DevSecOps, Product Security, Supply Chain Security, and AI/ML Defense. Led by GSE #335 & CompTIA SME Viswanath Chirravuri, D.Eng. Cybersecurity candidate.",
   keywords: [
@@ -23,13 +26,45 @@ export const metadata: Metadata = {
     "SANS",
     "Cybersecurity",
     "ML Security",
+    "Vibecoding",
+    "Secure Coding",
   ],
+  authors: [{ name: "Viswanath Srinivasan Chirravuri" }],
+  creator: "Viswanath Srinivasan Chirravuri",
   openGraph: {
-    title: "AI AppSec Academy | Viswanath Chirravuri",
-    description:
-      "Elite cybersecurity training in AppSec, DevSecOps, Product Security & AI/ML Defense.",
     type: "website",
+    locale: "en_US",
     url: "https://aiappsecacademy.com",
+    siteName: "AI AppSec Academy",
+    title: "AI AppSec Academy | Elite Cybersecurity Training",
+    description:
+      "Elite one-on-one cybersecurity training in AppSec, DevSecOps, Product Security & AI/ML Defense. Led by GSE #335 Viswanath Chirravuri.",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "AI AppSec Academy - Elite Cybersecurity Training",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "AI AppSec Academy | Elite Cybersecurity Training",
+    description:
+      "Elite one-on-one cybersecurity training in AppSec, DevSecOps, Product Security & AI/ML Defense.",
+    images: ["/og-image.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
 };
 

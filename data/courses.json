@@ -292,5 +292,26 @@
     "tier": "professional",
     "category": "ai",
     "stripePriceId": "price_tech_applied_ai_REPLACE"
+  },
+  {
+    "id": "tech-vibecoding",
+    "title": "Vibecoding: Secure AI-Assisted Development",
+    "subtitle": "Agentic Coding with Security by Default",
+    "description": "Master the emerging practice of 'Vibecoding' — AI-assisted development with security built-in from the start. Learn to leverage Claude Code, Cline, Cursor, and Gemini CLI for secure code generation, implement pre-defined security and quality rules, and perform automated agentic SAST and SCA scans. Hands-on training in building secure applications with AI coding assistants while maintaining code quality and security posture.",
+    "price": 1000,
+    "priceDisplay": "$1,000",
+    "duration": "4 hours",
+    "format": "1-on-1 Technical Session",
+    "highlights": [
+      "Vibecoding tools: Claude Code, Cline, Cursor, Aider, Gemini CLI",
+      "Secure coding by default: OWASP-aligned security rules in AI prompts",
+      "Agentic SAST & SCA: Automated security audits of AI-generated code",
+      "Security & quality rules: Pre-commit hooks, custom linting, policy enforcement",
+      "Hands-on labs: Build secure applications using AI assistants with security guardrails"
+    ],
+    "icon": "terminal",
+    "tier": "professional",
+    "category": "ai",
+    "stripePriceId": "price_tech_vibecoding_REPLACE"
   }
 ]
