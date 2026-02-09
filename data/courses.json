@@ -105,27 +105,6 @@
     "stripePriceId": null
   },
   {
-    "id": "appsec-bootcamp",
-    "title": "Enterprise AppSec Bootcamp",
-    "subtitle": "Corporate DevSecOps & Product Security",
-    "description": "A comprehensive multi-day corporate program covering DevSecOps transformation, application security program building, product security governance, and software supply chain defense. Tailored for engineering and security teams modernizing their secure development practices.",
-    "price": 0,
-    "priceDisplay": "Custom Pricing",
-    "duration": "2-5 days (customizable)",
-    "format": "On-Site or Virtual Team Training",
-    "highlights": [
-      "DevSecOps maturity assessment & transformation roadmap",
-      "Application security program design (SAST, DAST, SCA)",
-      "Product security governance & release management",
-      "Software supply chain security & SBOM implementation",
-      "Custom curriculum aligned to your tech stack"
-    ],
-    "icon": "shield",
-    "tier": "enterprise",
-    "category": "appsec",
-    "stripePriceId": null
-  },
-  {
     "id": "tech-sast",
     "title": "SAST Tools Deep Dive",
     "subtitle": "Static Application Security Testing Setup & Implementation",
@@ -250,6 +229,27 @@
     "tier": "starter",
     "category": "appsec",
     "stripePriceId": "price_tech_owasp_REPLACE"
+  },
+  {
+    "id": "appsec-bootcamp",
+    "title": "Enterprise AppSec Bootcamp",
+    "subtitle": "Corporate DevSecOps & Product Security",
+    "description": "A comprehensive multi-day corporate program covering DevSecOps transformation, application security program building, product security governance, and software supply chain defense. Tailored for engineering and security teams modernizing their secure development practices.",
+    "price": 0,
+    "priceDisplay": "Custom Pricing",
+    "duration": "2-5 days (customizable)",
+    "format": "On-Site or Virtual Team Training",
+    "highlights": [
+      "DevSecOps maturity assessment & transformation roadmap",
+      "Application security program design (SAST, DAST, SCA)",
+      "Product security governance & release management",
+      "Software supply chain security & SBOM implementation",
+      "Custom curriculum aligned to your tech stack"
+    ],
+    "icon": "shield",
+    "tier": "enterprise",
+    "category": "appsec",
+    "stripePriceId": null
   },
   {
     "id": "tech-applied-ai",
