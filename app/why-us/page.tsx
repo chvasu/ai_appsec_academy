@@ -7,6 +7,7 @@ import {
   Zap,
   CheckCircle2,
   XCircle,
+  DollarSign,
 } from "lucide-react";
 
 export const metadata = {
@@ -57,6 +58,13 @@ const advantages = [
     description:
       "If you're unfamiliar with a foundational concept, we explain it on the spot. Training adapts to your background, not the other way around.",
     highlight: "Personalized to your skill level",
+  },
+  {
+    icon: DollarSign,
+    title: "Elite Quality at Affordable Pricing",
+    description:
+      "Top-tier education from an industry expert (GSE #335, CompTIA SME, D.Eng. candidate) at a fraction of traditional consulting rates. A rare combination of expertise, personalization, and accessibility.",
+    highlight: "Premium instruction, accessible pricing",
   },
 ];
 
