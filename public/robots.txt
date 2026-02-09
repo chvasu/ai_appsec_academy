@@ -1,0 +1,14 @@
+# robots.txt for AI AppSec Academy
+# https://aiappsecacademy.com
+
+# Allow all crawlers
+User-agent: *
+
+# Disallow contact page
+Disallow: /#contact
+
+# Allow everything else
+Allow: /
+
+# Sitemap location
+Sitemap: https://aiappsecacademy.com/sitemap.xml
