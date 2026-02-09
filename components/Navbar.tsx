@@ -26,6 +26,22 @@ const navLinks = [
 export function Navbar() {
   const [open, setOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [timeoutId, setTimeoutId] = useState<NodeJS.Timeout | null>(null);
+
+  const handleMouseEnter = () => {
+    if (timeoutId) {
+      clearTimeout(timeoutId);
+      setTimeoutId(null);
+    }
+    setDropdownOpen(true);
+  };
+
+  const handleMouseLeave = () => {
+    const id = setTimeout(() => {
+      setDropdownOpen(false);
+    }, 200); // 200ms delay before closing
+    setTimeoutId(id);
+  };
 
   return (
     <header className="sticky top-0 z-50 bg-cyber-bg/80 backdrop-blur-md border-b border-cyber-border">
@@ -46,28 +62,30 @@ export function Navbar() {
               <div
                 key={link.href}
                 className="relative"
-                onMouseEnter={() => setDropdownOpen(true)}
-                onMouseLeave={() => setDropdownOpen(false)}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
               >
                 <button
-                  className="flex items-center gap-1 text-sm text-cyber-muted hover:text-cyber-accent transition"
+                  className="flex items-center gap-1 text-sm text-cyber-muted hover:text-cyber-accent transition py-2"
                 >
                   {link.label}
                   <ChevronDown className="w-3 h-3" />
                 </button>
 
                 {dropdownOpen && (
-                  <div className="absolute top-full left-0 mt-2 w-56 bg-cyber-surface border border-cyber-border rounded-lg shadow-lg overflow-hidden">
-                    {link.submenu?.map((item) => (
-                      <Link
-                        key={item.href}
-                        href={item.href}
-                        className="flex items-center gap-3 px-4 py-3 text-sm text-cyber-muted hover:bg-cyber-bg hover:text-cyber-accent transition"
-                      >
-                        {item.icon && <item.icon className="w-4 h-4" />}
-                        <span>{item.label}</span>
-                      </Link>
-                    ))}
+                  <div className="absolute top-full left-0 pt-1 w-56">
+                    <div className="bg-cyber-surface border border-cyber-border rounded-lg shadow-lg overflow-hidden">
+                      {link.submenu?.map((item) => (
+                        <Link
+                          key={item.href}
+                          href={item.href}
+                          className="flex items-center gap-3 px-4 py-3 text-sm text-cyber-muted hover:bg-cyber-bg hover:text-cyber-accent transition"
+                        >
+                          {item.icon && <item.icon className="w-4 h-4" />}
+                          <span>{item.label}</span>
+                        </Link>
+                      ))}
+                    </div>
                   </div>
                 )}
               </div>

@@ -210,27 +210,6 @@
     "stripePriceId": "price_tech_sbom_REPLACE"
   },
   {
-    "id": "tech-genai-security",
-    "title": "GenAI Security Tools",
-    "subtitle": "LLM Security Scanning & Prompt Injection Testing",
-    "description": "Hands-on training with emerging GenAI security tools including Garak, PyRIT, Rebuff, and LLM Fuzzer. Learn to test LLM applications for prompt injection, jailbreaks, data leakage, and model manipulation. Covers RAG security, prompt firewall implementation, and integrating LLM security testing into CI/CD.",
-    "price": 500,
-    "priceDisplay": "$500",
-    "duration": "2 hours",
-    "format": "1-on-1 Technical Session",
-    "highlights": [
-      "LLM security scanning tools: Garak, PyRIT, LLM Fuzzer",
-      "Prompt injection & jailbreak testing methodologies",
-      "RAG security: vector database poisoning & retrieval attacks",
-      "Prompt firewall implementation with Rebuff, NeMo Guardrails",
-      "OWASP Top 10 for LLMs in practice with automated tooling"
-    ],
-    "icon": "code",
-    "tier": "starter",
-    "category": "ai",
-    "stripePriceId": "price_tech_genai_REPLACE"
-  },
-  {
     "id": "tech-devsecops-tools",
     "title": "DevSecOps Tooling & Pipeline Security",
     "subtitle": "CI/CD Security, IaC Scanning & Container Security",
