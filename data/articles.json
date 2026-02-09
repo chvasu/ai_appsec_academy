@@ -1,5 +1,11 @@
 [
   {
+    "title": "The Evolution of Agentic AI Development: From Monolithic to Distributed Systems",
+    "date": "2026-02-09",
+    "url": "/blog/agentic-ai-evolution",
+    "summary": "A practical journey through 4 architectural stages of building secure, local-first multi-agent AI systems—from single-agent monoliths to distributed A2A networks. Includes hands-on implementation with LangGraph, MCP, and open-source LLMs."
+  },
+  {
     "title": "Introducing ThreatModelingGPT: Your AI-Powered Threat Intelligence Partner",
     "date": "2026-02-07",
     "url": "/blog/threatmodelinggpt",
