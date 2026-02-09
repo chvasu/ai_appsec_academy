@@ -21,34 +21,160 @@
     "stripePriceId": "price_power_hour_REPLACE"
   },
   {
-    "id": "deep-dive",
-    "title": "The Deep Dive",
-    "subtitle": "Agentic AI & LLM Security Workshop",
-    "description": "An intensive half-day workshop on 'Agentic AI for AppSec & Conversational SAST.' Learn to build and attack AI-powered security pipelines, implement conversational static analysis, and defend against prompt injection, tool-use abuse, and model manipulation in production agentic systems.",
-    "price": 1500,
-    "priceDisplay": "$1,500",
+    "id": "product-security",
+    "title": "Product Security Strategy",
+    "subtitle": "Security Architecture & Supply Chain",
+    "description": "A focused 4-hour session on building a product security program from the ground up. Covers threat modeling, secure architecture review, software supply chain risk management, SBOM strategies, and establishing security governance across product teams.",
+    "price": 500,
+    "priceDisplay": "$500",
     "duration": "4 hours",
-    "format": "Live Workshop (Virtual or On-Site)",
+    "format": "1-on-1 or Small Group Video Call",
     "highlights": [
-      "Build an Agentic AI security pipeline from scratch",
-      "Conversational SAST: AI-driven code review workflows",
-      "Attack & defend: prompt injection, tool-use exploits",
-      "Hands-on labs with real-world vulnerable AI agents",
-      "Certificate of completion & lab environment access (30 days)"
+      "Product security program design & maturity assessment",
+      "Threat modeling frameworks (STRIDE, PASTA, Attack Trees)",
+      "Software supply chain risk & SBOM strategy",
+      "Secure architecture review methodology",
+      "Actionable roadmap delivered within 24 hours"
+    ],
+    "icon": "shield",
+    "tier": "professional",
+    "category": "appsec",
+    "stripePriceId": "price_product_security_REPLACE"
+  },
+  {
+    "id": "tech-sast",
+    "title": "SAST Tools Deep Dive",
+    "subtitle": "Static Application Security Testing Setup & Implementation",
+    "description": "Hands-on setup, configuration, and implementation walkthrough of open-source SAST tools including Semgrep, SonarQube, CodeQL, Bandit, and SpotBugs. Learn to integrate static analysis into your CI/CD pipeline, configure custom rules, triage findings, and reduce false positives. Focused on practical deployment in real-world environments.",
+    "price": 500,
+    "priceDisplay": "$500",
+    "duration": "4 hours",
+    "format": "1-on-1 Technical Session",
+    "highlights": [
+      "Tool selection guidance: Semgrep, SonarQube, CodeQL, Bandit, SpotBugs",
+      "Language-specific SAST: Bandit (Python), Brakeman (Ruby), ESLint Security",
+      "CI/CD pipeline integration (GitHub Actions, Jenkins, GitLab)",
+      "Custom rule creation & policy configuration",
+      "False positive reduction & vulnerability triage strategies"
     ],
     "icon": "code",
     "tier": "professional",
-    "category": "ai",
-    "stripePriceId": "price_deep_dive_REPLACE"
+    "category": "appsec",
+    "stripePriceId": "price_tech_sast_REPLACE"
+  },
+  {
+    "id": "tech-sca",
+    "title": "SCA Tools Deep Dive",
+    "subtitle": "Software Composition Analysis & Dependency Management",
+    "description": "Master open-source SCA tools like OWASP Dependency-Check, Grype, Trivy, and OSV Scanner. Learn to identify vulnerable dependencies, automate dependency updates, manage license compliance, and integrate SCA scans into your DevSecOps pipeline. Includes SBOM generation and vulnerability remediation workflows.",
+    "price": 500,
+    "priceDisplay": "$500",
+    "duration": "4 hours",
+    "format": "1-on-1 Technical Session",
+    "highlights": [
+      "SCA tool comparison: OWASP Dependency-Check, Grype, Trivy, OSV Scanner",
+      "Language-specific SCA: Safety (Python), Retire.js, Bundler-Audit (Ruby)",
+      "CI/CD integration for automated dependency scanning",
+      "SBOM generation (CycloneDX, SPDX) and consumption",
+      "Vulnerability remediation workflows & license compliance"
+    ],
+    "icon": "code",
+    "tier": "professional",
+    "category": "appsec",
+    "stripePriceId": "price_tech_sca_REPLACE"
+  },
+  {
+    "id": "tech-dast",
+    "title": "DAST Tools Deep Dive",
+    "subtitle": "Dynamic Application Security Testing & Runtime Analysis",
+    "description": "Hands-on training with open-source DAST tools including OWASP ZAP, Burp Suite Community, Nikto, and Wapiti. Learn to configure authenticated scans, identify runtime vulnerabilities, integrate DAST into CI/CD, and validate fixes with dynamic testing. Covers API security testing and modern web application scanning techniques.",
+    "price": 500,
+    "priceDisplay": "$500",
+    "duration": "4 hours",
+    "format": "1-on-1 Technical Session",
+    "highlights": [
+      "DAST tool setup: OWASP ZAP, Burp Suite Community, Nikto, Wapiti",
+      "Web vulnerability scanners: w3af, Arachni, HTTPX for reconnaissance",
+      "Authenticated scanning configuration & session management",
+      "API security testing (REST, GraphQL, gRPC) with ZAP & custom scripts",
+      "CI/CD integration for automated DAST scans & regression testing"
+    ],
+    "icon": "code",
+    "tier": "professional",
+    "category": "appsec",
+    "stripePriceId": "price_tech_dast_REPLACE"
+  },
+  {
+    "id": "tech-sbom",
+    "title": "SBOM & Supply Chain Security",
+    "subtitle": "Software Bill of Materials & Provenance Management",
+    "description": "Comprehensive walkthrough of SBOM generation, management, and supply chain security tooling. Learn Syft, Grype, Cosign, SLSA provenance, and in-toto attestations. Covers VEX (Vulnerability Exploitability eXchange), dependency track, and integrating SBOM workflows into CI/CD for compliance and risk management.",
+    "price": 500,
+    "priceDisplay": "$500",
+    "duration": "4 hours",
+    "format": "1-on-1 Technical Session",
+    "highlights": [
+      "SBOM generation with Syft, CycloneDX, SPDX formats",
+      "Vulnerability scanning with Grype and SBOM consumption",
+      "Supply chain provenance: Cosign, SLSA, in-toto attestations",
+      "VEX (Vulnerability Exploitability eXchange) implementation",
+      "Dependency-Track setup for continuous SBOM monitoring"
+    ],
+    "icon": "shield",
+    "tier": "professional",
+    "category": "appsec",
+    "stripePriceId": "price_tech_sbom_REPLACE"
+  },
+  {
+    "id": "tech-devsecops-tools",
+    "title": "DevSecOps Tooling & Pipeline Security",
+    "subtitle": "CI/CD Security, IaC Scanning & Container Security",
+    "description": "Master DevSecOps tools including Trivy, Hadolint, Checkov, TFSec, and Kics for container security and Infrastructure as Code scanning. Learn to secure CI/CD pipelines (GitHub Actions, Jenkins, GitLab), implement security gates, and automate compliance checks. Covers Docker security scanning and policy enforcement.",
+    "price": 500,
+    "priceDisplay": "$500",
+    "duration": "4 hours",
+    "format": "1-on-1 Technical Session",
+    "highlights": [
+      "Container security: Trivy, Grype, Docker Bench for Security",
+      "IaC scanning: Checkov, TFSec, Kics for Terraform/CloudFormation/ARM",
+      "CI/CD pipeline security: GitHub Actions, Jenkins, GitLab hardening",
+      "Docker image scanning & vulnerability management workflows",
+      "Security gate implementation & policy-as-code with OPA"
+    ],
+    "icon": "terminal",
+    "tier": "professional",
+    "category": "appsec",
+    "stripePriceId": "price_tech_devsecops_REPLACE"
+  },
+  {
+    "id": "tech-owasp-tools",
+    "title": "OWASP Security Tools Masterclass",
+    "subtitle": "OWASP Top 10 Tools Implementation & Best Practices",
+    "description": "Comprehensive walkthrough of OWASP flagship tools including ZAP, Dependency-Check, ASVS, SAMM, and Threat Dragon. Learn to implement OWASP best practices, conduct security assessments, and integrate OWASP tools into your security program. Covers OWASP Top 10 detection and remediation workflows.",
+    "price": 500,
+    "priceDisplay": "$500",
+    "duration": "4 hours",
+    "format": "1-on-1 Technical Session",
+    "highlights": [
+      "OWASP ZAP: Automated scanning & manual penetration testing",
+      "OWASP Dependency-Check: SCA integration & reporting",
+      "OWASP ASVS: Application Security Verification Standard implementation",
+      "OWASP SAMM: Software Assurance Maturity Model assessment",
+      "OWASP Threat Dragon: Threat modeling and attack surface analysis"
+    ],
+    "icon": "shield",
+    "tier": "professional",
+    "category": "appsec",
+    "stripePriceId": "price_tech_owasp_REPLACE"
   },
   {
     "id": "devsecops-workshop",
     "title": "DevSecOps & AppSec Workshop",
     "subtitle": "Secure SDLC & Pipeline Security",
-    "description": "A hands-on half-day workshop covering DevSecOps pipeline design, automated security testing (SAST, DAST, SCA), secure CI/CD configuration, and embedding security gates into the software development lifecycle. Includes real-world pipeline exercises using industry-standard tools.",
+    "description": "A hands-on full-day workshop covering DevSecOps pipeline design, automated security testing (SAST, DAST, SCA), secure CI/CD configuration, and embedding security gates into the software development lifecycle. Includes real-world pipeline exercises using industry-standard tools.",
     "price": 1200,
     "priceDisplay": "$1,200",
-    "duration": "4 hours",
+    "duration": "8 hours",
     "format": "Live Workshop (Virtual or On-Site)",
     "highlights": [
       "Design a full DevSecOps pipeline from scratch",
@@ -61,174 +187,6 @@
     "tier": "professional",
     "category": "appsec",
     "stripePriceId": "price_devsecops_REPLACE"
-  },
-  {
-    "id": "product-security",
-    "title": "Product Security Strategy",
-    "subtitle": "Security Architecture & Supply Chain",
-    "description": "A focused 2-hour session on building a product security program from the ground up. Covers threat modeling, secure architecture review, software supply chain risk management, SBOM strategies, and establishing security governance across product teams.",
-    "price": 500,
-    "priceDisplay": "$500",
-    "duration": "2 hours",
-    "format": "1-on-1 or Small Group Video Call",
-    "highlights": [
-      "Product security program design & maturity assessment",
-      "Threat modeling frameworks (STRIDE, PASTA, Attack Trees)",
-      "Software supply chain risk & SBOM strategy",
-      "Secure architecture review methodology",
-      "Actionable roadmap delivered within 24 hours"
-    ],
-    "icon": "shield",
-    "tier": "starter",
-    "category": "appsec",
-    "stripePriceId": "price_product_security_REPLACE"
-  },
-  {
-    "id": "tech-sast",
-    "title": "SAST Tools Deep Dive",
-    "subtitle": "Static Application Security Testing Setup & Implementation",
-    "description": "Hands-on setup, configuration, and implementation walkthrough of open-source SAST tools including Semgrep, SonarQube, CodeQL, Bandit, and SpotBugs. Learn to integrate static analysis into your CI/CD pipeline, configure custom rules, triage findings, and reduce false positives. Focused on practical deployment in real-world environments.",
-    "price": 500,
-    "priceDisplay": "$500",
-    "duration": "2 hours",
-    "format": "1-on-1 Technical Session",
-    "highlights": [
-      "Tool selection guidance: Semgrep, SonarQube, CodeQL, Bandit, SpotBugs",
-      "Language-specific SAST: Bandit (Python), Brakeman (Ruby), ESLint Security",
-      "CI/CD pipeline integration (GitHub Actions, Jenkins, GitLab)",
-      "Custom rule creation & policy configuration",
-      "False positive reduction & vulnerability triage strategies"
-    ],
-    "icon": "code",
-    "tier": "starter",
-    "category": "appsec",
-    "stripePriceId": "price_tech_sast_REPLACE"
-  },
-  {
-    "id": "tech-sca",
-    "title": "SCA Tools Deep Dive",
-    "subtitle": "Software Composition Analysis & Dependency Management",
-    "description": "Master open-source SCA tools like OWASP Dependency-Check, Grype, Trivy, and OSV Scanner. Learn to identify vulnerable dependencies, automate dependency updates, manage license compliance, and integrate SCA scans into your DevSecOps pipeline. Includes SBOM generation and vulnerability remediation workflows.",
-    "price": 500,
-    "priceDisplay": "$500",
-    "duration": "2 hours",
-    "format": "1-on-1 Technical Session",
-    "highlights": [
-      "SCA tool comparison: OWASP Dependency-Check, Grype, Trivy, OSV Scanner",
-      "Language-specific SCA: Safety (Python), Retire.js, Bundler-Audit (Ruby)",
-      "CI/CD integration for automated dependency scanning",
-      "SBOM generation (CycloneDX, SPDX) and consumption",
-      "Vulnerability remediation workflows & license compliance"
-    ],
-    "icon": "code",
-    "tier": "starter",
-    "category": "appsec",
-    "stripePriceId": "price_tech_sca_REPLACE"
-  },
-  {
-    "id": "tech-dast",
-    "title": "DAST Tools Deep Dive",
-    "subtitle": "Dynamic Application Security Testing & Runtime Analysis",
-    "description": "Hands-on training with open-source DAST tools including OWASP ZAP, Burp Suite Community, Nikto, and Wapiti. Learn to configure authenticated scans, identify runtime vulnerabilities, integrate DAST into CI/CD, and validate fixes with dynamic testing. Covers API security testing and modern web application scanning techniques.",
-    "price": 500,
-    "priceDisplay": "$500",
-    "duration": "2 hours",
-    "format": "1-on-1 Technical Session",
-    "highlights": [
-      "DAST tool setup: OWASP ZAP, Burp Suite Community, Nikto, Wapiti",
-      "Web vulnerability scanners: w3af, Arachni, HTTPX for reconnaissance",
-      "Authenticated scanning configuration & session management",
-      "API security testing (REST, GraphQL, gRPC) with ZAP & custom scripts",
-      "CI/CD integration for automated DAST scans & regression testing"
-    ],
-    "icon": "code",
-    "tier": "starter",
-    "category": "appsec",
-    "stripePriceId": "price_tech_dast_REPLACE"
-  },
-  {
-    "id": "tech-sbom",
-    "title": "SBOM & Supply Chain Security",
-    "subtitle": "Software Bill of Materials & Provenance Management",
-    "description": "Comprehensive walkthrough of SBOM generation, management, and supply chain security tooling. Learn Syft, Grype, Cosign, SLSA provenance, and in-toto attestations. Covers VEX (Vulnerability Exploitability eXchange), dependency track, and integrating SBOM workflows into CI/CD for compliance and risk management.",
-    "price": 500,
-    "priceDisplay": "$500",
-    "duration": "2 hours",
-    "format": "1-on-1 Technical Session",
-    "highlights": [
-      "SBOM generation with Syft, CycloneDX, SPDX formats",
-      "Vulnerability scanning with Grype and SBOM consumption",
-      "Supply chain provenance: Cosign, SLSA, in-toto attestations",
-      "VEX (Vulnerability Exploitability eXchange) implementation",
-      "Dependency-Track setup for continuous SBOM monitoring"
-    ],
-    "icon": "shield",
-    "tier": "starter",
-    "category": "appsec",
-    "stripePriceId": "price_tech_sbom_REPLACE"
-  },
-  {
-    "id": "tech-devsecops-tools",
-    "title": "DevSecOps Tooling & Pipeline Security",
-    "subtitle": "CI/CD Security, IaC Scanning & Container Security",
-    "description": "Master DevSecOps tools including Trivy, Hadolint, Checkov, TFSec, and Kics for container security and Infrastructure as Code scanning. Learn to secure CI/CD pipelines (GitHub Actions, Jenkins, GitLab), implement security gates, and automate compliance checks. Covers Docker security scanning and policy enforcement.",
-    "price": 500,
-    "priceDisplay": "$500",
-    "duration": "2 hours",
-    "format": "1-on-1 Technical Session",
-    "highlights": [
-      "Container security: Trivy, Grype, Docker Bench for Security",
-      "IaC scanning: Checkov, TFSec, Kics for Terraform/CloudFormation/ARM",
-      "CI/CD pipeline security: GitHub Actions, Jenkins, GitLab hardening",
-      "Docker image scanning & vulnerability management workflows",
-      "Security gate implementation & policy-as-code with OPA"
-    ],
-    "icon": "terminal",
-    "tier": "starter",
-    "category": "appsec",
-    "stripePriceId": "price_tech_devsecops_REPLACE"
-  },
-  {
-    "id": "tech-owasp-tools",
-    "title": "OWASP Security Tools Masterclass",
-    "subtitle": "OWASP Top 10 Tools Implementation & Best Practices",
-    "description": "Comprehensive walkthrough of OWASP flagship tools including ZAP, Dependency-Check, ASVS, SAMM, and Threat Dragon. Learn to implement OWASP best practices, conduct security assessments, and integrate OWASP tools into your security program. Covers OWASP Top 10 detection and remediation workflows.",
-    "price": 500,
-    "priceDisplay": "$500",
-    "duration": "2 hours",
-    "format": "1-on-1 Technical Session",
-    "highlights": [
-      "OWASP ZAP: Automated scanning & manual penetration testing",
-      "OWASP Dependency-Check: SCA integration & reporting",
-      "OWASP ASVS: Application Security Verification Standard implementation",
-      "OWASP SAMM: Software Assurance Maturity Model assessment",
-      "OWASP Threat Dragon: Threat modeling and attack surface analysis"
-    ],
-    "icon": "shield",
-    "tier": "starter",
-    "category": "appsec",
-    "stripePriceId": "price_tech_owasp_REPLACE"
-  },
-  {
-    "id": "appsec-bootcamp",
-    "title": "Enterprise AppSec Bootcamp",
-    "subtitle": "Corporate DevSecOps & Product Security",
-    "description": "A comprehensive multi-day corporate program covering DevSecOps transformation, application security program building, product security governance, and software supply chain defense. Tailored for engineering and security teams modernizing their secure development practices.",
-    "price": 0,
-    "priceDisplay": "Custom Pricing",
-    "duration": "2-5 days (customizable)",
-    "format": "On-Site or Virtual Team Training",
-    "highlights": [
-      "DevSecOps maturity assessment & transformation roadmap",
-      "Application security program design (SAST, DAST, SCA)",
-      "Product security governance & release management",
-      "Software supply chain security & SBOM implementation",
-      "Custom curriculum aligned to your tech stack"
-    ],
-    "icon": "shield",
-    "tier": "enterprise",
-    "category": "appsec",
-    "stripePriceId": null
   },
   {
     "id": "tech-applied-ai",
@@ -271,6 +229,27 @@
     "tier": "professional",
     "category": "ai",
     "stripePriceId": "price_tech_vibecoding_REPLACE"
+  },
+  {
+    "id": "appsec-bootcamp",
+    "title": "Enterprise AppSec Bootcamp",
+    "subtitle": "Corporate DevSecOps & Product Security",
+    "description": "A comprehensive multi-day corporate program covering DevSecOps transformation, application security program building, product security governance, and software supply chain defense. Tailored for engineering and security teams modernizing their secure development practices.",
+    "price": 0,
+    "priceDisplay": "Custom Pricing",
+    "duration": "2-5 days (customizable)",
+    "format": "On-Site or Virtual Team Training",
+    "highlights": [
+      "DevSecOps maturity assessment & transformation roadmap",
+      "Application security program design (SAST, DAST, SCA)",
+      "Product security governance & release management",
+      "Software supply chain security & SBOM implementation",
+      "Custom curriculum aligned to your tech stack"
+    ],
+    "icon": "shield",
+    "tier": "enterprise",
+    "category": "appsec",
+    "stripePriceId": null
   },
   {
     "id": "team-bootcamp",
