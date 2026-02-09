@@ -12,11 +12,8 @@ import {
   Package,
   ShieldCheck,
 } from "lucide-react";
-import { getCourses } from "@/lib/db";
-import { CourseCard } from "@/components/CourseCard";
 
-export default async function Home() {
-  const courses = await getCourses();
+export default function Home() {
 
   return (
     <>
@@ -165,51 +162,6 @@ export default async function Home() {
         </div>
       </section>
 
-      {/* ──────────────── COURSES ──────────────── */}
-      <section id="courses" className="max-w-6xl mx-auto px-4 py-20">
-        <div className="text-center mb-12">
-          <p className="text-sm text-cyber-accent font-mono mb-2">
-            &gt; ls ./training-programs
-          </p>
-          <h2 className="text-3xl md:text-4xl font-bold text-cyber-text mb-4">
-            Training Programs
-          </h2>
-          <p className="text-cyber-muted max-w-xl mx-auto mb-8">
-            From executive coaching to hands-on technical workshops and
-            enterprise bootcamps. Choose the format that fits your mission.
-          </p>
-          <div className="flex items-center justify-center gap-4">
-            <a
-              href="/courses#ai-security"
-              className="px-6 py-2 bg-violet-500/10 border border-violet-500/30 text-violet-400 rounded-lg hover:bg-violet-500/20 transition text-sm font-semibold"
-            >
-              AI/ML Security
-            </a>
-            <a
-              href="/courses#appsec"
-              className="px-6 py-2 bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 rounded-lg hover:bg-cyan-500/20 transition text-sm font-semibold"
-            >
-              Application Security
-            </a>
-          </div>
-        </div>
-
-        <div className="grid md:grid-cols-3 gap-6">
-          {courses.map((course) => (
-            <CourseCard key={course.id} course={course} />
-          ))}
-        </div>
-
-        <div className="text-center mt-10">
-          <a
-            href="/courses"
-            className="inline-flex items-center gap-2 text-sm text-cyber-accent hover:text-cyber-accent-bright transition"
-          >
-            <span>View all courses by category</span>
-            <ArrowRight className="w-4 h-4" />
-          </a>
-        </div>
-      </section>
 
       {/* ──────────────── SOCIAL PROOF ──────────────── */}
       <section className="max-w-6xl mx-auto px-4 py-20">
