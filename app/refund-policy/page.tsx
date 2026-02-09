@@ -76,11 +76,11 @@ export default function RefundPolicyPage() {
             </div>
             <div className="flex items-center gap-2 mb-4">
               <Clock className="w-4 h-4 text-red-400" />
-              <span className="text-sm text-cyber-muted">Within 1 hour before</span>
+              <span className="text-sm text-cyber-muted">Within 1 hour or after start</span>
             </div>
             <p className="text-sm text-cyber-muted leading-relaxed">
-              Cancellations within 1 hour of the scheduled start time are not eligible
-              for refunds.
+              Cancellations within 1 hour of the scheduled start time OR after training
+              begins are not eligible for refunds.
             </p>
           </div>
         </div>
@@ -125,16 +125,17 @@ export default function RefundPolicyPage() {
 
               <div>
                 <h3 className="text-xl font-semibold text-cyber-text mb-2">
-                  3. No Refund - Within 1 Hour Before
+                  3. No Refund - Within 1 Hour Before OR After Training Starts
                 </h3>
                 <p className="leading-relaxed mb-3">
-                  Cancellations made within 1 hour of the scheduled start time are not eligible
-                  for refunds.
+                  Cancellations made within 1 hour of the scheduled start time OR after the
+                  training session has begun are not eligible for refunds.
                 </p>
                 <ul className="list-disc pl-6 space-y-2">
                   <li>No refund issued</li>
                   <li>Full course fee retained</li>
                   <li>Instructor time has been committed and reserved</li>
+                  <li>Once training starts, no refunds are possible regardless of duration attended</li>
                   <li>May reschedule for an additional fee (contact us)</li>
                 </ul>
               </div>
@@ -212,10 +213,16 @@ export default function RefundPolicyPage() {
 
           <section>
             <h2 className="text-2xl font-bold text-cyber-text mb-4">No-Show Policy</h2>
-            <p className="leading-relaxed">
+            <p className="leading-relaxed mb-3">
               If you do not attend your scheduled training session without prior cancellation,
               it will be considered a no-show. No-shows are not eligible for refunds or
               rescheduling. We recommend canceling as early as possible if you cannot attend.
+            </p>
+            <p className="leading-relaxed">
+              <strong className="text-cyber-text">Important:</strong> Once the training session
+              has started, no refunds will be issued regardless of how long you remain in the
+              session. This includes situations where you leave early or experience technical
+              difficulties after the session begins.
             </p>
           </section>
 
@@ -265,7 +272,7 @@ export default function RefundPolicyPage() {
                   <td className="p-4">5-7 business days</td>
                 </tr>
                 <tr className="border-b border-cyber-border/50">
-                  <td className="p-4">&lt; 1 hour before</td>
+                  <td className="p-4">&lt; 1 hour before OR after start</td>
                   <td className="p-4 text-red-400 font-semibold">No Refund</td>
                   <td className="p-4">N/A</td>
                 </tr>
