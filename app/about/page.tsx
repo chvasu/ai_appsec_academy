@@ -238,7 +238,7 @@ export default function AboutPage() {
           <ExternalLink className="w-3.5 h-3.5" />
         </a>
         <Link
-          href="/#courses"
+          href="/courses"
           className="flex items-center gap-2 px-5 py-2.5 bg-cyber-accent/10 border border-cyber-accent/30 rounded-lg text-sm text-cyber-accent hover:bg-cyber-accent/20 transition"
         >
           <Award className="w-3.5 h-3.5" />

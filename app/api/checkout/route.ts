@@ -57,7 +57,7 @@ export async function POST(req: NextRequest) {
       ],
       mode: "payment",
       success_url: `${baseUrl}/success?session_id={CHECKOUT_SESSION_ID}&course=${course.id}`,
-      cancel_url: `${baseUrl}/#courses`,
+      cancel_url: `${baseUrl}/courses`,
       metadata: {
         courseId: course.id,
       },

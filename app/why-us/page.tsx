@@ -253,7 +253,7 @@ export default function WhyUsPage() {
             knowledge transfer.
           </p>
           <a
-            href="/#courses"
+            href="/courses"
             className="inline-block px-8 py-3 bg-emerald-500 hover:bg-emerald-400 text-cyber-bg font-semibold rounded-lg transition-all duration-200 hover:shadow-[0_0_20px_rgba(16,185,129,0.3)]"
           >
             <span className="font-mono">$</span> View Courses

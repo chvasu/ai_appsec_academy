@@ -56,7 +56,7 @@ export default function Home() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
             <a
-              href="#courses"
+              href="/courses"
               className="px-8 py-3.5 bg-cyber-accent text-cyber-bg font-semibold rounded-lg hover:bg-cyber-accent-bright hover:shadow-[0_0_30px_rgba(16,185,129,0.3)] transition-all text-sm"
             >
               <span className="font-mono">$</span> View Training Programs
@@ -205,7 +205,7 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href="#courses"
+                href="/courses"
                 className="px-8 py-3.5 bg-cyber-accent text-cyber-bg font-semibold rounded-lg hover:bg-cyber-accent-bright transition text-sm"
               >
                 Browse Programs
