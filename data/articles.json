@@ -64,5 +64,17 @@
     "date": "2023-09-29",
     "url": "https://www.linkedin.com/pulse/ml-cyberattacks-taxonomy-vis-chirravuri/",
     "summary": "A comprehensive framework for understanding cyberattacks targeting machine learning systems, organized across training data, model, and inference stages."
+  },
+  {
+    "title": "Security & Privacy Risks in Machine Learning",
+    "date": "2023-06-28",
+    "url": "https://www.linkedin.com/pulse/security-privacy-risks-machine-learning-vis-chirravuri/",
+    "summary": "An exploration of the security and privacy risks associated with machine learning systems, covering threats to data confidentiality, model integrity, and strategies for mitigation."
+  },
+  {
+    "title": "Artifact Digital Signing and Verifying with Sigstore Cosign",
+    "date": "2022-06-15",
+    "url": "https://www.linkedin.com/pulse/artifact-digital-signing-verifying-sigstore-cosign-chirravuri/",
+    "summary": "A deep dive into digital signing and verification using Sigstore Cosign, addressing software supply chain security with strong cipher algorithms, X509 certificates, and support for production-grade registries."
   }
 ]
