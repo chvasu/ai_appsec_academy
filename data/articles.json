@@ -3,78 +3,91 @@
     "title": "The Evolution of Agentic AI Development: From Monolithic to Distributed Systems",
     "date": "2026-02-09",
     "url": "/blog/agentic-ai-evolution",
-    "summary": "A practical journey through 4 architectural stages of building secure, local-first multi-agent AI systems—from single-agent monoliths to distributed A2A networks. Includes hands-on implementation with LangGraph, MCP, and open-source LLMs."
+    "summary": "A practical journey through 4 architectural stages of building secure, local-first multi-agent AI systems—from single-agent monoliths to distributed A2A networks. Includes hands-on implementation with LangGraph, MCP, and open-source LLMs.",
+    "category": "Securing AI/ML"
   },
   {
     "title": "Introducing ThreatModelingGPT: Your AI-Powered Threat Intelligence Partner",
     "date": "2026-02-07",
     "url": "/blog/threatmodelinggpt",
-    "summary": "A free, public Custom GPT that helps security teams identify risks, analyze attack surfaces, and suggest mitigation strategies using STRIDE, PASTA, LINDDUN, MAESTRO, and more."
+    "summary": "A free, public Custom GPT that helps security teams identify risks, analyze attack surfaces, and suggest mitigation strategies using STRIDE, PASTA, LINDDUN, MAESTRO, and more.",
+    "category": "Application Security"
   },
   {
     "title": "Introducing ViswanathSChirravuri_GPT: The Next Phase of Resume Exchange",
     "date": "2026-02-06",
     "url": "/blog/viswanathschirravuri-gpt",
-    "summary": "A dedicated Custom GPT built on OpenAI that answers questions exclusively about my professional profile — the future of AI-powered resume exchange."
+    "summary": "A dedicated Custom GPT built on OpenAI that answers questions exclusively about my professional profile — the future of AI-powered resume exchange.",
+    "category": "Securing AI/ML"
   },
   {
     "title": "From Monolith to Micro-Agents: My 4-Stage Journey in Building Secure Local AI Systems",
     "date": "2026-01-05",
     "url": "https://www.linkedin.com/pulse/from-monolith-micro-agents-my-4-stage-journey-secure-local-2qcjc/",
-    "summary": "An evolutionary progression through four architectural phases for building a local AI system, from a single monolithic agent to a distributed multi-agent network with security safeguards at each stage."
+    "summary": "An evolutionary progression through four architectural phases for building a local AI system, from a single monolithic agent to a distributed multi-agent network with security safeguards at each stage.",
+    "category": "Securing AI/ML"
   },
   {
     "title": "AppSec Using Agentic AI: Running SCA Scans via Claude CLI Skills",
     "date": "2025-12-25",
     "url": "https://www.linkedin.com/pulse/appsec-using-agentic-ai-running-sca-scans-via-claude-cli-chirravuri-564cc/",
-    "summary": "Using Claude Skills to automate security scanning workflows, specifically implementing Software Composition Analysis (SCA) scans through the Bandit tool via Claude CLI."
+    "summary": "Using Claude Skills to automate security scanning workflows, specifically implementing Software Composition Analysis (SCA) scans through the Bandit tool via Claude CLI.",
+    "category": "Application Security"
   },
   {
     "title": "Why \"AI Skills Developer\" Will Be the Breakout Role of 2026",
     "date": "2025-12-24",
     "url": "https://www.linkedin.com/pulse/why-ai-skills-developer-breakout-role-2026-viswanath-s-chirravuri-lpyzc/",
-    "summary": "An emerging specialized role combining software engineering with LLM orchestration, where prompt engineering evolves into a structured discipline using Claude Skills, Sub-agents, Hooks, and MCP."
+    "summary": "An emerging specialized role combining software engineering with LLM orchestration, where prompt engineering evolves into a structured discipline using Claude Skills, Sub-agents, Hooks, and MCP.",
+    "category": "Securing AI/ML"
   },
   {
     "title": "Secure Source Code by Design with Cline: A Practical Guide for Engineering Teams",
     "date": "2025-12-02",
     "url": "https://www.linkedin.com/pulse/secure-source-code-design-cline-practical-guide-teams-chirravuri-pfemc/",
-    "summary": "A methodology for configuring Cline (VS Code AI extension) to enforce OWASP security standards during code generation, combining Memory Bank, .clinerules, and modular secure coding standards."
+    "summary": "A methodology for configuring Cline (VS Code AI extension) to enforce OWASP security standards during code generation, combining Memory Bank, .clinerules, and modular secure coding standards.",
+    "category": "Application Security"
   },
   {
     "title": "AI/ML Security: Old Attacks, New Targets",
     "date": "2025-08-16",
     "url": "https://www.linkedin.com/pulse/aiml-security-old-attacks-new-targets-viswanath-s-chirravuri-m7i3c/",
-    "summary": "Threats targeting AI systems aren't fundamentally novel — adversaries use the same tricks (injection, tampering, leaking secrets) but now focus on training datasets, models, and AI outputs."
+    "summary": "Threats targeting AI systems aren't fundamentally novel — adversaries use the same tricks (injection, tampering, leaking secrets) but now focus on training datasets, models, and AI outputs.",
+    "category": "Securing AI/ML"
   },
   {
     "title": "Evolving Protocols Around Agentic AI: MCP, A2A, ACP, AGNTCY",
     "date": "2025-06-12",
     "url": "https://www.linkedin.com/pulse/agentic-ai-mcp-a2a-acp-agntcy-viswanath-s-chirravuri-x3cuc/",
-    "summary": "Examining emerging standards for agent-based AI systems including MCP, A2A, ACP, and AGNTCY protocols anticipating an Internet of Agents (IoA)."
+    "summary": "Examining emerging standards for agent-based AI systems including MCP, A2A, ACP, and AGNTCY protocols anticipating an Internet of Agents (IoA).",
+    "category": "Securing AI/ML"
   },
   {
     "title": "The 3 Phases of AI Mastery: Skills, Tools, Roles, and Privacy Practices",
     "date": "2024-12-16",
     "url": "https://www.linkedin.com/pulse/path-mastering-aiml-step-by-step-approach-viswanath-chirravuri-i9lyc/",
-    "summary": "Three distinct AI proficiency levels — from end-user to ML specialist — along with corresponding competencies, recommended tools, and security considerations for each stage."
+    "summary": "Three distinct AI proficiency levels — from end-user to ML specialist — along with corresponding competencies, recommended tools, and security considerations for each stage.",
+    "category": "Securing AI/ML"
   },
   {
     "title": "ML Cyberattacks Taxonomy",
     "date": "2023-09-29",
     "url": "https://www.linkedin.com/pulse/ml-cyberattacks-taxonomy-vis-chirravuri/",
-    "summary": "A comprehensive framework for understanding cyberattacks targeting machine learning systems, organized across training data, model, and inference stages."
+    "summary": "A comprehensive framework for understanding cyberattacks targeting machine learning systems, organized across training data, model, and inference stages.",
+    "category": "Securing AI/ML"
   },
   {
     "title": "Security & Privacy Risks in Machine Learning",
     "date": "2023-06-28",
     "url": "https://www.linkedin.com/pulse/security-privacy-risks-machine-learning-vis-chirravuri/",
-    "summary": "An exploration of the security and privacy risks associated with machine learning systems, covering threats to data confidentiality, model integrity, and strategies for mitigation."
+    "summary": "An exploration of the security and privacy risks associated with machine learning systems, covering threats to data confidentiality, model integrity, and strategies for mitigation.",
+    "category": "Securing AI/ML"
   },
   {
     "title": "Artifact Digital Signing and Verifying with Sigstore Cosign",
     "date": "2022-06-15",
     "url": "https://www.linkedin.com/pulse/artifact-digital-signing-verifying-sigstore-cosign-chirravuri/",
-    "summary": "A deep dive into digital signing and verification using Sigstore Cosign, addressing software supply chain security with strong cipher algorithms, X509 certificates, and support for production-grade registries."
+    "summary": "A deep dive into digital signing and verification using Sigstore Cosign, addressing software supply chain security with strong cipher algorithms, X509 certificates, and support for production-grade registries.",
+    "category": "Application Security"
   }
 ]
