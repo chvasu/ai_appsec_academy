@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Terminal, Code, ShieldCheck, Clock, Globe } from "lucide-react";
+import { Terminal, Code, ShieldCheck, Clock, Globe, Minus, Plus } from "lucide-react";
 import type { Course } from "@/lib/db";
 import { TermsCheckbox } from "./TermsCheckbox";
 
@@ -37,14 +37,17 @@ const tierBadge: Record<string, string> = {
 
 export function CourseCard({ course }: { course: Course }) {
   const Icon = iconMap[course.icon] || Terminal;
-  const isPurchasable = course.price > 0;
+  const isBookable = course.hourlyRate > 0;
   const [termsAccepted, setTermsAccepted] = useState(false);
+  const [hours, setHours] = useState(course.minHours || 1);
+
+  const totalPrice = course.hourlyRate * hours;
 
   async function handleCheckout() {
     const res = await fetch("/api/checkout", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ courseId: course.id }),
+      body: JSON.stringify({ courseId: course.id, hours }),
     });
     const data = await res.json();
     if (data.url) {
@@ -87,13 +90,22 @@ export function CourseCard({ course }: { course: Course }) {
       {/* Details */}
       <div className="px-6 py-4 border-t border-cyber-border/50 space-y-2">
         <div className="flex justify-between text-sm">
-          <span className="text-cyber-muted">Duration</span>
-          <span className="text-cyber-text">{course.duration}</span>
+          <span className="text-cyber-muted">Rate</span>
+          <span className="text-cyber-text font-semibold">
+            {course.hourlyRateDisplay}
+            {isBookable && <span className="text-cyber-muted font-normal">/hr</span>}
+          </span>
         </div>
         <div className="flex justify-between text-sm">
           <span className="text-cyber-muted">Format</span>
           <span className="text-cyber-text">{course.format}</span>
         </div>
+        {isBookable && (
+          <div className="flex justify-between text-sm">
+            <span className="text-cyber-muted">Bookable</span>
+            <span className="text-cyber-text">1–{course.maxHours} hrs (or custom quote for more)</span>
+          </div>
+        )}
       </div>
 
       {/* Highlights */}
@@ -124,46 +136,105 @@ export function CourseCard({ course }: { course: Course }) {
 
       {/* CTA */}
       <div className="p-6 pt-4 border-t border-cyber-border/50 mt-auto">
-        <div className="flex items-end justify-between mb-4">
-          <div>
-            <span className="text-2xl font-bold text-cyber-text">
-              {course.priceDisplay}
-            </span>
-            {course.price > 0 && (
-              <span className="text-xs text-cyber-muted ml-1">/session</span>
-            )}
-          </div>
-        </div>
-        <TermsCheckbox onAcceptChange={setTermsAccepted} className="mb-4" />
-        {isPurchasable ? (
-          <button
-            onClick={handleCheckout}
-            disabled={!termsAccepted}
-            className={`w-full py-3 px-4 rounded-lg font-semibold text-sm transition-all duration-200 ${
-              termsAccepted
-                ? `text-cyber-bg ${
-                    course.tier === "professional"
-                      ? "bg-sky-500 hover:bg-sky-400 hover:shadow-[0_0_20px_rgba(56,189,248,0.3)]"
-                      : "bg-emerald-500 hover:bg-emerald-400 hover:shadow-[0_0_20px_rgba(16,185,129,0.3)]"
-                  }`
-                : "bg-gray-600 opacity-50 cursor-not-allowed text-gray-400"
-            }`}
-          >
-            <span className="font-mono">$</span> Book Now
-          </button>
-        ) : termsAccepted ? (
-          <a
-            href="https://www.linkedin.com/in/vchirrav/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block w-full py-3 px-4 rounded-lg font-semibold text-sm text-center border border-amber-500/50 text-amber-400 hover:bg-amber-500/10 transition-all duration-200"
-          >
-            <span className="font-mono">&gt;</span> Request Custom Quote
-          </a>
+        {isBookable ? (
+          <>
+            {/* Hour Selector */}
+            <div className="mb-4">
+              <label className="block text-xs text-cyber-muted mb-2">Choose hours</label>
+              <div className="flex items-center gap-3">
+                <button
+                  type="button"
+                  onClick={() => setHours((h) => Math.max(course.minHours, h - 1))}
+                  disabled={hours <= course.minHours}
+                  className="p-1.5 rounded-md bg-cyber-bg border border-cyber-border text-cyber-muted hover:text-cyber-accent hover:border-cyber-accent/50 disabled:opacity-30 disabled:cursor-not-allowed transition"
+                >
+                  <Minus className="w-4 h-4" />
+                </button>
+                <div className="flex-1 text-center">
+                  <span className="text-2xl font-bold text-cyber-text">{hours}</span>
+                  <span className="text-sm text-cyber-muted ml-1">
+                    {hours === 1 ? "hour" : "hours"}
+                  </span>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => setHours((h) => Math.min(course.maxHours, h + 1))}
+                  disabled={hours >= course.maxHours}
+                  className="p-1.5 rounded-md bg-cyber-bg border border-cyber-border text-cyber-muted hover:text-cyber-accent hover:border-cyber-accent/50 disabled:opacity-30 disabled:cursor-not-allowed transition"
+                >
+                  <Plus className="w-4 h-4" />
+                </button>
+              </div>
+            </div>
+
+            {/* Total */}
+            <div className="flex items-end justify-between mb-4">
+              <div>
+                <span className="text-xs text-cyber-muted block">Total</span>
+                <span className="text-2xl font-bold text-cyber-text">
+                  ${totalPrice.toLocaleString()}
+                </span>
+                <span className="text-xs text-cyber-muted ml-1">
+                  ({course.hourlyRateDisplay}/hr &times; {hours})
+                </span>
+              </div>
+            </div>
+
+            {/* Need more hours note */}
+            <p className="text-xs text-cyber-muted mb-3">
+              Need more than {course.maxHours} hours?{" "}
+              <a
+                href="https://www.linkedin.com/in/vchirrav/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-cyber-accent hover:underline"
+              >
+                Request a custom quote
+              </a>
+            </p>
+
+            <TermsCheckbox onAcceptChange={setTermsAccepted} className="mb-4" />
+            <button
+              onClick={handleCheckout}
+              disabled={!termsAccepted}
+              className={`w-full py-3 px-4 rounded-lg font-semibold text-sm transition-all duration-200 ${
+                termsAccepted
+                  ? `text-cyber-bg ${
+                      course.tier === "professional"
+                        ? "bg-sky-500 hover:bg-sky-400 hover:shadow-[0_0_20px_rgba(56,189,248,0.3)]"
+                        : "bg-emerald-500 hover:bg-emerald-400 hover:shadow-[0_0_20px_rgba(16,185,129,0.3)]"
+                    }`
+                  : "bg-gray-600 opacity-50 cursor-not-allowed text-gray-400"
+              }`}
+            >
+              <span className="font-mono">$</span> Book {hours} {hours === 1 ? "Hour" : "Hours"} Now
+            </button>
+          </>
         ) : (
-          <span className="block w-full py-3 px-4 rounded-lg font-semibold text-sm text-center border border-gray-600/50 text-gray-500 opacity-50 cursor-not-allowed">
-            <span className="font-mono">&gt;</span> Request Custom Quote
-          </span>
+          <>
+            <div className="flex items-end justify-between mb-4">
+              <div>
+                <span className="text-2xl font-bold text-cyber-text">
+                  {course.hourlyRateDisplay}
+                </span>
+              </div>
+            </div>
+            <TermsCheckbox onAcceptChange={setTermsAccepted} className="mb-4" />
+            {termsAccepted ? (
+              <a
+                href="https://www.linkedin.com/in/vchirrav/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full py-3 px-4 rounded-lg font-semibold text-sm text-center border border-amber-500/50 text-amber-400 hover:bg-amber-500/10 transition-all duration-200"
+              >
+                <span className="font-mono">&gt;</span> Request Custom Quote
+              </a>
+            ) : (
+              <span className="block w-full py-3 px-4 rounded-lg font-semibold text-sm text-center border border-gray-600/50 text-gray-500 opacity-50 cursor-not-allowed">
+                <span className="font-mono">&gt;</span> Request Custom Quote
+              </span>
+            )}
+          </>
         )}
       </div>
     </div>

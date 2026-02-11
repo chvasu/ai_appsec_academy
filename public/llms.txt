@@ -6,19 +6,18 @@ AI AppSec Consulting provides hands-on, hourly consulting sessions across seven 
 
 ## Consulting Services
 
-- [Strategy Session](https://aiappsecacademy.com/services): Executive consultation, security program assessment & roadmap planning (1 hour, $300)
-- [Product Security Advisory](https://aiappsecacademy.com/services): Threat modeling, secure architecture review, supply chain strategy (4 hrs, $500)
-- [SAST Implementation](https://aiappsecacademy.com/services): Static analysis tool setup & CI/CD pipeline integration (4 hrs, $500)
-- [SCA Implementation](https://aiappsecacademy.com/services): Dependency analysis, SBOM generation & composition governance (4 hrs, $500)
-- [DAST Implementation](https://aiappsecacademy.com/services): Dynamic testing tool setup & runtime security analysis (4 hrs, $500)
-- [SBOM & Supply Chain Advisory](https://aiappsecacademy.com/services): SBOM management, provenance strategy & Dependency-Track setup (4 hrs, $500)
-- [DevSecOps Pipeline Consulting](https://aiappsecacademy.com/services): CI/CD security, IaC scanning & container hardening (4 hrs, $500)
-- [OWASP Tools Advisory](https://aiappsecacademy.com/services): OWASP flagship tools implementation & best practices (4 hrs, $500)
-- [DevSecOps & AppSec Workshop](https://aiappsecacademy.com/services): Secure SDLC & pipeline security intensive (8 hrs, $1,200)
-- [AI/ML Security Consulting](https://aiappsecacademy.com/services): RAG security, fine-tuning & MLSecOps advisory (4 hrs, $1,000)
-- [Secure Vibecoding Advisory](https://aiappsecacademy.com/services): AI-assisted development with security by default (4 hrs, $1,000)
-- [Enterprise AppSec Engagement](https://aiappsecacademy.com/services): Multi-day DevSecOps transformation & program building (2-5 days, custom quote)
-- [AI Security Engagement](https://aiappsecacademy.com/services): Enterprise AI/ML security program (2-5 days, custom quote)
+- [Strategy Session](https://aiappsecacademy.com/services): Executive consultation, security program assessment & roadmap planning ($300/hr, book 1–4 hrs)
+- [Product Security Advisory](https://aiappsecacademy.com/services): Threat modeling, secure architecture review, supply chain strategy ($200/hr, book 1–4 hrs)
+- [SAST Implementation](https://aiappsecacademy.com/services): Static analysis tool setup & CI/CD pipeline integration ($200/hr, book 1–4 hrs)
+- [SCA Implementation](https://aiappsecacademy.com/services): Dependency analysis, SBOM generation & composition governance ($200/hr, book 1–4 hrs)
+- [DAST Implementation](https://aiappsecacademy.com/services): Dynamic testing tool setup & runtime security analysis ($200/hr, book 1–4 hrs)
+- [SBOM & Supply Chain Advisory](https://aiappsecacademy.com/services): SBOM management, provenance strategy & Dependency-Track setup ($200/hr, book 1–4 hrs)
+- [DevSecOps Pipeline Consulting](https://aiappsecacademy.com/services): CI/CD security, IaC scanning & container hardening ($200/hr, book 1–4 hrs)
+- [OWASP Tools Advisory](https://aiappsecacademy.com/services): OWASP flagship tools implementation & best practices ($200/hr, book 1–4 hrs)
+- [AI/ML Security Consulting](https://aiappsecacademy.com/services): RAG security, fine-tuning & MLSecOps advisory ($300/hr, book 1–4 hrs)
+- [Secure Vibecoding Advisory](https://aiappsecacademy.com/services): AI-assisted development with security by default ($300/hr, book 1–4 hrs)
+- [Enterprise AppSec Engagement](https://aiappsecacademy.com/services): Multi-day DevSecOps transformation & program building (custom quote)
+- [AI Security Engagement](https://aiappsecacademy.com/services): Enterprise AI/ML security program (custom quote)
 
 ## Pages
 

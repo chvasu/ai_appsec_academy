@@ -97,7 +97,7 @@ const comparison = [
   {
     aspect: "Pricing",
     industry: "Opaque pricing, minimum retainers, change orders",
-    us: "Transparent per-session pricing, no hidden costs",
+    us: "Transparent per-hour pricing, no hidden costs",
   },
 ];
 

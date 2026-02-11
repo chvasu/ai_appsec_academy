@@ -4,7 +4,7 @@ import { getCourseById } from "@/lib/db";
 
 export async function POST(req: NextRequest) {
   try {
-    const { courseId } = await req.json();
+    const { courseId, hours } = await req.json();
 
     if (!courseId || typeof courseId !== "string") {
       return NextResponse.json(
@@ -22,21 +22,25 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    if (course.price === 0) {
+    if (course.hourlyRate === 0) {
       return NextResponse.json(
         { error: "This service requires a custom quote. Please contact us via LinkedIn." },
         { status: 400 }
       );
     }
 
+    // Validate hours
+    const requestedHours = typeof hours === "number" && hours >= course.minHours && hours <= course.maxHours
+      ? hours
+      : course.minHours;
+
+    const totalAmount = course.hourlyRate * requestedHours;
+
     const baseUrl =
       process.env.NEXT_PUBLIC_BASE_URL ||
       (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : null) ||
       "http://localhost:3000";
 
-    // Create a Stripe Checkout Session using inline price_data.
-    // This is stateless — no database writes needed on checkout creation.
-    // On success, Stripe sends a receipt email directly to the customer.
     const session = await getStripe().checkout.sessions.create({
       payment_method_types: ["card"],
       line_items: [
@@ -44,13 +48,14 @@ export async function POST(req: NextRequest) {
           price_data: {
             currency: "usd",
             product_data: {
-              name: course.title,
+              name: `${course.title} (${requestedHours} ${requestedHours === 1 ? "hour" : "hours"})`,
               description: course.subtitle,
               metadata: {
                 courseId: course.id,
+                hours: String(requestedHours),
               },
             },
-            unit_amount: course.price * 100, // Stripe expects cents
+            unit_amount: totalAmount * 100, // Stripe expects cents
           },
           quantity: 1,
         },
@@ -60,6 +65,7 @@ export async function POST(req: NextRequest) {
       cancel_url: `${baseUrl}/services`,
       metadata: {
         courseId: course.id,
+        hours: String(requestedHours),
       },
     });
 
