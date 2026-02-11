@@ -1,9 +1,9 @@
 import { Shield } from "lucide-react";
 
 export const metadata = {
-  title: "Privacy Policy | AI AppSec Academy",
+  title: "Privacy Policy | AI AppSec Consulting",
   description:
-    "Privacy Policy for AI AppSec Academy - How we collect, use, and protect your personal information.",
+    "Privacy Policy for AI AppSec Consulting - How we collect, use, and protect your personal information.",
 };
 
 export default function PrivacyPage() {
@@ -27,7 +27,7 @@ export default function PrivacyPage() {
           <section>
             <h2 className="text-2xl font-bold text-cyber-text mb-4">1. Introduction</h2>
             <p className="leading-relaxed">
-              AI AppSec Academy ("we", "our", or "us") is committed to protecting your privacy.
+              AI AppSec Consulting ("we", "our", or "us") is committed to protecting your privacy.
               This Privacy Policy explains how we collect, use, disclose, and safeguard your
               information when you visit our website <span className="text-cyber-accent">aiappsecacademy.com</span> and
               use our services.
@@ -42,7 +42,7 @@ export default function PrivacyPage() {
               We collect personal information that you voluntarily provide when:
             </p>
             <ul className="list-disc pl-6 space-y-2">
-              <li>Enrolling in training courses</li>
+              <li>Enrolling in consulting services</li>
               <li>Making payments through Stripe</li>
               <li>Contacting us via LinkedIn or other communication channels</li>
               <li>Subscribing to newsletters or updates (if applicable)</li>
@@ -72,11 +72,11 @@ export default function PrivacyPage() {
               We use collected information for the following purposes:
             </p>
             <ul className="list-disc pl-6 space-y-2">
-              <li><strong className="text-cyber-text">Service Delivery:</strong> To provide training courses,
-              process enrollments, and communicate course details</li>
+              <li><strong className="text-cyber-text">Service Delivery:</strong> To provide consulting services,
+              process bookings, and communicate course details</li>
               <li><strong className="text-cyber-text">Payment Processing:</strong> To process transactions
               through Stripe (we do not store credit card information)</li>
-              <li><strong className="text-cyber-text">Communication:</strong> To send course confirmations,
+              <li><strong className="text-cyber-text">Communication:</strong> To send session confirmations,
               updates, and respond to inquiries</li>
               <li><strong className="text-cyber-text">Analytics:</strong> To understand website usage and
               improve our services (via Vercel Web Analytics)</li>
@@ -117,7 +117,7 @@ export default function PrivacyPage() {
             <p className="leading-relaxed">
               We retain your personal information only for as long as necessary to fulfill the purposes
               outlined in this Privacy Policy, unless a longer retention period is required by law.
-              Course enrollment records are retained for a minimum of 7 years for tax and legal compliance.
+              Consulting engagement records are retained for a minimum of 7 years for tax and legal compliance.
             </p>
           </section>
 
@@ -203,7 +203,7 @@ export default function PrivacyPage() {
             </p>
             <div className="mt-4 p-4 bg-cyber-bg border border-cyber-border rounded-lg">
               <p className="text-cyber-text font-semibold">Viswanath Srinivasan Chirravuri</p>
-              <p>AI AppSec Academy™</p>
+              <p>AI AppSec Consulting™</p>
               <p>LinkedIn: <a href="https://www.linkedin.com/in/vchirrav/" target="_blank"
               rel="noopener noreferrer" className="text-cyber-accent hover:underline">
                 linkedin.com/in/vchirrav

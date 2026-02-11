@@ -10,13 +10,13 @@ export const metadata: Metadata = {
     icon: "/favicon.svg",
   },
   title: {
-    default: "AI AppSec Academy | Viswanath Chirravuri",
-    template: "%s | AI AppSec Academy",
+    default: "AI AppSec Consulting | Viswanath Chirravuri",
+    template: "%s | AI AppSec Consulting",
   },
   description:
-    "Elite cybersecurity training in AppSec, DevSecOps, Product Security, Supply Chain Security, and AI/ML Defense. Led by GSE #335 & CompTIA SME Viswanath Chirravuri, D.Eng. Cybersecurity candidate.",
+    "Expert cybersecurity consulting in AppSec, DevSecOps, Product Security, Supply Chain Security, and AI/ML Defense. Book hourly sessions with GSE #335 & CompTIA SME Viswanath Chirravuri.",
   keywords: [
-    "AI Security Training",
+    "AI Security Consulting",
     "LLM Security",
     "Agentic AI",
     "AppSec",
@@ -35,16 +35,16 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://aiappsecacademy.com",
-    siteName: "AI AppSec Academy",
-    title: "AI AppSec Academy | Elite Cybersecurity Training",
+    siteName: "AI AppSec Consulting",
+    title: "AI AppSec Consulting | Expert Cybersecurity Advisory",
     description:
-      "Elite one-on-one cybersecurity training in AppSec, DevSecOps, Product Security & AI/ML Defense. Led by GSE #335 Viswanath Chirravuri.",
+      "Expert cybersecurity consulting in AppSec, DevSecOps, Product Security & AI/ML Defense. Book hourly sessions with GSE #335 Viswanath Chirravuri.",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "AI AppSec Academy - Elite Cybersecurity Training",
+        alt: "AI AppSec Consulting - Expert Cybersecurity Advisory",
       },
     ],
   },

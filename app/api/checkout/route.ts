@@ -17,14 +17,14 @@ export async function POST(req: NextRequest) {
 
     if (!course) {
       return NextResponse.json(
-        { error: "Course not found" },
+        { error: "Service not found" },
         { status: 404 }
       );
     }
 
     if (course.price === 0) {
       return NextResponse.json(
-        { error: "This course requires a custom quote. Please contact us via LinkedIn." },
+        { error: "This service requires a custom quote. Please contact us via LinkedIn." },
         { status: 400 }
       );
     }
@@ -57,7 +57,7 @@ export async function POST(req: NextRequest) {
       ],
       mode: "payment",
       success_url: `${baseUrl}/success?session_id={CHECKOUT_SESSION_ID}&course=${course.id}`,
-      cancel_url: `${baseUrl}/courses`,
+      cancel_url: `${baseUrl}/services`,
       metadata: {
         courseId: course.id,
       },

@@ -16,7 +16,7 @@ export default function SuccessPage() {
         </h1>
 
         <p className="text-cyber-muted mb-2">
-          Your enrollment has been confirmed.
+          Your consulting session has been booked.
         </p>
 
         <div className="flex items-center justify-center gap-2 text-sm text-cyber-accent mb-8">
@@ -35,7 +35,7 @@ export default function SuccessPage() {
             </li>
             <li className="flex items-start gap-2">
               <span className="text-cyber-accent">2.</span>
-              You will receive a calendar invite within 24 hours
+              You will be contacted within 24 hours to schedule your session
             </li>
             <li className="flex items-start gap-2">
               <span className="text-cyber-accent">3.</span>

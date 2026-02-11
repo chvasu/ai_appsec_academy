@@ -11,6 +11,8 @@ import {
   Bug,
   Package,
   ShieldCheck,
+  Clock,
+  Calendar,
 } from "lucide-react";
 
 export default function Home() {
@@ -39,13 +41,13 @@ export default function Home() {
           </div>
 
           <h1 className="text-center text-4xl md:text-6xl lg:text-7xl font-bold leading-tight tracking-tight mb-6">
-            <span className="block text-cyber-text">Secure Software.</span>
-            <span className="block gradient-text">Secure AI.</span>
+            <span className="block text-cyber-text">AI &amp; AppSec</span>
+            <span className="block gradient-text">Consulting.</span>
           </h1>
 
           <p className="text-center text-lg md:text-xl text-cyber-muted max-w-2xl mx-auto mb-10 leading-relaxed">
-            Elite training in AppSec, DevSecOps, Product Security, Supply Chain
-            Security, and AI/ML Defense. Led by{" "}
+            Expert consulting in AppSec, DevSecOps, Product Security, Supply Chain
+            Security, and AI/ML Defense. Book hourly sessions with{" "}
             <span className="text-cyber-text font-medium">
               Viswanath Chirravuri
             </span>
@@ -56,10 +58,10 @@ export default function Home() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
             <a
-              href="/courses"
+              href="/services"
               className="px-8 py-3.5 bg-cyber-accent text-cyber-bg font-semibold rounded-lg hover:bg-cyber-accent-bright hover:shadow-[0_0_30px_rgba(16,185,129,0.3)] transition-all text-sm"
             >
-              <span className="font-mono">$</span> View Training Programs
+              <span className="font-mono">$</span> View Consulting Services
             </a>
             <a
               href="https://www.linkedin.com/in/vchirrav/"
@@ -97,14 +99,66 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ──────────────── EXPERTISE ──────────────── */}
+      {/* ──────────────── HOW IT WORKS ──────────────── */}
+      <section className="max-w-6xl mx-auto px-4 py-20">
+        <div className="text-center mb-12">
+          <p className="text-sm text-cyber-accent font-mono mb-2">
+            &gt; cat how-it-works.md
+          </p>
+          <h2 className="text-3xl md:text-4xl font-bold text-cyber-text">
+            Book Expert Support by the Hour
+          </h2>
+          <p className="text-cyber-muted max-w-xl mx-auto mt-4">
+            Get hands-on consulting from an industry expert. Pick a topic, book your hours, and get actionable results.
+          </p>
+        </div>
+
+        <div className="grid sm:grid-cols-3 gap-6">
+          {[
+            {
+              icon: Calendar,
+              step: "01",
+              title: "Choose Your Service",
+              desc: "Browse consulting services across AI/ML Security and Application Security. Select the engagement that matches your needs.",
+            },
+            {
+              icon: Clock,
+              step: "02",
+              title: "Book Your Hours",
+              desc: "Pay securely via Stripe. You will be contacted within 24 hours to schedule your session at a time that works for you.",
+            },
+            {
+              icon: Zap,
+              step: "03",
+              title: "Get Expert Results",
+              desc: "Receive hands-on consulting, actionable recommendations, and deliverables you can implement immediately.",
+            },
+          ].map((item) => (
+            <div
+              key={item.title}
+              className="p-6 rounded-lg bg-cyber-surface border border-cyber-border hover:border-cyber-accent/30 transition-colors group text-center"
+            >
+              <div className="text-3xl font-bold gradient-text mb-4">{item.step}</div>
+              <item.icon className="w-8 h-8 text-cyber-accent mb-4 mx-auto group-hover:drop-shadow-[0_0_8px_rgba(16,185,129,0.4)] transition" />
+              <h3 className="text-lg font-bold text-cyber-text mb-2">
+                {item.title}
+              </h3>
+              <p className="text-sm text-cyber-muted leading-relaxed">
+                {item.desc}
+              </p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* ──────────────── CONSULTING DOMAINS ──────────────── */}
       <section className="max-w-6xl mx-auto px-4 py-20">
         <div className="text-center mb-12">
           <p className="text-sm text-cyber-accent font-mono mb-2">
             &gt; cat expertise.md
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-cyber-text">
-            Domains of Expertise
+            Consulting Domains
           </h2>
         </div>
 
@@ -112,7 +166,7 @@ export default function Home() {
           {[
             {
               icon: Bug,
-              title: "Software Application Security",
+              title: "Application Security",
               desc: "SAST, DAST, SCA, penetration testing, secure code review, and OWASP Top 10 remediation across the full application stack.",
             },
             {
@@ -127,7 +181,7 @@ export default function Home() {
             },
             {
               icon: Package,
-              title: "Software Supply Chain Security",
+              title: "Supply Chain Security",
               desc: "SBOM management, dependency risk analysis, build provenance, artifact signing, and defending against supply chain compromise.",
             },
             {
@@ -163,11 +217,11 @@ export default function Home() {
       </section>
 
 
-      {/* ──────────────── SOCIAL PROOF ──────────────── */}
+      {/* ──────────────── CONSULTANT PROFILE ──────────────── */}
       <section className="max-w-6xl mx-auto px-4 py-20">
         <div className="bg-cyber-surface rounded-lg border border-cyber-border p-8 md:p-12">
           <h2 className="text-2xl md:text-3xl font-bold text-cyber-text text-center mb-8">
-            Instructor Profile
+            Your Consultant
           </h2>
           <div className="grid md:grid-cols-4 gap-8 text-center">
             {[
@@ -193,22 +247,22 @@ export default function Home() {
           <div className="absolute inset-0 bg-emerald-500/5 rounded-lg blur-2xl" />
           <div className="relative">
             <p className="text-sm text-cyber-accent font-mono mb-4">
-              &gt; ./start_training --mode=elite
+              &gt; ./book_consultation --mode=expert
             </p>
             <h2 className="text-3xl md:text-4xl font-bold text-cyber-text mb-4">
-              Ready to Level Up?
+              Ready to Get Started?
             </h2>
             <p className="text-cyber-muted max-w-lg mx-auto mb-8">
               Whether you&apos;re an individual contributor, a security leader,
-              or an enterprise team — there&apos;s a program designed for your
-              threat model.
+              or an enterprise team — book a consulting session tailored to
+              your specific challenges.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href="/courses"
+                href="/services"
                 className="px-8 py-3.5 bg-cyber-accent text-cyber-bg font-semibold rounded-lg hover:bg-cyber-accent-bright transition text-sm"
               >
-                Browse Programs
+                Browse Services
               </a>
               <a
                 href="https://www.linkedin.com/in/vchirrav/"

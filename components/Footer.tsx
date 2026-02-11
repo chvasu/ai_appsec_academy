@@ -17,12 +17,12 @@ export function Footer() {
             <div className="flex items-center gap-2 mb-3">
               <Shield className="w-5 h-5 text-cyber-accent" />
               <span className="font-bold text-cyber-text">
-                AI AppSec Academy™
+                AI AppSec Consulting
               </span>
             </div>
             <p className="text-sm text-cyber-muted leading-relaxed">
-              Elite cybersecurity training in AI/ML Security, Agentic AI, and
-              LLM Application Security.
+              Expert cybersecurity consulting in AI/ML Security, Agentic AI,
+              AppSec, and DevSecOps. Book hourly sessions with an industry expert.
             </p>
           </div>
 
@@ -109,8 +109,8 @@ export function Footer() {
               Contact
             </h4>
             <p className="text-sm text-cyber-muted leading-relaxed mb-3">
-              For corporate training inquiries, speaking engagements, or custom
-              workshops, reach out via LinkedIn.
+              For enterprise consulting inquiries, speaking engagements, or custom
+              engagements, reach out via LinkedIn.
             </p>
             <TermsCheckbox
               onAcceptChange={setContactTermsAccepted}
@@ -136,7 +136,7 @@ export function Footer() {
         <div className="mt-10 pt-6 border-t border-cyber-border text-center text-xs text-cyber-muted">
           <span className="text-cyber-accent">&gt;</span> &copy;{" "}
           {new Date().getFullYear()} Viswanath Srinivasan Chirravuri. All rights
-          reserved. AI AppSec Academy™ is a trademark of Viswanath Srinivasan
+          reserved. AI AppSec Consulting is a service of Viswanath Srinivasan
           Chirravuri.
         </div>
       </div>

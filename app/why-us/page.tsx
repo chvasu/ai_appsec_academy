@@ -11,112 +11,111 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Why Us? | AI AppSec Academy",
+  title: "Why Us? | AI AppSec Consulting",
   description:
-    "Discover the AI AppSec Academy difference: personalized one-on-one training that ensures successful knowledge transfer, unlike traditional group-based programs.",
+    "Discover the AI AppSec Consulting difference: direct one-on-one consulting with an industry expert that delivers actionable results, not generic recommendations.",
 };
 
 const advantages = [
   {
     icon: UserCheck,
-    title: "Direct One-on-One Training",
+    title: "Direct One-on-One Consulting",
     description:
-      "For Starter and Professional tiers, you get dedicated, personalized instruction — not a group webinar where your questions get lost in the chat.",
-    highlight: "Individual focus, not crowd management",
+      "You work directly with an industry expert — not a junior associate or automated tool. Every session is personalized to your specific environment and challenges.",
+    highlight: "Your consultant, your challenges, your solutions",
   },
   {
     icon: Clock,
-    title: "Full-Time Instructor Presence",
+    title: "Dedicated Expert Presence",
     description:
-      "Your instructor sits with you for the entire course duration. No pre-recorded videos, no asynchronous forums — real-time guidance from start to finish.",
-    highlight: "Live, hands-on support throughout",
+      "Your consultant is fully engaged for the entire session duration. No context-switching, no divided attention — real-time guidance from start to finish.",
+    highlight: "Full attention, not time-sliced support",
   },
   {
     icon: MessageCircle,
     title: "Every Question Gets Answered",
     description:
-      "In group trainings, your questions compete for attention and often go unanswered. Here, every concept, lab error, or technical roadblock is addressed immediately.",
+      "Unlike large consulting firms where your questions get lost in process, every technical question, architectural concern, or implementation blocker is addressed immediately.",
     highlight: "Zero unanswered questions",
   },
   {
     icon: Target,
-    title: "Walk-Through of Contents & Labs",
+    title: "Hands-On Implementation",
     description:
-      "We don't just present slides. We walk through every concept, work through labs together, debug errors as they happen, and ensure you understand the 'why' behind the 'what.'",
-    highlight: "Deep understanding, not surface learning",
+      "We don't just deliver a PDF of recommendations. We work through your specific environment, configure tools, review code, and implement solutions together.",
+    highlight: "Implementation, not just recommendations",
   },
   {
     icon: Zap,
-    title: "Directly Implementable Skills",
+    title: "Immediately Actionable Results",
     description:
-      "Every topic is designed for immediate application in real-world projects. You leave with actionable skills, not theoretical knowledge that sits unused.",
+      "Every engagement is designed for immediate impact. You leave with working configurations, actionable roadmaps, and implemented solutions — not theoretical advice.",
     highlight: "Ready to deploy on day one",
   },
   {
     icon: CheckCircle2,
-    title: "Adaptive to Your Knowledge Gaps",
+    title: "Adaptive to Your Context",
     description:
-      "If you're unfamiliar with a foundational concept, we explain it on the spot. Training adapts to your background, not the other way around.",
-    highlight: "Personalized to your skill level",
+      "Consulting adapts to your tech stack, team maturity, and business context. Whether you're a startup or an enterprise, guidance is tailored to what works for you.",
+    highlight: "Personalized to your environment",
   },
   {
     icon: DollarSign,
-    title: "Elite Quality at Affordable Pricing",
+    title: "Expert Quality, Transparent Pricing",
     description:
-      "Top-tier education from an industry expert (GSE #335, CompTIA SME, D.Eng. candidate) at a fraction of traditional consulting rates. A rare combination of expertise, personalization, and accessibility.",
-    highlight: "Premium instruction, accessible pricing",
+      "Top-tier consulting from an industry expert (GSE #335, CompTIA SME, D.Eng. candidate) with straightforward hourly pricing. No hidden fees, no minimum retainers.",
+    highlight: "Premium expertise, transparent costs",
   },
 ];
 
 const comparison = [
   {
-    aspect: "Training Format",
-    industry: "Group webinars or on-demand videos",
-    us: "One-on-one live sessions (Starter & Professional)",
+    aspect: "Engagement Model",
+    industry: "Large teams, junior associates do the work",
+    us: "Direct one-on-one sessions with the expert",
   },
   {
-    aspect: "Question Handling",
-    industry: "Questions compete for attention, many go unanswered",
-    us: "Every question answered in real-time",
+    aspect: "Deliverables",
+    industry: "Generic PDF reports with boilerplate recommendations",
+    us: "Hands-on implementation and actionable roadmaps",
   },
   {
-    aspect: "Instructor Availability",
-    industry: "Limited office hours or async forums",
-    us: "Full-time presence during entire course duration",
+    aspect: "Responsiveness",
+    industry: "Slow turnaround, bureaucratic processes",
+    us: "Real-time guidance, 24-hour scheduling after booking",
   },
   {
-    aspect: "Lab Support",
-    industry: "Self-service troubleshooting, limited assistance",
-    us: "Walk-through every lab, debug errors together",
+    aspect: "Technical Depth",
+    industry: "High-level advice, limited hands-on support",
+    us: "Deep technical consulting — tool setup, code review, pipeline design",
   },
   {
-    aspect: "Pace of Learning",
-    industry: "Fixed schedule regardless of comprehension",
-    us: "Adaptive — we slow down or accelerate based on your understanding",
+    aspect: "Flexibility",
+    industry: "Fixed scope, long-term contracts required",
+    us: "Hourly booking — scale up or down as needed",
   },
   {
-    aspect: "Knowledge Transfer",
-    industry: "One-size-fits-all curriculum",
-    us: "Tailored to your role, tech stack, and knowledge gaps",
+    aspect: "Pricing",
+    industry: "Opaque pricing, minimum retainers, change orders",
+    us: "Transparent per-session pricing, no hidden costs",
   },
 ];
 
 export default function WhyUsPage() {
   return (
     <div className="min-h-screen">
-      {/* Hero Section */}
       <section className="max-w-5xl mx-auto px-4 py-20">
         <div className="text-center mb-16">
           <p className="text-sm text-cyber-accent font-mono mb-2">
             &gt; cat ./why-us.md
           </p>
           <h1 className="text-4xl md:text-5xl font-bold text-cyber-text mb-4">
-            Why Choose AI AppSec Academy?
+            Why Choose AI AppSec Consulting?
           </h1>
           <p className="text-lg text-cyber-muted max-w-3xl mx-auto leading-relaxed">
-            Most industry trainings are group-based — your questions compete for
-            attention, and successful knowledge transfer is left to chance. We do
-            it differently.
+            Most consulting firms send junior associates and deliver generic reports.
+            We provide direct access to an industry expert who works hands-on in your
+            environment to solve your specific challenges.
           </p>
         </div>
 
@@ -128,20 +127,17 @@ export default function WhyUsPage() {
             </div>
             <div>
               <h2 className="text-2xl font-bold text-cyber-text mb-3">
-                Individual Training, Not Group Sessions
+                Direct Expert Consulting, Not Outsourced Work
               </h2>
               <p className="text-cyber-muted leading-relaxed mb-4">
-                For <span className="text-emerald-400 font-semibold">Starter</span> and{" "}
-                <span className="text-sky-400 font-semibold">Professional</span>{" "}
-                tiers, you receive direct one-on-one training. Your instructor sits
-                with you for the full course duration — walking through contents,
-                labs, technical errors, and explaining concepts tailored to your
-                background.
+                When you book a session, you work directly with{" "}
+                <span className="text-emerald-400 font-semibold">Viswanath Chirravuri</span>{" "}
+                — GSE #335, CompTIA SME, RSA Conference speaker, and D.Eng. candidate.
+                No junior associates, no subcontractors, no bait-and-switch.
               </p>
               <p className="text-cyber-muted leading-relaxed">
-                This isn't a webinar with 50 participants fighting for airtime.
-                It's personalized instruction designed to ensure successful knowledge
-                transfer on every topic.
+                Every hour you book is spent on hands-on problem-solving tailored to
+                your environment, tech stack, and business goals.
               </p>
             </div>
           </div>
@@ -150,7 +146,7 @@ export default function WhyUsPage() {
         {/* Advantages Grid */}
         <div className="mb-16">
           <h2 className="text-3xl font-bold text-cyber-text mb-8 text-center">
-            The AI AppSec Academy Difference
+            The AI AppSec Consulting Difference
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
             {advantages.map((advantage) => (
@@ -182,7 +178,7 @@ export default function WhyUsPage() {
         {/* Comparison Table */}
         <div className="mb-16">
           <h2 className="text-3xl font-bold text-cyber-text mb-8 text-center">
-            Industry Standard vs. AI AppSec Academy
+            Traditional Consulting vs. AI AppSec Consulting
           </h2>
           <div className="bg-cyber-surface border border-cyber-border rounded-lg overflow-hidden">
             <div className="overflow-x-auto">
@@ -195,13 +191,13 @@ export default function WhyUsPage() {
                     <th className="text-left p-4 text-cyber-muted font-bold">
                       <div className="flex items-center gap-2">
                         <XCircle className="w-4 h-4 text-red-400" />
-                        Industry Standard
+                        Traditional Firms
                       </div>
                     </th>
                     <th className="text-left p-4 text-emerald-400 font-bold">
                       <div className="flex items-center gap-2">
                         <CheckCircle2 className="w-4 h-4" />
-                        AI AppSec Academy
+                        AI AppSec Consulting
                       </div>
                     </th>
                   </tr>
@@ -239,13 +235,12 @@ export default function WhyUsPage() {
             </div>
             <div>
               <h3 className="text-lg font-bold text-amber-400 mb-2">
-                Enterprise Tier: Customized Team Training
+                Enterprise Engagements: Custom Scope &amp; Pricing
               </h3>
               <p className="text-sm text-cyber-muted leading-relaxed">
-                Enterprise programs are tailored for corporate teams and include
-                customized curriculum aligned to your organization's tech stack,
-                threat model, and maturity goals. Contact us for multi-day bootcamp
-                options.
+                Enterprise engagements are tailored for organizations and include
+                custom scope aligned to your tech stack, threat model, and maturity
+                goals. Contact us for multi-day engagement options.
               </p>
             </div>
           </div>
@@ -254,17 +249,16 @@ export default function WhyUsPage() {
         {/* CTA */}
         <div className="text-center">
           <h2 className="text-2xl font-bold text-cyber-text mb-4">
-            Ready for Personalized Training?
+            Ready for Expert Consulting?
           </h2>
           <p className="text-cyber-muted mb-6">
-            Explore our Starter and Professional courses designed for one-on-one
-            knowledge transfer.
+            Browse our consulting services and book a session tailored to your needs.
           </p>
           <a
-            href="/courses"
+            href="/services"
             className="inline-block px-8 py-3 bg-emerald-500 hover:bg-emerald-400 text-cyber-bg font-semibold rounded-lg transition-all duration-200 hover:shadow-[0_0_20px_rgba(16,185,129,0.3)]"
           >
-            <span className="font-mono">$</span> View Courses
+            <span className="font-mono">$</span> View Services
           </a>
         </div>
       </section>

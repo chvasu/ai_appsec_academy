@@ -2,33 +2,33 @@ import { Shield } from "lucide-react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Terms & Conditions | AI AppSec Academy",
+  title: "Terms & Conditions | AI AppSec Consulting",
   description:
-    "Terms and conditions, liability disclaimer, and training policies for AI AppSec Academy.",
+    "Terms and conditions, liability disclaimer, and consulting policies for AI AppSec Consulting.",
 };
 
 const sections = [
   {
     title: "1. General Terms",
     content: [
-      "Welcome to AI AppSec Academy™, operated by Viswanath Srinivasan Chirravuri. By accessing this website, enrolling in any training program, or using any services offered through this platform, you agree to be bound by these Terms & Conditions. If you do not agree, please do not use this website or its services.",
-      "AI AppSec Academy reserves the right to update these terms at any time. Continued use of the site after changes constitutes acceptance of the revised terms. It is your responsibility to review these terms periodically.",
+      "Welcome to AI AppSec Consulting™, operated by Viswanath Srinivasan Chirravuri. By accessing this website, engaging any consulting service, or using any services offered through this platform, you agree to be bound by these Terms & Conditions. If you do not agree, please do not use this website or its services.",
+      "AI AppSec Consulting reserves the right to update these terms at any time. Continued use of the site after changes constitutes acceptance of the revised terms. It is your responsibility to review these terms periodically.",
     ],
   },
   {
     title: "2. Training Disclaimer",
     content: [
-      "AI AppSec Academy provides professional cybersecurity training and education. However, enrollment in any course does not establish a consultant-client relationship, and training content is not a substitute for a formal security assessment, audit, or legal advice specific to your organization or systems.",
+      "AI AppSec Consulting provides professional cybersecurity consulting and education. However, enrollment in any service does not establish a consultant-client relationship, and consulting content is not a substitute for a formal security assessment, audit, or legal advice specific to your organization or systems.",
       "While every effort is made to ensure accuracy and relevance, the cybersecurity landscape evolves rapidly. Course content may not reflect the most recent threats, vulnerabilities, or regulatory changes at the time of delivery.",
-      "Completion of any AI AppSec Academy course does not guarantee employment, certification by third parties (such as GIAC, CompTIA, or ISC²), or specific career outcomes. Training is intended to supplement your professional development, not replace formal certification programs.",
+      "Completion of any AI AppSec Consulting service does not guarantee employment, certification by third parties (such as GIAC, CompTIA, or ISC²), or specific career outcomes. Training is intended to supplement your professional development, not replace formal certification programs.",
     ],
   },
   {
     title: "3. Limitation of Liability",
     content: [
-      "To the fullest extent permitted by law, AI AppSec Academy, its owner, instructors, and affiliates shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising from your use of this website, enrollment in courses, or application of knowledge gained through our training programs.",
-      "This includes but is not limited to: damages resulting from errors or omissions in course materials, loss of data, unauthorized access to systems, or any actions taken based on course content. You acknowledge that cybersecurity training involves topics related to offensive and defensive techniques, and you agree to use all knowledge gained exclusively for lawful and authorized purposes.",
-      "AI AppSec Academy is not responsible for any outcomes arising from the application of techniques, tools, or concepts taught in its programs. You assume full responsibility for your actions.",
+      "To the fullest extent permitted by law, AI AppSec Consulting, its owner, instructors, and affiliates shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising from your use of this website, enrollment in services, or application of knowledge gained through our consulting services.",
+      "This includes but is not limited to: damages resulting from errors or omissions in service materials, loss of data, unauthorized access to systems, or any actions taken based on service content. You acknowledge that cybersecurity consulting involves topics related to offensive and defensive techniques, and you agree to use all knowledge gained exclusively for lawful and authorized purposes.",
+      "AI AppSec Consulting is not responsible for any outcomes arising from the application of techniques, tools, or concepts taught in its programs. You assume full responsibility for your actions.",
     ],
   },
   {
@@ -36,14 +36,14 @@ const sections = [
     content: [
       "All payments are processed securely through Stripe. By completing a purchase, you agree to Stripe's terms of service in addition to these terms.",
       "Course fees are non-refundable once a session has been scheduled and confirmed. If you need to reschedule, please contact us at least 48 hours before the scheduled session. Failure to attend a scheduled session without prior notice will be considered a forfeiture of that session.",
-      "AI AppSec Academy reserves the right to modify pricing at any time. Price changes will not affect previously completed purchases. Custom enterprise training quotes are valid for 30 days from the date of issuance unless otherwise stated.",
+      "AI AppSec Consulting reserves the right to modify pricing at any time. Price changes will not affect previously completed purchases. Custom enterprise consulting quotes are valid for 30 days from the date of issuance unless otherwise stated.",
     ],
   },
   {
     title: "5. Intellectual Property & Trademarks",
     content: [
-      "All content on this website — including but not limited to course materials, text, graphics, logos, code samples, lab exercises, and the overall design — is the intellectual property of Viswanath Srinivasan Chirravuri and is protected by applicable copyright and trademark laws.",
-      "AI AppSec Academy™ is a trademark of Viswanath Srinivasan Chirravuri. Unauthorized use of this trademark, the site content, or any materials is strictly prohibited without prior written consent.",
+      "All content on this website — including but not limited to service materials, text, graphics, logos, code samples, lab exercises, and the overall design — is the intellectual property of Viswanath Srinivasan Chirravuri and is protected by applicable copyright and trademark laws.",
+      "AI AppSec Consulting™ is a trademark of Viswanath Srinivasan Chirravuri. Unauthorized use of this trademark, the site content, or any materials is strictly prohibited without prior written consent.",
       "You may not reproduce, distribute, modify, create derivative works from, publicly display, or commercially exploit any content from this website without express written permission.",
     ],
   },
@@ -51,13 +51,13 @@ const sections = [
     title: "6. Third-Party Links & Services",
     content: [
       "This website may contain links to third-party websites and services, including but not limited to LinkedIn, GitHub, Stripe, SANS Institute, and RSA Conference. These links are provided for convenience and informational purposes only.",
-      "AI AppSec Academy does not endorse, control, or assume responsibility for the content, privacy policies, or practices of any third-party sites. Accessing third-party links is at your own risk, and you should review their respective terms and privacy policies.",
+      "AI AppSec Consulting does not endorse, control, or assume responsibility for the content, privacy policies, or practices of any third-party sites. Accessing third-party links is at your own risk, and you should review their respective terms and privacy policies.",
     ],
   },
   {
     title: "7. Privacy & Data",
     content: [
-      "AI AppSec Academy collects minimal personal data necessary to process enrollments and deliver training services. Payment information is handled entirely by Stripe and is never stored on our servers.",
+      "AI AppSec Consulting collects minimal personal data necessary to process enrollments and deliver consulting services. Payment information is handled entirely by Stripe and is never stored on our servers.",
       "We do not sell, rent, or share your personal information with third parties for marketing purposes. Any data collected (such as name and email for session coordination) is used solely for delivering the services you have requested.",
       "For questions about data handling, please reach out via the contact information provided below.",
     ],
@@ -65,14 +65,14 @@ const sections = [
   {
     title: "8. Governing Law",
     content: [
-      "These Terms & Conditions are governed by and construed in accordance with the laws of the United States. Any disputes arising from these terms or your use of AI AppSec Academy services shall be subject to the exclusive jurisdiction of the courts in the applicable state of residence of the site owner.",
+      "These Terms & Conditions are governed by and construed in accordance with the laws of the United States. Any disputes arising from these terms or your use of AI AppSec Consulting services shall be subject to the exclusive jurisdiction of the courts in the applicable state of residence of the site owner.",
       "If any provision of these terms is found to be invalid or unenforceable, the remaining provisions shall continue in full force and effect.",
     ],
   },
   {
     title: "9. Contact",
     content: [
-      "For questions about these terms, training programs, or any other inquiries, please reach out via LinkedIn:",
+      "For questions about these terms, consulting services, or any other inquiries, please reach out via LinkedIn:",
     ],
     link: {
       text: "linkedin.com/in/vchirrav",
@@ -93,8 +93,8 @@ export default function TermsPage() {
           Terms &amp; Conditions
         </h1>
         <p className="text-lg text-cyber-muted leading-relaxed">
-          Please read these terms carefully before using AI AppSec Academy™
-          services or enrolling in any training program.
+          Please read these terms carefully before using AI AppSec Consulting™
+          services or engaging any consulting service.
         </p>
       </div>
 

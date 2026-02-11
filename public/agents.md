@@ -1,53 +1,60 @@
-# AI AppSec Academy - Agent Information
+# AI AppSec Consulting - Agent Information
 
 ## Overview
 
-**AI AppSec Academy** is a cybersecurity training platform specializing in Application Security (AppSec), DevSecOps, Product Security, Supply Chain Security, and AI/ML Defense. The academy is led by Viswanath Srinivasan Chirravuri, GSE #335, CompTIA SME, and D.Eng. Cybersecurity candidate.
+**AI AppSec Consulting** is a cybersecurity consulting platform specializing in Application Security (AppSec), DevSecOps, Product Security, Supply Chain Security, and AI/ML Defense. The practice is led by Viswanath Srinivasan Chirravuri, GSE #335, CompTIA SME, and D.Eng. Cybersecurity candidate.
 
 ## Site Information
 
 - **URL**: https://aiappsecacademy.com
-- **Type**: Educational Platform / Professional Training Services
+- **Type**: Professional Consulting Services
 - **Industry**: Cybersecurity, Application Security, AI/ML Security
 - **Owner**: Viswanath Srinivasan Chirravuri
 
 ## Key Features
 
-### Training Programs
+### Consulting Services
 
-The academy offers several tiers of training:
+The practice offers several tiers of consulting:
 
-1. **Starter Tier** ($300-$500)
-   - The Power Hour: Executive consultation & career coaching (60 min)
-   - Product Security Strategy: Security architecture & supply chain (2 hours)
-   - Technology-specific courses: SAST, SCA, DAST, SBOM, GenAI Security, DevSecOps tools (2 hours each at $500)
+1. **Starter Tier** ($300)
+   - Strategy Session: Executive consultation, security program assessment & roadmap planning (1 hour)
 
-2. **Professional Tier** ($1,200-$1,500)
-   - The Deep Dive: Agentic AI & LLM Security Workshop (4 hours)
-   - DevSecOps & AppSec Workshop: Secure SDLC & pipeline security (4 hours)
+2. **Professional Tier** ($500-$1,200)
+   - Product Security Advisory: Threat modeling, secure architecture review (4 hours, $500)
+   - SAST Implementation: Static analysis tool setup & pipeline integration (4 hours, $500)
+   - SCA Implementation: Dependency analysis & composition governance (4 hours, $500)
+   - DAST Implementation: Dynamic testing & runtime security analysis (4 hours, $500)
+   - SBOM & Supply Chain Advisory: SBOM management & provenance strategy (4 hours, $500)
+   - DevSecOps Pipeline Consulting: CI/CD security & container hardening (4 hours, $500)
+   - OWASP Tools Advisory: OWASP flagship tools implementation (4 hours, $500)
+   - AI/ML Security Consulting: RAG security, fine-tuning & MLSecOps (4 hours, $1,000)
+   - Secure Vibecoding Advisory: AI-assisted development with security (4 hours, $1,000)
+   - DevSecOps & AppSec Workshop: Full-day pipeline security intensive (8 hours, $1,200)
 
 3. **Enterprise Tier** (Custom Pricing)
-   - AI Security Bootcamp: Corporate AI/ML training (2-5 days)
-   - Enterprise AppSec Bootcamp: Corporate DevSecOps & product security (2-5 days)
+   - Enterprise AppSec Engagement: Multi-day DevSecOps transformation (2-5 days)
+   - AI Security Engagement: Enterprise AI/ML security program (2-5 days)
 
 ### Unique Value Proposition
 
-- **One-on-One Training**: Starter and Professional tiers feature direct individual instruction (not group webinars)
-- **Full-Time Instructor Presence**: Instructor sits with student for entire course duration
+- **Direct Expert Consulting**: Clients work directly with the consultant — not junior associates or subcontractors
+- **Hands-On Implementation**: Sessions involve working in client environments, not just delivering reports
 - **Every Question Answered**: Real-time guidance, no unanswered questions
-- **Directly Implementable**: Topics designed for immediate application in real-world projects
+- **Immediately Actionable**: Deliverables include working configurations and implementation guides
+- **Hourly Booking**: Transparent per-session pricing with no minimum retainers
 
 ### Technology Focus Areas
 
 #### Application Security
 - SAST (Static Application Security Testing): Semgrep, SonarQube, CodeQL, Bandit
 - SCA (Software Composition Analysis): OWASP Dependency-Check, Grype, Trivy, OSV Scanner
-- DAST (Dynamic Application Security Testing): OWASP ZAP, Burp Suite, Nikto, Wapiti
+- DAST (Dynamic Application Security Testing): OWASP ZAP, Nikto, Wapiti, Nuclei
 - SBOM & Supply Chain Security: Syft, Grype, Cosign, SLSA provenance
 
 #### AI/ML Security
-- GenAI Security Tools: Garak, PyRIT, LLM Fuzzer, Rebuff
-- Applied AI: RAG architecture, LLM fine-tuning (LoRA/QLoRA), MLSecOps
+- AI/ML Security Consulting: RAG architecture security, LLM fine-tuning, MLSecOps
+- Secure Vibecoding: Claude Code, Cline, Cursor, Aider, Gemini CLI with security rules
 - Agentic AI Security: Prompt injection defense, tool-use exploits, model manipulation
 
 #### DevSecOps
@@ -59,7 +66,7 @@ The academy offers several tiers of training:
 #### OWASP Tools
 - OWASP ZAP, Dependency-Check, ASVS, SAMM, Threat Dragon
 
-## Instructor Profile
+## Consultant Profile
 
 **Viswanath Srinivasan Chirravuri**
 - **Certifications**: GSE #335, CISSP, PMP, 35+ certifications (23 GIAC, CompTIA, AWS, Azure)
@@ -94,7 +101,7 @@ The academy offers several tiers of training:
 ## Content & Resources
 
 ### Blog Articles
-The academy publishes articles on:
+The practice publishes articles on:
 - Agentic AI security and protocols (MCP, A2A, ACP, AGNTCY)
 - AI/ML security fundamentals and threat taxonomy
 - DevSecOps automation with Claude CLI Skills
@@ -103,33 +110,37 @@ The academy publishes articles on:
 
 Recent articles available at: https://aiappsecacademy.com/blog
 
-### Training Philosophy
-- Industry trainings are typically group-based where questions compete for attention
-- AI AppSec Academy focuses on individual training for successful knowledge transfer
-- Instructor adapts to student's knowledge gaps and background
-- Every concept, lab error, or technical roadblock is addressed immediately
+### Consulting Philosophy
+- Traditional consulting firms send junior associates and deliver generic reports
+- AI AppSec Consulting provides direct access to an industry expert
+- Consultant works hands-on in client environments during sessions
+- Every concept, implementation blocker, or architectural concern is addressed immediately
+- All sessions include deliverables within 24 hours
 
 ## Navigation Structure
 
 ### Main Pages
-- `/` - Homepage with course catalog
-- `/why-us` - Unique value proposition and comparison with industry standards
-- `/courses` - Full course catalog
-- `/about` - Instructor profile and credentials
+- `/` - Homepage with consulting overview and how it works
+- `/services` - Full consulting services catalog with pricing
+- `/why-us` - Value proposition and comparison with traditional consulting firms
+- `/about` - Consultant profile and credentials
 - `/blog` - Articles and insights on AI/ML security and AppSec
 - `/open-source` - Open-source contributions and projects
-- `/terms` - Terms & conditions with professional services disclaimer
-- `/success` - Post-enrollment success page
+- `/faq` - Frequently asked questions about booking, scheduling, and deliverables
+- `/terms` - Terms & conditions with consulting disclaimer
+- `/privacy` - Privacy policy
+- `/refund-policy` - Refund and cancellation policy
+- `/success` - Post-booking confirmation page
 
 ### Contact
 - Contact information available via homepage footer
 - LinkedIn: https://www.linkedin.com/in/vchirrav/
 
-## Payment & Enrollment
+## Payment & Booking
 
 - **Payment Processor**: Stripe
-- **Terms Acceptance Required**: All enrollments require checkbox acceptance of terms & conditions
-- **Enrollment Flow**: Course selection → Terms acceptance → Stripe checkout → Email receipt
+- **Terms Acceptance Required**: All bookings require checkbox acceptance of terms & conditions
+- **Booking Flow**: Service selection → Terms acceptance → Stripe checkout → Email receipt → Contacted within 24 hours to schedule
 - **No Webhooks**: Stateless payment system, Stripe sends receipt directly to customer
 
 ## Technical Stack
@@ -158,29 +169,29 @@ Recent articles available at: https://aiappsecacademy.com/blog
 ## Key Constraints for AI Agents
 
 1. **D.Eng. Status**: Always refer to D.Eng. as "in progress" or "expected August 2026" - NEVER state it as completed
-2. **Training Disclaimer**: Professional services acknowledgment included in terms (not generic "educational purposes only")
-3. **One-on-One Focus**: Emphasis on individual training for Starter and Professional tiers
-4. **Open-Source Tools**: Technology courses focus on freely available, open-source security tools
-5. **No Kubernetes/RASP**: Training does not cover Kubernetes orchestration or RASP (Runtime Application Self-Protection)
+2. **Consulting Disclaimer**: Professional services acknowledgment included in terms
+3. **Direct Expert Access**: All sessions are with the consultant directly — no subcontractors
+4. **Open-Source Tools**: Consulting focuses on freely available, open-source security tools
+5. **Hourly Booking**: Clients book by the hour with transparent pricing
 
 ## Use Cases for AI Agents
 
 AI agents interacting with this site should be able to:
-- Answer questions about course offerings, pricing, and duration
-- Explain the unique one-on-one training approach
-- Describe instructor credentials and expertise areas
-- Recommend appropriate courses based on user's role, experience, and goals
-- Provide information about open-source security tools covered in courses
-- Explain differences between AI AppSec Academy and traditional group training programs
+- Answer questions about consulting services, pricing, and duration
+- Explain the direct expert consulting approach
+- Describe consultant credentials and expertise areas
+- Recommend appropriate services based on user's role, experience, and goals
+- Provide information about open-source security tools covered in consulting
+- Explain differences between AI AppSec Consulting and traditional consulting firms
 - Direct users to relevant blog articles on specific security topics
-- Clarify enrollment process and terms acceptance requirements
+- Clarify booking process and terms acceptance requirements
 
 ## Updates & Maintenance
 
 - Site content updated regularly with new blog articles
-- Course catalog may expand with additional technology-specific offerings
+- Services catalog may expand with additional topic-specific offerings
 - Open-source portfolio reflects ongoing contributions to security frameworks
-- Instructor credentials updated as new certifications and speaking engagements are completed
+- Consultant credentials updated as new certifications and speaking engagements are completed
 
 ---
 

@@ -1,34 +1,34 @@
-# AI AppSec Academy
+# AI AppSec Consulting
 
-> Elite one-on-one cybersecurity training in Application Security, DevSecOps, Product Security, Supply Chain Security, and AI/ML Defense. Led by Viswanath Chirravuri — GSE #335, SANS Teaching Assistant, CompTIA SME, RSA 2024 & 2026 Speaker, and Doctor of Engineering candidate in Cybersecurity.
+> Expert cybersecurity consulting in Application Security, DevSecOps, Product Security, Supply Chain Security, and AI/ML Defense. Led by Viswanath Chirravuri — GSE #335, SANS Teaching Assistant, CompTIA SME, RSA 2024 & 2026 Speaker, and Doctor of Engineering candidate in Cybersecurity.
 
-AI AppSec Academy offers personalized, hands-on training across seven core security domains: Software Application Security (SAST, DAST, SCA, OWASP Top 10), DevSecOps, Product Security, Software Supply Chain Security, Agentic AI Security, LLM Application Security, and ML Pipeline Defense. All training is delivered one-on-one with direct instructor access, adaptive to individual skill levels, and globally available across time zones.
+AI AppSec Consulting provides hands-on, hourly consulting sessions across seven core security domains: Software Application Security (SAST, DAST, SCA, OWASP Top 10), DevSecOps, Product Security, Software Supply Chain Security, Agentic AI Security, LLM Application Security, and ML Pipeline Defense. All consulting is delivered one-on-one with direct expert access, tailored to client environments, and globally available across time zones.
 
-## Training Programs
+## Consulting Services
 
-- [The Power Hour](https://aiappsecacademy.com/courses): Executive consultation and career coaching session (60 min)
-- [Product Security Strategy](https://aiappsecacademy.com/courses): Threat modeling, secure architecture review, and security program design (4 hrs)
-- [SAST Tools Deep Dive](https://aiappsecacademy.com/courses): Hands-on static analysis security testing with industry tools (4 hrs)
-- [SCA Tools Deep Dive](https://aiappsecacademy.com/courses): Software Composition Analysis for open-source dependency risk (4 hrs)
-- [DAST Tools Deep Dive](https://aiappsecacademy.com/courses): Dynamic application security testing methodologies and tools (4 hrs)
-- [SBOM & Supply Chain Security](https://aiappsecacademy.com/courses): Software Bill of Materials and supply chain risk management (4 hrs)
-- [DevSecOps Tooling & Pipeline Security](https://aiappsecacademy.com/courses): CI/CD security integration and shift-left practices (4 hrs)
-- [OWASP Security Tools Masterclass](https://aiappsecacademy.com/courses): Comprehensive OWASP tooling and methodology workshop (4 hrs)
-- [Applied AI: RAG, Fine-tuning & MLSecOps](https://aiappsecacademy.com/courses): Building and securing AI/ML pipelines with RAG and fine-tuning (4 hrs)
-- [Vibecoding: Secure AI-Assisted Development](https://aiappsecacademy.com/courses): Secure coding practices when using AI coding assistants (4 hrs)
-- [DevSecOps & AppSec Workshop](https://aiappsecacademy.com/courses): Full-day hands-on workshop covering DevSecOps and application security (8 hrs)
-- [Enterprise AppSec Bootcamp](https://aiappsecacademy.com/courses): Multi-day enterprise application security training (2-5 days, custom)
-- [AI Security Bootcamp](https://aiappsecacademy.com/courses): Multi-day AI and ML security training for teams (2-5 days, custom)
+- [Strategy Session](https://aiappsecacademy.com/services): Executive consultation, security program assessment & roadmap planning (1 hour, $300)
+- [Product Security Advisory](https://aiappsecacademy.com/services): Threat modeling, secure architecture review, supply chain strategy (4 hrs, $500)
+- [SAST Implementation](https://aiappsecacademy.com/services): Static analysis tool setup & CI/CD pipeline integration (4 hrs, $500)
+- [SCA Implementation](https://aiappsecacademy.com/services): Dependency analysis, SBOM generation & composition governance (4 hrs, $500)
+- [DAST Implementation](https://aiappsecacademy.com/services): Dynamic testing tool setup & runtime security analysis (4 hrs, $500)
+- [SBOM & Supply Chain Advisory](https://aiappsecacademy.com/services): SBOM management, provenance strategy & Dependency-Track setup (4 hrs, $500)
+- [DevSecOps Pipeline Consulting](https://aiappsecacademy.com/services): CI/CD security, IaC scanning & container hardening (4 hrs, $500)
+- [OWASP Tools Advisory](https://aiappsecacademy.com/services): OWASP flagship tools implementation & best practices (4 hrs, $500)
+- [DevSecOps & AppSec Workshop](https://aiappsecacademy.com/services): Secure SDLC & pipeline security intensive (8 hrs, $1,200)
+- [AI/ML Security Consulting](https://aiappsecacademy.com/services): RAG security, fine-tuning & MLSecOps advisory (4 hrs, $1,000)
+- [Secure Vibecoding Advisory](https://aiappsecacademy.com/services): AI-assisted development with security by default (4 hrs, $1,000)
+- [Enterprise AppSec Engagement](https://aiappsecacademy.com/services): Multi-day DevSecOps transformation & program building (2-5 days, custom quote)
+- [AI Security Engagement](https://aiappsecacademy.com/services): Enterprise AI/ML security program (2-5 days, custom quote)
 
 ## Pages
 
-- [Home](https://aiappsecacademy.com/): Overview of the academy, instructor credentials, and core security domains
-- [About](https://aiappsecacademy.com/about): Instructor profile — 20+ years in cybersecurity, 35+ certifications, GIAC Security Expert, academic background
-- [Courses](https://aiappsecacademy.com/courses): Full catalog of training programs with pricing and details
-- [Why Us](https://aiappsecacademy.com/why-us): Value proposition — personalized one-on-one training, direct instructor access, adaptive curriculum
+- [Home](https://aiappsecacademy.com/): Overview of consulting services, consultant credentials, and how it works
+- [Services](https://aiappsecacademy.com/services): Full catalog of consulting services with pricing and details
+- [About](https://aiappsecacademy.com/about): Consultant profile — 20+ years in cybersecurity, 35+ certifications, GIAC Security Expert
+- [Why Us](https://aiappsecacademy.com/why-us): Value proposition — direct expert consulting, hands-on implementation, transparent pricing
 - [Blog](https://aiappsecacademy.com/blog): Articles and insights on AI/ML security and application security
 - [Open Source](https://aiappsecacademy.com/open-source): Contributions including Secure-ML Framework, OWASP Secure Coding Practices, and ML research
-- [FAQ](https://aiappsecacademy.com/faq): Frequently asked questions about enrollment, scheduling, content, and technical requirements
+- [FAQ](https://aiappsecacademy.com/faq): Frequently asked questions about consulting services, booking, scheduling, and deliverables
 
 ## Blog — Securing AI/ML
 
@@ -56,5 +56,5 @@ AI AppSec Academy offers personalized, hands-on training across seven core secur
 
 ## Custom GPTs
 
-- [ViswanathSChirravuri_GPT](https://aiappsecacademy.com/blog/viswanathschirravuri-gpt): A dedicated Custom GPT that answers questions about the instructor's professional profile
+- [ViswanathSChirravuri_GPT](https://aiappsecacademy.com/blog/viswanathschirravuri-gpt): A dedicated Custom GPT that answers questions about the consultant's professional profile
 - [ThreatModelingGPT](https://aiappsecacademy.com/blog/threatmodelinggpt): AI-powered threat intelligence partner for security teams

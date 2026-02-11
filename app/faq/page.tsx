@@ -1,9 +1,9 @@
 import { HelpCircle, ChevronRight } from "lucide-react";
 
 export const metadata = {
-  title: "FAQ | AI AppSec Academy",
+  title: "FAQ | AI AppSec Consulting",
   description:
-    "Frequently asked questions about AI AppSec Academy training courses, enrollment, scheduling, and more.",
+    "Frequently asked questions about AI AppSec Consulting services, booking, scheduling, and more.",
 };
 
 const faqs = [
@@ -11,25 +11,29 @@ const faqs = [
     category: "General",
     questions: [
       {
-        q: "What makes AI AppSec Academy different from other training providers?",
-        a: "We provide direct one-on-one training for Starter and Professional tiers, not group webinars. Your instructor sits with you for the entire course duration, ensuring every question is answered and concepts are adapted to your knowledge level. Topics are directly implementable in real-world projects.",
+        q: "What makes AI AppSec Consulting different from other consulting firms?",
+        a: "You work directly with an industry expert (GSE #335, CompTIA SME, D.Eng. candidate) — not junior associates or subcontractors. Every session is hands-on, tailored to your environment, and focused on delivering actionable results you can implement immediately.",
       },
       {
-        q: "Who is the instructor?",
-        a: "All training is led by Viswanath Srinivasan Chirravuri (GSE #335, CISSP, PMP), a CompTIA Subject Matter Expert, SANS Teaching Assistant, and RSA Conference speaker. He holds 35+ certifications and is currently pursuing a D.Eng. in Cybersecurity Analytics at George Washington University (expected August 2026).",
+        q: "Who is the consultant?",
+        a: "All consulting is led by Viswanath Srinivasan Chirravuri (GSE #335, CISSP, PMP), a CompTIA Subject Matter Expert, SANS Teaching Assistant, and RSA Conference speaker. He holds 35+ certifications and is currently pursuing a D.Eng. in Cybersecurity Analytics at George Washington University (expected August 2026).",
       },
       {
-        q: "Are courses available internationally?",
-        a: "Yes! All training sessions are conducted virtually and are available across all time zones, including weekends. We accommodate students worldwide.",
+        q: "Are consulting sessions available internationally?",
+        a: "Yes. All sessions are conducted virtually and are available across all time zones, including weekends. We accommodate clients worldwide.",
+      },
+      {
+        q: "What topics do you consult on?",
+        a: "We specialize in Application Security (SAST, DAST, SCA, DevSecOps), Product Security, Software Supply Chain Security, AI/ML Security (LLM security, Agentic AI, RAG architectures), and Secure AI-Assisted Development (Vibecoding).",
       },
     ],
   },
   {
-    category: "Enrollment & Payment",
+    category: "Booking & Payment",
     questions: [
       {
-        q: "How do I enroll in a course?",
-        a: "Browse the course catalog, select your desired course, accept the Terms & Conditions, and click 'Enroll Now.' You'll be redirected to a secure Stripe checkout page to complete payment.",
+        q: "How do I book a consulting session?",
+        a: "Browse the services catalog, select the service that matches your needs, accept the Terms & Conditions, and click 'Book Now.' You'll be redirected to a secure Stripe checkout page to complete payment.",
       },
       {
         q: "What payment methods are accepted?",
@@ -41,7 +45,11 @@ const faqs = [
       },
       {
         q: "Can I get an invoice for my company?",
-        a: "Yes. Contact us via LinkedIn after enrollment with your company details, and we'll provide a formal invoice for reimbursement or procurement purposes.",
+        a: "Yes. Contact us via LinkedIn after booking with your company details, and we'll provide a formal invoice for reimbursement or procurement purposes.",
+      },
+      {
+        q: "Can I book multiple hours?",
+        a: "Yes. You can book multiple sessions across different topics, or book the same service multiple times for extended engagements. For large engagements, consider our Enterprise tier for custom scoping and pricing.",
       },
     ],
   },
@@ -49,45 +57,41 @@ const faqs = [
     category: "Scheduling & Availability",
     questions: [
       {
-        q: "How soon after enrollment can I start training?",
-        a: "You will be contacted within 24 hours of payment to schedule your training session. We work with your availability to find a suitable time.",
+        q: "How soon after booking can I start?",
+        a: "You will be contacted within 24 hours of booking to schedule your consulting session. We work with your availability to find a suitable time.",
       },
       {
         q: "What if I need to reschedule?",
-        a: "You can reschedule for free if requested more than 24 hours before your session. Contact us via LinkedIn or the method agreed upon during enrollment. Late rescheduling (within 24 hours) may incur a 50% fee.",
+        a: "You can reschedule for free if requested more than 24 hours before your session. Contact us via LinkedIn or the method agreed upon during booking. Late rescheduling (within 24 hours) may incur a 50% fee.",
       },
       {
         q: "What time zones are supported?",
-        a: "All time zones are supported. Training sessions are available 7 days a week, including weekends, to accommodate global participants.",
+        a: "All time zones are supported. Sessions are available 7 days a week, including weekends, to accommodate global clients.",
       },
       {
-        q: "How long do I have to complete the training?",
-        a: "Training sessions are live and must be completed on the scheduled date. For multi-hour courses, we can split sessions into multiple days if needed (discuss during scheduling).",
+        q: "Can I split a session across multiple days?",
+        a: "Yes. For multi-hour sessions, we can split across multiple days if needed. Discuss scheduling preferences when we reach out to coordinate.",
       },
     ],
   },
   {
-    category: "Course Content & Format",
+    category: "Consulting Format & Deliverables",
     questions: [
       {
-        q: "Are courses hands-on or lecture-based?",
-        a: "All courses are highly hands-on with live labs, tool demonstrations, and real-world exercises. We walk through every concept together, debug errors as they happen, and ensure you can implement what you learn immediately.",
+        q: "Are sessions hands-on or advisory only?",
+        a: "All sessions are highly hands-on. We work in your environment, configure tools, review code, design architectures, and implement solutions together. You receive working configurations, not just slide decks.",
       },
       {
-        q: "What technical prerequisites do I need?",
-        a: "Prerequisites vary by course. Most technology-specific courses assume familiarity with command-line basics and the target technology (e.g., Python for Bandit, Docker for container security). Career consultation courses have no prerequisites.",
+        q: "What do I need to prepare?",
+        a: "Depending on the service, you may need access to your development environment, CI/CD pipelines, or specific tools. We'll provide a preparation checklist after scheduling.",
       },
       {
-        q: "Will I receive course materials?",
-        a: "Yes. You'll receive relevant documentation, configuration files, sample code, and resource links after the session. Some courses include access to lab environments for 30 days.",
+        q: "Will I receive deliverables after the session?",
+        a: "Yes. All sessions include relevant documentation, configuration files, implementation guides, and an actionable roadmap delivered within 24 hours of the session.",
       },
       {
-        q: "Do I get a certificate of completion?",
-        a: "Yes. All courses include a certificate of completion issued after the training session. Enterprise bootcamps include formal certificates suitable for professional development records.",
-      },
-      {
-        q: "Can I record the training session?",
-        a: "For one-on-one sessions, recording is generally permitted for personal reference. Please confirm during your session. Recordings may not be shared or distributed.",
+        q: "Can I record the consulting session?",
+        a: "Recording is generally permitted for your internal reference. Please confirm during your session. Recordings may not be shared externally or distributed.",
       },
     ],
   },
@@ -96,15 +100,15 @@ const faqs = [
     questions: [
       {
         q: "What equipment do I need?",
-        a: "You'll need: (1) A computer with stable internet connection, (2) Video conferencing software (Zoom, Google Meet, or Teams), (3) A microphone and camera for interactive training, (4) Administrative access to install tools (for hands-on courses).",
+        a: "You'll need: (1) A computer with stable internet connection, (2) Video conferencing software (Zoom, Google Meet, or Teams), (3) A microphone and camera for interactive consulting, (4) Access to relevant tools and environments for hands-on sessions.",
       },
       {
         q: "What operating system is required?",
-        a: "Most courses support Windows, macOS, and Linux. Specific requirements will be communicated during scheduling. Docker-based labs work on all platforms.",
+        a: "Most sessions support Windows, macOS, and Linux. Specific requirements will be communicated during scheduling.",
       },
       {
         q: "Do I need to install tools in advance?",
-        a: "We'll provide a setup guide after enrollment with a list of required tools. Installation is often part of the hands-on training, so pre-installation is optional but recommended to maximize training time.",
+        a: "We'll provide a setup guide after booking with any required tools. Installation can also be part of the hands-on session.",
       },
     ],
   },
@@ -116,8 +120,8 @@ const faqs = [
         a: "100% refund if canceled more than 24 hours before the session, 50% refund if canceled between 24 hours and 1 hour before, and no refund if canceled within 1 hour of start time. See our Refund Policy page for full details.",
       },
       {
-        q: "What happens if the instructor cancels?",
-        a: "In the rare event of instructor-initiated cancellation (illness, emergency), you receive a full 100% refund or priority rescheduling at your convenience. We notify you as soon as possible, typically at least 24 hours in advance.",
+        q: "What happens if the consultant cancels?",
+        a: "In the rare event of consultant-initiated cancellation, you receive a full 100% refund or priority rescheduling at your convenience. We notify you as soon as possible, typically at least 24 hours in advance.",
       },
       {
         q: "What if I miss my scheduled session (no-show)?",
@@ -126,57 +130,40 @@ const faqs = [
     ],
   },
   {
-    category: "Enterprise & Custom Training",
+    category: "Enterprise Engagements",
     questions: [
       {
-        q: "Do you offer corporate/team training?",
-        a: "Yes! Our Enterprise tier includes customized 2-5 day bootcamps for teams. These are tailored to your organization's tech stack, threat model, and maturity goals. Contact us via LinkedIn for a custom quote.",
+        q: "Do you offer enterprise/team consulting?",
+        a: "Yes. Our Enterprise tier includes customized multi-day engagements for teams. These are tailored to your organization's tech stack, threat model, and maturity goals. Contact us via LinkedIn for a custom quote.",
       },
       {
-        q: "Can you create a custom curriculum?",
-        a: "Absolutely. Enterprise programs are fully customizable. We can combine topics from multiple courses, focus on specific tools, or design entirely new content based on your needs.",
+        q: "Can you create a custom engagement scope?",
+        a: "Absolutely. Enterprise engagements are fully customizable. We can combine topics from multiple services, focus on specific tools, or design entirely new scope based on your needs.",
       },
       {
-        q: "Do you provide on-site training?",
-        a: "Yes, on-site training is available for Enterprise programs. We can travel to your location for multi-day bootcamps. Virtual delivery is also available.",
+        q: "Do you provide on-site consulting?",
+        a: "Yes, on-site consulting is available for Enterprise engagements. Virtual delivery is also available for all tiers.",
       },
       {
-        q: "How many team members can attend?",
-        a: "Enterprise programs typically accommodate 10-30 participants. For larger groups, we can design a train-the-trainer model or run multiple cohorts.",
+        q: "How many team members can participate?",
+        a: "Enterprise sessions typically accommodate teams of any size. For larger groups, we can design multi-session engagements or workshop formats.",
       },
     ],
   },
   {
-    category: "Specific Courses",
+    category: "Follow-Up Support",
     questions: [
       {
-        q: "What's the difference between 2-hour and 4-hour courses?",
-        a: "2-hour courses ($500) focus on tool setup, configuration, and basic integration. 4-hour courses ($1,000) provide deeper hands-on labs, advanced techniques, and more comprehensive coverage (e.g., Applied AI, Vibecoding).",
+        q: "Can I ask questions after the session?",
+        a: "Yes. You can reach out via LinkedIn for follow-up questions within 30 days of your session. We're happy to clarify concepts or help troubleshoot specific issues.",
       },
       {
-        q: "Are all tools covered open-source?",
-        a: "Yes! All technology-specific courses focus exclusively on open-source tools that can be freely adopted without licensing barriers. We do not cover commercial-only tools like Checkmarx or Snyk.",
-      },
-      {
-        q: "What is 'Vibecoding'?",
-        a: "Vibecoding is AI-assisted development with security by default. Our Vibecoding course teaches you to use Claude Code, Cline, Cursor, and Gemini CLI to generate secure code, implement security rules, and run automated SAST/SCA scans on AI-generated code.",
-      },
-    ],
-  },
-  {
-    category: "Support & Follow-Up",
-    questions: [
-      {
-        q: "Can I ask questions after the training?",
-        a: "Yes. You can reach out via LinkedIn for follow-up questions within 30 days of your training session. We're happy to clarify concepts or help troubleshoot specific issues.",
-      },
-      {
-        q: "Do you offer ongoing mentorship?",
-        a: "Our Power Hour ($300) is ideal for ongoing career coaching and technical mentorship. You can book multiple sessions as needed.",
+        q: "Do you offer ongoing consulting retainers?",
+        a: "Our Strategy Session ($300/hour) is ideal for ongoing advisory. You can book multiple sessions as needed. For longer-term engagements, contact us about Enterprise options.",
       },
       {
         q: "Will you help with implementation in my environment?",
-        a: "During training, we cover practical implementation. For custom deployment assistance in your specific environment, consider booking additional consulting hours or an Enterprise engagement.",
+        a: "That's exactly what our sessions are designed for. Unlike traditional consulting that delivers reports, we work hands-on in your environment to implement solutions during the session.",
       },
     ],
   },
@@ -194,8 +181,8 @@ export default function FAQPage() {
           FAQ
         </h1>
         <p className="text-cyber-muted max-w-2xl mx-auto">
-          Find answers to common questions about our training programs, enrollment,
-          scheduling, and more. Can't find what you're looking for? Contact us via LinkedIn.
+          Find answers to common questions about our consulting services, booking,
+          scheduling, and more. Can&apos;t find what you&apos;re looking for? Contact us via LinkedIn.
         </p>
       </div>
 
@@ -230,7 +217,7 @@ export default function FAQPage() {
             Still Have Questions?
           </h2>
           <p className="text-cyber-muted mb-6">
-            Can't find the answer you're looking for? Reach out directly for personalized assistance.
+            Can&apos;t find the answer you&apos;re looking for? Reach out directly for personalized assistance.
           </p>
           <a
             href="https://www.linkedin.com/in/vchirrav/"

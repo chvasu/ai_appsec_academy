@@ -37,7 +37,7 @@ export function TermsCheckbox({ onAcceptChange, className }: TermsCheckboxProps)
         >
           Terms &amp; Conditions
         </Link>
-        , including the liability disclaimer and training policies.
+        , including the liability disclaimer and consulting policies.
       </span>
     </label>
   );

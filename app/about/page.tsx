@@ -21,7 +21,7 @@ export default function AboutPage() {
           Viswanath Srinivasan Chirravuri
         </h1>
         <p className="text-lg text-cyber-muted leading-relaxed">
-          Product Security &amp; Gen AI Expert | GSE #335 | CompTIA SME |
+          Product Security &amp; Gen AI Consultant | GSE #335 | CompTIA SME |
           D.Eng. Cybersecurity Analytics (expected Aug 2026) | RSA 2024 &amp; 2026 Speaker
         </p>
       </div>
@@ -31,10 +31,10 @@ export default function AboutPage() {
         <p className="text-cyber-muted leading-relaxed mb-4">
           Cybersecurity and product security leader with 20+ years driving
           enterprise security strategy, global program leadership, and
-          innovation in secure software development and operations. Proven
-          expertise in building and managing high-performing teams, developing
-          security governance frameworks, and aligning cybersecurity initiatives
-          with business goals.
+          innovation in secure software development and operations. I provide
+          expert consulting to organizations building secure software and AI
+          systems, helping them design, implement, and mature their security
+          programs.
         </p>
         <p className="text-cyber-muted leading-relaxed mb-4">
           I am a{" "}
@@ -128,11 +128,11 @@ export default function AboutPage() {
         </div>
       </div>
 
-      {/* Focus Areas */}
+      {/* Consulting Focus Areas */}
       <div className="mb-12">
         <h2 className="text-2xl font-bold text-cyber-text mb-6 flex items-center gap-3">
           <Shield className="w-6 h-6 text-cyber-accent" />
-          Focus Areas
+          Consulting Focus Areas
         </h2>
         <div className="grid sm:grid-cols-2 gap-4">
           {[
@@ -165,7 +165,7 @@ export default function AboutPage() {
           </h3>
         </div>
         <p className="text-sm text-cyber-muted leading-relaxed mb-4">
-          Want to learn more about me? Have a conversation with{" "}
+          Want to learn more about my consulting expertise? Have a conversation with{" "}
           <strong className="text-cyber-text">ViswanathSChirravuri_GPT</strong>{" "}
           &mdash; a Custom GPT built on OpenAI that answers questions
           exclusively about my professional profile, certifications, career, and
@@ -238,11 +238,11 @@ export default function AboutPage() {
           <ExternalLink className="w-3.5 h-3.5" />
         </a>
         <Link
-          href="/courses"
+          href="/services"
           className="flex items-center gap-2 px-5 py-2.5 bg-cyber-accent/10 border border-cyber-accent/30 rounded-lg text-sm text-cyber-accent hover:bg-cyber-accent/20 transition"
         >
           <Award className="w-3.5 h-3.5" />
-          View Training Programs
+          View Consulting Services
         </Link>
       </div>
     </div>

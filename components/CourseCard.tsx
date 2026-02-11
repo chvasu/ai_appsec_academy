@@ -114,7 +114,7 @@ export function CourseCard({ course }: { course: Course }) {
       <div className="px-6 py-3 border-t border-cyber-border/50 space-y-1.5">
         <div className="flex items-center gap-2 text-xs text-cyber-muted">
           <Clock className="w-3.5 h-3.5 text-cyber-accent shrink-0" />
-          <span>You will be contacted within 24 hours of payment</span>
+          <span>You will be contacted within 24 hours of booking</span>
         </div>
         <div className="flex items-center gap-2 text-xs text-cyber-muted">
           <Globe className="w-3.5 h-3.5 text-cyber-accent shrink-0" />
@@ -149,7 +149,7 @@ export function CourseCard({ course }: { course: Course }) {
                 : "bg-gray-600 opacity-50 cursor-not-allowed text-gray-400"
             }`}
           >
-            <span className="font-mono">$</span> Enroll Now
+            <span className="font-mono">$</span> Book Now
           </button>
         ) : termsAccepted ? (
           <a

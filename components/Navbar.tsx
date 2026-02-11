@@ -6,13 +6,13 @@ import { Shield, Menu, X, ChevronDown, Brain, ShieldCheck } from "lucide-react";
 
 const navLinks = [
   {
-    href: "/courses",
-    label: "Training",
+    href: "/services",
+    label: "Services",
     hasDropdown: true,
     submenu: [
-      { href: "/courses#ai-security", label: "AI/ML Security", icon: Brain },
-      { href: "/courses#appsec", label: "Application Security", icon: ShieldCheck },
-      { href: "/courses", label: "All Courses" },
+      { href: "/services#ai-security", label: "AI/ML Security", icon: Brain },
+      { href: "/services#appsec", label: "Application Security", icon: ShieldCheck },
+      { href: "/services", label: "All Services" },
     ]
   },
   { href: "/why-us", label: "Why Us?" },
@@ -39,7 +39,7 @@ export function Navbar() {
   const handleMouseLeave = () => {
     const id = setTimeout(() => {
       setDropdownOpen(false);
-    }, 200); // 200ms delay before closing
+    }, 200);
     setTimeoutId(id);
   };
 
@@ -51,7 +51,7 @@ export function Navbar() {
           <span className="text-lg font-bold tracking-tight">
             <span className="text-cyber-accent">AI</span>
             <span className="text-cyber-text">AppSec</span>
-            <span className="text-cyber-muted">Academy</span>
+            <span className="text-cyber-muted">Consulting</span>
           </span>
         </Link>
 
@@ -100,10 +100,10 @@ export function Navbar() {
             )
           ))}
           <Link
-            href="/courses"
+            href="/services"
             className="text-sm px-4 py-2 bg-cyber-accent/10 border border-cyber-accent/30 text-cyber-accent rounded hover:bg-cyber-accent/20 transition"
           >
-            Get Started
+            Book a Session
           </Link>
         </div>
 

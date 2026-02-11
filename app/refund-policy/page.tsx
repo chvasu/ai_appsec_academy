@@ -1,9 +1,9 @@
 import { DollarSign, Clock, CheckCircle2, XCircle } from "lucide-react";
 
 export const metadata = {
-  title: "Refund & Cancellation Policy | AI AppSec Academy",
+  title: "Refund & Cancellation Policy | AI AppSec Consulting",
   description:
-    "Refund and cancellation policy for AI AppSec Academy training courses.",
+    "Refund and cancellation policy for AI AppSec Consulting consulting services.",
 };
 
 export default function RefundPolicyPage() {
@@ -27,9 +27,9 @@ export default function RefundPolicyPage() {
         <div className="bg-cyber-surface border border-cyber-border rounded-lg p-8">
           <h2 className="text-2xl font-bold text-cyber-text mb-4">Overview</h2>
           <p className="text-cyber-muted leading-relaxed">
-            At AI AppSec Academy, we strive to provide the highest quality training experience.
+            At AI AppSec Consulting, we strive to provide the highest quality consulting experience.
             We understand that circumstances may change, and we have established a fair and
-            transparent refund and cancellation policy to accommodate our students while
+            transparent refund and cancellation policy to accommodate our clients while
             protecting our scheduling and planning commitments.
           </p>
         </div>
@@ -47,7 +47,7 @@ export default function RefundPolicyPage() {
               <span className="text-sm text-cyber-muted">More than 24 hours before</span>
             </div>
             <p className="text-sm text-cyber-muted leading-relaxed">
-              Cancel anytime up to 24 hours before your scheduled training session and
+              Cancel anytime up to 24 hours before your scheduled consulting session and
               receive a full refund. No questions asked.
             </p>
           </div>
@@ -96,8 +96,8 @@ export default function RefundPolicyPage() {
                   1. Full Refund (100%) - More than 24 Hours Before
                 </h3>
                 <p className="leading-relaxed mb-3">
-                  If you cancel your training session more than 24 hours before the scheduled
-                  start time, you are entitled to a full refund (100%) of the course fee.
+                  If you cancel your consulting session more than 24 hours before the scheduled
+                  start time, you are entitled to a full refund (100%) of the session fee.
                 </p>
                 <ul className="list-disc pl-6 space-y-2">
                   <li>Refund processed within 5-7 business days</li>
@@ -113,10 +113,10 @@ export default function RefundPolicyPage() {
                 </h3>
                 <p className="leading-relaxed mb-3">
                   If you cancel between 24 hours and 1 hour before the scheduled start time,
-                  you are entitled to a 50% refund of the course fee.
+                  you are entitled to a 50% refund of the session fee.
                 </p>
                 <ul className="list-disc pl-6 space-y-2">
-                  <li>50% of course fee refunded</li>
+                  <li>50% of session fee refunded</li>
                   <li>50% retained as a late cancellation fee</li>
                   <li>Refund processed within 5-7 business days</li>
                   <li>Refunded to original payment method via Stripe</li>
@@ -129,11 +129,11 @@ export default function RefundPolicyPage() {
                 </h3>
                 <p className="leading-relaxed mb-3">
                   Cancellations made within 1 hour of the scheduled start time OR after the
-                  training session has begun are not eligible for refunds.
+                  consulting session has begun are not eligible for refunds.
                 </p>
                 <ul className="list-disc pl-6 space-y-2">
                   <li>No refund issued</li>
-                  <li>Full course fee retained</li>
+                  <li>Full session fee retained</li>
                   <li>Instructor time has been committed and reserved</li>
                   <li>Once training starts, no refunds are possible regardless of duration attended</li>
                   <li>May reschedule for an additional fee (contact us)</li>
@@ -150,7 +150,7 @@ export default function RefundPolicyPage() {
                   Free Rescheduling
                 </h3>
                 <p className="leading-relaxed">
-                  You may reschedule your training session at no additional cost if requested
+                  You may reschedule your consulting session at no additional cost if requested
                   more than 24 hours before the scheduled start time. Rescheduling requests
                   should be made via LinkedIn or the contact method agreed upon during enrollment.
                 </p>
@@ -162,7 +162,7 @@ export default function RefundPolicyPage() {
                 </h3>
                 <p className="leading-relaxed">
                   Rescheduling requests made within 24 hours of the scheduled start time may
-                  incur a rescheduling fee equivalent to 50% of the course fee. Contact us to
+                  incur a rescheduling fee equivalent to 50% of the session fee. Contact us to
                   discuss options.
                 </p>
               </div>
@@ -214,12 +214,12 @@ export default function RefundPolicyPage() {
           <section>
             <h2 className="text-2xl font-bold text-cyber-text mb-4">No-Show Policy</h2>
             <p className="leading-relaxed mb-3">
-              If you do not attend your scheduled training session without prior cancellation,
+              If you do not attend your scheduled consulting session without prior cancellation,
               it will be considered a no-show. No-shows are not eligible for refunds or
               rescheduling. We recommend canceling as early as possible if you cannot attend.
             </p>
             <p className="leading-relaxed">
-              <strong className="text-cyber-text">Important:</strong> Once the training session
+              <strong className="text-cyber-text">Important:</strong> Once the consulting session
               has started, no refunds will be issued regardless of how long you remain in the
               session. This includes situations where you leave early or experience technical
               difficulties after the session begins.

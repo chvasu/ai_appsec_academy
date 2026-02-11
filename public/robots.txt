@@ -1,4 +1,4 @@
-# robots.txt for AI AppSec Academy
+# robots.txt for AI AppSec Consulting
 # https://aiappsecacademy.com
 
 # Allow all crawlers

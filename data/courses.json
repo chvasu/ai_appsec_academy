@@ -1,34 +1,34 @@
 [
   {
-    "id": "power-hour",
-    "title": "The Power Hour",
-    "subtitle": "Executive Consultation & Career Coaching",
-    "description": "A focused 60-minute session with Viswanath Chirravuri covering strategic career guidance in cybersecurity, AI/ML security roadmaps, certification paths (SANS/GIAC, CISSP, CompTIA, Public Cloud), or executive-level threat landscape briefings. Ideal for professionals pivoting into AppSec or leaders needing clarity on Agentic AI risks.",
+    "id": "strategy-session",
+    "title": "Strategy Session",
+    "subtitle": "Executive Consultation & Roadmap Planning",
+    "description": "A focused 1-hour consultation with Viswanath Chirravuri covering strategic security guidance, program assessment, AI/ML security roadmaps, or executive-level threat landscape briefings. Ideal for CISOs, security leaders, and engineering managers needing clarity on security posture or Agentic AI risks.",
     "price": 300,
     "priceDisplay": "$300",
-    "duration": "60 minutes",
+    "duration": "1 hour",
     "format": "1-on-1 Video Call",
     "highlights": [
-      "Personalized career roadmap in AI/ML Security or AppSec",
-      "Certification guidance (SANS/GIAC, CISSP, CompTIA, Public Cloud)",
+      "Security program assessment & maturity evaluation",
+      "AI/ML security strategy & roadmap planning",
       "Executive threat briefing on Agentic AI risks",
-      "Resume & interview coaching for AppSec roles",
-      "Actionable next steps delivered within 24 hours"
+      "Vendor & tool selection guidance",
+      "Actionable recommendations delivered within 24 hours"
     ],
     "icon": "terminal",
     "tier": "starter",
     "category": "general",
-    "stripePriceId": "price_power_hour_REPLACE"
+    "stripePriceId": "price_strategy_session_REPLACE"
   },
   {
-    "id": "product-security",
-    "title": "Product Security Strategy",
-    "subtitle": "Security Architecture & Supply Chain",
-    "description": "A focused 4-hour session on building a product security program from the ground up. Covers threat modeling, secure architecture review, software supply chain risk management, SBOM strategies, and establishing security governance across product teams.",
+    "id": "product-security-consulting",
+    "title": "Product Security Advisory",
+    "subtitle": "Security Architecture & Supply Chain Strategy",
+    "description": "A 4-hour deep-dive consulting engagement on building or maturing your product security program. Covers threat modeling, secure architecture review, software supply chain risk management, SBOM strategies, and establishing security governance across product teams.",
     "price": 500,
     "priceDisplay": "$500",
     "duration": "4 hours",
-    "format": "1-on-1 or Small Group Video Call",
+    "format": "1-on-1 or Team Video Call",
     "highlights": [
       "Product security program design & maturity assessment",
       "Threat modeling frameworks (STRIDE, PASTA, Attack Trees)",
@@ -42,10 +42,10 @@
     "stripePriceId": "price_product_security_REPLACE"
   },
   {
-    "id": "tech-sast",
-    "title": "SAST Tools Deep Dive",
-    "subtitle": "Static Application Security Testing Setup & Implementation",
-    "description": "Hands-on setup, configuration, and implementation walkthrough of open-source SAST tools including Semgrep, SonarQube, CodeQL, Bandit, and SpotBugs. Learn to integrate static analysis into your CI/CD pipeline, configure custom rules, triage findings, and reduce false positives. Focused on practical deployment in real-world environments.",
+    "id": "sast-implementation",
+    "title": "SAST Implementation",
+    "subtitle": "Static Analysis Tool Setup & Pipeline Integration",
+    "description": "Hands-on consulting to set up, configure, and integrate open-source SAST tools including Semgrep, SonarQube, CodeQL, Bandit, and SpotBugs into your environment. Includes CI/CD pipeline integration, custom rule creation, triage workflow design, and false positive reduction strategies.",
     "price": 500,
     "priceDisplay": "$500",
     "duration": "4 hours",
@@ -60,13 +60,13 @@
     "icon": "code",
     "tier": "professional",
     "category": "appsec",
-    "stripePriceId": "price_tech_sast_REPLACE"
+    "stripePriceId": "price_sast_impl_REPLACE"
   },
   {
-    "id": "tech-sca",
-    "title": "SCA Tools Deep Dive",
-    "subtitle": "Software Composition Analysis & Dependency Management",
-    "description": "Master open-source SCA tools like OWASP Dependency-Check, Grype, Trivy, and OSV Scanner. Learn to identify vulnerable dependencies, automate dependency updates, manage license compliance, and integrate SCA scans into your DevSecOps pipeline. Includes SBOM generation and vulnerability remediation workflows.",
+    "id": "sca-implementation",
+    "title": "SCA Implementation",
+    "subtitle": "Dependency Analysis & Composition Governance",
+    "description": "Expert consulting on deploying open-source SCA tools like OWASP Dependency-Check, Grype, Trivy, and OSV Scanner into your workflow. Covers vulnerable dependency identification, automated updates, license compliance, SBOM generation, and vulnerability remediation workflows.",
     "price": 500,
     "priceDisplay": "$500",
     "duration": "4 hours",
@@ -81,20 +81,20 @@
     "icon": "code",
     "tier": "professional",
     "category": "appsec",
-    "stripePriceId": "price_tech_sca_REPLACE"
+    "stripePriceId": "price_sca_impl_REPLACE"
   },
   {
-    "id": "tech-dast",
-    "title": "DAST Tools Deep Dive",
-    "subtitle": "Dynamic Application Security Testing & Runtime Analysis",
-    "description": "Hands-on training with open-source DAST tools including OWASP ZAP, Burp Suite Community, Nikto, and Wapiti. Learn to configure authenticated scans, identify runtime vulnerabilities, integrate DAST into CI/CD, and validate fixes with dynamic testing. Covers API security testing and modern web application scanning techniques.",
+    "id": "dast-implementation",
+    "title": "DAST Implementation",
+    "subtitle": "Dynamic Testing & Runtime Security Analysis",
+    "description": "Consulting engagement to deploy and configure open-source DAST tools including OWASP ZAP, Nikto, and Wapiti in your environment. Covers authenticated scan configuration, API security testing, CI/CD integration, and runtime vulnerability validation workflows.",
     "price": 500,
     "priceDisplay": "$500",
     "duration": "4 hours",
     "format": "1-on-1 Technical Session",
     "highlights": [
-      "DAST tool setup: OWASP ZAP, Burp Suite Community, Nikto, Wapiti",
-      "Web vulnerability scanners: w3af, Arachni, HTTPX for reconnaissance",
+      "DAST tool setup: OWASP ZAP, Nikto, Wapiti, Nuclei",
+      "Web vulnerability scanning: w3af, Arachni, HTTPX for reconnaissance",
       "Authenticated scanning configuration & session management",
       "API security testing (REST, GraphQL, gRPC) with ZAP & custom scripts",
       "CI/CD integration for automated DAST scans & regression testing"
@@ -102,13 +102,13 @@
     "icon": "code",
     "tier": "professional",
     "category": "appsec",
-    "stripePriceId": "price_tech_dast_REPLACE"
+    "stripePriceId": "price_dast_impl_REPLACE"
   },
   {
-    "id": "tech-sbom",
-    "title": "SBOM & Supply Chain Security",
-    "subtitle": "Software Bill of Materials & Provenance Management",
-    "description": "Comprehensive walkthrough of SBOM generation, management, and supply chain security tooling. Learn Syft, Grype, Cosign, SLSA provenance, and in-toto attestations. Covers VEX (Vulnerability Exploitability eXchange), dependency track, and integrating SBOM workflows into CI/CD for compliance and risk management.",
+    "id": "sbom-supply-chain",
+    "title": "SBOM & Supply Chain Advisory",
+    "subtitle": "Software Bill of Materials & Provenance Strategy",
+    "description": "Consulting on SBOM generation, management, and supply chain security tooling. Covers Syft, Grype, Cosign, SLSA provenance, and in-toto attestations. Includes VEX implementation, Dependency-Track setup, and integrating SBOM workflows into CI/CD for compliance and risk management.",
     "price": 500,
     "priceDisplay": "$500",
     "duration": "4 hours",
@@ -123,13 +123,13 @@
     "icon": "shield",
     "tier": "professional",
     "category": "appsec",
-    "stripePriceId": "price_tech_sbom_REPLACE"
+    "stripePriceId": "price_sbom_supply_REPLACE"
   },
   {
-    "id": "tech-devsecops-tools",
-    "title": "DevSecOps Tooling & Pipeline Security",
-    "subtitle": "CI/CD Security, IaC Scanning & Container Security",
-    "description": "Master DevSecOps tools including Trivy, Hadolint, Checkov, TFSec, and Kics for container security and Infrastructure as Code scanning. Learn to secure CI/CD pipelines (GitHub Actions, Jenkins, GitLab), implement security gates, and automate compliance checks. Covers Docker security scanning and policy enforcement.",
+    "id": "devsecops-consulting",
+    "title": "DevSecOps Pipeline Consulting",
+    "subtitle": "CI/CD Security, IaC Scanning & Container Hardening",
+    "description": "Expert consulting to secure your CI/CD pipelines and container infrastructure using Trivy, Hadolint, Checkov, TFSec, and Kics. Covers pipeline hardening, security gate implementation, Docker scanning, and policy-as-code enforcement for GitHub Actions, Jenkins, and GitLab.",
     "price": 500,
     "priceDisplay": "$500",
     "duration": "4 hours",
@@ -144,13 +144,13 @@
     "icon": "terminal",
     "tier": "professional",
     "category": "appsec",
-    "stripePriceId": "price_tech_devsecops_REPLACE"
+    "stripePriceId": "price_devsecops_consult_REPLACE"
   },
   {
-    "id": "tech-owasp-tools",
-    "title": "OWASP Security Tools Masterclass",
-    "subtitle": "OWASP Top 10 Tools Implementation & Best Practices",
-    "description": "Comprehensive walkthrough of OWASP flagship tools including ZAP, Dependency-Check, ASVS, SAMM, and Threat Dragon. Learn to implement OWASP best practices, conduct security assessments, and integrate OWASP tools into your security program. Covers OWASP Top 10 detection and remediation workflows.",
+    "id": "owasp-advisory",
+    "title": "OWASP Tools Advisory",
+    "subtitle": "OWASP Flagship Tools Implementation & Best Practices",
+    "description": "Consulting on implementing OWASP flagship tools including ZAP, Dependency-Check, ASVS, SAMM, and Threat Dragon into your security program. Covers OWASP Top 10 detection workflows, security assessments, and maturity model alignment.",
     "price": 500,
     "priceDisplay": "$500",
     "duration": "4 hours",
@@ -165,55 +165,55 @@
     "icon": "shield",
     "tier": "professional",
     "category": "appsec",
-    "stripePriceId": "price_tech_owasp_REPLACE"
+    "stripePriceId": "price_owasp_advisory_REPLACE"
   },
   {
     "id": "devsecops-workshop",
     "title": "DevSecOps & AppSec Workshop",
-    "subtitle": "Secure SDLC & Pipeline Security",
-    "description": "A hands-on full-day workshop covering DevSecOps pipeline design, automated security testing (SAST, DAST, SCA), secure CI/CD configuration, and embedding security gates into the software development lifecycle. Includes real-world pipeline exercises using industry-standard tools.",
+    "subtitle": "Secure SDLC & Pipeline Security Intensive",
+    "description": "A full-day consulting workshop covering DevSecOps pipeline design, automated security testing (SAST, DAST, SCA), secure CI/CD configuration, and embedding security gates into the software development lifecycle. Includes hands-on implementation in your environment.",
     "price": 1200,
     "priceDisplay": "$1,200",
     "duration": "8 hours",
-    "format": "Live Workshop (Virtual or On-Site)",
+    "format": "Workshop (Virtual or On-Site)",
     "highlights": [
-      "Design a full DevSecOps pipeline from scratch",
-      "Hands-on SAST, DAST & SCA tool integration",
+      "Design a full DevSecOps pipeline tailored to your stack",
+      "Hands-on SAST, DAST & SCA tool integration in your environment",
       "Secure CI/CD: GitHub Actions, Jenkins, GitLab security gates",
-      "OWASP Top 10 vulnerability detection & remediation",
-      "Certificate of completion & pipeline templates"
+      "OWASP Top 10 vulnerability detection & remediation workflows",
+      "Deliverable: Pipeline architecture & implementation guide"
     ],
     "icon": "code",
     "tier": "professional",
     "category": "appsec",
-    "stripePriceId": "price_devsecops_REPLACE"
+    "stripePriceId": "price_devsecops_workshop_REPLACE"
   },
   {
-    "id": "tech-applied-ai",
-    "title": "Applied AI: RAG, Fine-tuning & MLSecOps",
-    "subtitle": "Practical AI/ML Implementation & Security Operations",
-    "description": "Hands-on training in building production-ready AI systems covering RAG (Retrieval Augmented Generation) architecture, LLM fine-tuning with LoRA/QLoRA, and MLSecOps pipeline design. Learn to implement secure RAG systems, fine-tune models locally, and establish ML model lifecycle security. Covers LangChain, HuggingFace, Ollama, and open-source ML tooling.",
+    "id": "ai-security-consulting",
+    "title": "AI/ML Security Consulting",
+    "subtitle": "RAG Security, Fine-tuning & MLSecOps Advisory",
+    "description": "Expert consulting on building production-ready, secure AI systems. Covers RAG architecture security, LLM fine-tuning best practices, MLSecOps pipeline design, prompt injection defense, and data leakage prevention. Includes hands-on guidance with LangChain, HuggingFace, Ollama, and open-source ML tooling.",
     "price": 1000,
     "priceDisplay": "$1,000",
     "duration": "4 hours",
     "format": "1-on-1 Technical Session",
     "highlights": [
-      "RAG architecture: vector databases (ChromaDB, Weaviate), embeddings, retrieval",
-      "LLM fine-tuning: LoRA/QLoRA with HuggingFace PEFT and Unsloth",
-      "Local model deployment: Ollama and vLLM for production inference",
+      "RAG architecture security: vector databases, embeddings, retrieval hardening",
+      "LLM fine-tuning best practices: LoRA/QLoRA with HuggingFace PEFT",
+      "Local model deployment: Ollama and vLLM for secure production inference",
       "MLSecOps: model versioning, artifact security, training pipeline hardening",
-      "Secure RAG implementation: prompt injection defense, data leakage prevention"
+      "Prompt injection defense & data leakage prevention strategies"
     ],
     "icon": "code",
     "tier": "professional",
     "category": "ai",
-    "stripePriceId": "price_tech_applied_ai_REPLACE"
+    "stripePriceId": "price_ai_security_consult_REPLACE"
   },
   {
-    "id": "tech-vibecoding",
-    "title": "Vibecoding: Secure AI-Assisted Development",
-    "subtitle": "Agentic Coding with Security by Default",
-    "description": "Master the emerging practice of 'Vibecoding' — AI-assisted development with security built-in from the start. Learn to leverage Claude Code, Cline, Cursor, and Gemini CLI for secure code generation, implement pre-defined security and quality rules, and perform automated agentic SAST and SCA scans. Hands-on training in building secure applications with AI coding assistants while maintaining code quality and security posture.",
+    "id": "vibecoding-consulting",
+    "title": "Secure Vibecoding Advisory",
+    "subtitle": "AI-Assisted Development with Security by Default",
+    "description": "Consulting on implementing 'Vibecoding' — AI-assisted development with security built-in from the start. Covers setting up Claude Code, Cline, Cursor, and Gemini CLI for secure code generation, implementing pre-defined security rules, and automated agentic SAST/SCA scans on AI-generated code.",
     "price": 1000,
     "priceDisplay": "$1,000",
     "duration": "4 hours",
@@ -223,28 +223,28 @@
       "Secure coding by default: OWASP-aligned security rules in AI prompts",
       "Agentic SAST & SCA: Automated security audits of AI-generated code",
       "Security & quality rules: Pre-commit hooks, custom linting, policy enforcement",
-      "Hands-on labs: Build secure applications using AI assistants with security guardrails"
+      "Implementation plan for secure AI-assisted development workflows"
     ],
     "icon": "terminal",
     "tier": "professional",
     "category": "ai",
-    "stripePriceId": "price_tech_vibecoding_REPLACE"
+    "stripePriceId": "price_vibecoding_consult_REPLACE"
   },
   {
-    "id": "appsec-bootcamp",
-    "title": "Enterprise AppSec Bootcamp",
-    "subtitle": "Corporate DevSecOps & Product Security",
-    "description": "A comprehensive multi-day corporate program covering DevSecOps transformation, application security program building, product security governance, and software supply chain defense. Tailored for engineering and security teams modernizing their secure development practices.",
+    "id": "enterprise-appsec",
+    "title": "Enterprise AppSec Engagement",
+    "subtitle": "DevSecOps Transformation & Program Building",
+    "description": "A comprehensive multi-day consulting engagement covering DevSecOps transformation, application security program building, product security governance, and software supply chain defense. Tailored for engineering and security teams modernizing their secure development practices.",
     "price": 0,
-    "priceDisplay": "Custom Pricing",
+    "priceDisplay": "Custom Quote",
     "duration": "2-5 days (customizable)",
-    "format": "On-Site or Virtual Team Training",
+    "format": "On-Site or Virtual Engagement",
     "highlights": [
       "DevSecOps maturity assessment & transformation roadmap",
       "Application security program design (SAST, DAST, SCA)",
       "Product security governance & release management",
       "Software supply chain security & SBOM implementation",
-      "Custom curriculum aligned to your tech stack"
+      "Custom scope aligned to your tech stack & business goals"
     ],
     "icon": "shield",
     "tier": "enterprise",
@@ -252,20 +252,20 @@
     "stripePriceId": null
   },
   {
-    "id": "team-bootcamp",
-    "title": "AI Security Bootcamp",
-    "subtitle": "Corporate AI/ML Training Program",
-    "description": "A multi-day corporate training program covering the Secure-ML Framework and LLM Application Security. Tailored for engineering teams building or integrating AI/ML systems. Covers threat modeling for LLMs, secure RAG architectures, red-teaming AI systems, and building an internal AI security governance framework.",
+    "id": "enterprise-ai-security",
+    "title": "AI Security Engagement",
+    "subtitle": "Enterprise AI/ML Security Program",
+    "description": "A multi-day consulting engagement covering the Secure-ML Framework and LLM Application Security. Tailored for organizations building or integrating AI/ML systems. Covers threat modeling for LLMs, secure RAG architectures, red-teaming AI systems, and building an internal AI security governance framework.",
     "price": 0,
-    "priceDisplay": "Custom Pricing",
+    "priceDisplay": "Custom Quote",
     "duration": "2-5 days (customizable)",
-    "format": "On-Site or Virtual Team Training",
+    "format": "On-Site or Virtual Engagement",
     "highlights": [
       "Secure-ML Framework: end-to-end ML pipeline security",
       "LLM AppSec: OWASP Top 10 for LLMs in practice",
       "Red-teaming AI systems with automated tooling",
       "Secure RAG architecture design & implementation",
-      "Custom curriculum aligned to your tech stack"
+      "Custom scope aligned to your tech stack & business goals"
     ],
     "icon": "shield",
     "tier": "enterprise",
