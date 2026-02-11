@@ -48,8 +48,8 @@ const faqs = [
         a: "Yes. Contact us via LinkedIn after booking with your company details, and we'll provide a formal invoice for reimbursement or procurement purposes.",
       },
       {
-        q: "Can I book multiple hours?",
-        a: "Yes. You can book multiple sessions across different topics, or book the same service multiple times for extended engagements. For large engagements, consider our Enterprise tier for custom scoping and pricing.",
+        q: "How does the hourly booking work?",
+        a: "Each service has a per-hour rate. You select the number of hours you need (1–4 hours) using the hour selector on the service card, and the total is calculated automatically. For engagements requiring more than 4 hours, contact us via LinkedIn for a custom quote.",
       },
     ],
   },

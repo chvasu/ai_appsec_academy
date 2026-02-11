@@ -17,24 +17,23 @@
 
 The practice offers several tiers of consulting:
 
-1. **Starter Tier** ($300)
-   - Strategy Session: Executive consultation, security program assessment & roadmap planning (1 hour)
+1. **Starter Tier** ($300/hr)
+   - Strategy Session: Executive consultation, security program assessment & roadmap planning (book 1–4 hrs online; custom quote for more)
 
-2. **Professional Tier** ($500-$1,200)
-   - Product Security Advisory: Threat modeling, secure architecture review (4 hours, $500)
-   - SAST Implementation: Static analysis tool setup & pipeline integration (4 hours, $500)
-   - SCA Implementation: Dependency analysis & composition governance (4 hours, $500)
-   - DAST Implementation: Dynamic testing & runtime security analysis (4 hours, $500)
-   - SBOM & Supply Chain Advisory: SBOM management & provenance strategy (4 hours, $500)
-   - DevSecOps Pipeline Consulting: CI/CD security & container hardening (4 hours, $500)
-   - OWASP Tools Advisory: OWASP flagship tools implementation (4 hours, $500)
-   - AI/ML Security Consulting: RAG security, fine-tuning & MLSecOps (4 hours, $1,000)
-   - Secure Vibecoding Advisory: AI-assisted development with security (4 hours, $1,000)
-   - DevSecOps & AppSec Workshop: Full-day pipeline security intensive (8 hours, $1,200)
+2. **Professional Tier** ($200–$300/hr)
+   - Product Security Advisory: Threat modeling, secure architecture review ($200/hr, book 1–4 hrs)
+   - SAST Implementation: Static analysis tool setup & pipeline integration ($200/hr, book 1–4 hrs)
+   - SCA Implementation: Dependency analysis & composition governance ($200/hr, book 1–4 hrs)
+   - DAST Implementation: Dynamic testing & runtime security analysis ($200/hr, book 1–4 hrs)
+   - SBOM & Supply Chain Advisory: SBOM management & provenance strategy ($200/hr, book 1–4 hrs)
+   - DevSecOps Pipeline Consulting: CI/CD security & container hardening ($200/hr, book 1–4 hrs)
+   - OWASP Tools Advisory: OWASP flagship tools implementation ($200/hr, book 1–4 hrs)
+   - AI/ML Security Consulting: RAG security, fine-tuning & MLSecOps ($300/hr, book 1–4 hrs)
+   - Secure Vibecoding Advisory: AI-assisted development with security ($300/hr, book 1–4 hrs)
 
 3. **Enterprise Tier** (Custom Pricing)
-   - Enterprise AppSec Engagement: Multi-day DevSecOps transformation (2-5 days)
-   - AI Security Engagement: Enterprise AI/ML security program (2-5 days)
+   - Enterprise AppSec Engagement: Multi-day DevSecOps transformation (custom quote)
+   - AI Security Engagement: Enterprise AI/ML security program (custom quote)
 
 ### Unique Value Proposition
 
@@ -42,7 +41,7 @@ The practice offers several tiers of consulting:
 - **Hands-On Implementation**: Sessions involve working in client environments, not just delivering reports
 - **Every Question Answered**: Real-time guidance, no unanswered questions
 - **Immediately Actionable**: Deliverables include working configurations and implementation guides
-- **Hourly Booking**: Transparent per-session pricing with no minimum retainers
+- **Hourly Booking**: Transparent per-hour pricing with no minimum retainers. Book 1–4 hours online; custom quote for more
 
 ### Technology Focus Areas
 
@@ -140,7 +139,7 @@ Recent articles available at: https://aiappsecacademy.com/blog
 
 - **Payment Processor**: Stripe
 - **Terms Acceptance Required**: All bookings require checkbox acceptance of terms & conditions
-- **Booking Flow**: Service selection → Terms acceptance → Stripe checkout → Email receipt → Contacted within 24 hours to schedule
+- **Booking Flow**: Service selection → Choose hours (1–4) → Terms acceptance → Stripe checkout → Email receipt → Contacted within 24 hours to schedule
 - **No Webhooks**: Stateless payment system, Stripe sends receipt directly to customer
 
 ## Technical Stack
@@ -172,7 +171,7 @@ Recent articles available at: https://aiappsecacademy.com/blog
 2. **Consulting Disclaimer**: Professional services acknowledgment included in terms
 3. **Direct Expert Access**: All sessions are with the consultant directly — no subcontractors
 4. **Open-Source Tools**: Consulting focuses on freely available, open-source security tools
-5. **Hourly Booking**: Clients book by the hour with transparent pricing
+5. **Hourly Booking**: Clients book 1–4 hours online at per-hour rates; engagements over 4 hours require a custom quote via LinkedIn
 
 ## Use Cases for AI Agents
 

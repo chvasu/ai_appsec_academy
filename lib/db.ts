@@ -6,15 +6,15 @@ export interface Course {
   title: string;
   subtitle: string;
   description: string;
-  price: number;
-  priceDisplay: string;
-  duration: string;
+  hourlyRate: number;
+  hourlyRateDisplay: string;
+  minHours: number;
+  maxHours: number;
   format: string;
   highlights: string[];
   icon: string;
   tier: "starter" | "professional" | "enterprise";
   category: "general" | "ai" | "appsec";
-  stripePriceId: string | null;
 }
 
 const dataDir = path.join(process.cwd(), "data");
