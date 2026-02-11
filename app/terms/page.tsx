@@ -12,6 +12,7 @@ const sections = [
     title: "1. General Terms",
     content: [
       "Welcome to AI AppSec Consulting™, operated by Viswanath Srinivasan Chirravuri. By accessing this website, engaging any consulting service, or using any services offered through this platform, you agree to be bound by these Terms & Conditions. If you do not agree, please do not use this website or its services.",
+      "AI AppSec Consulting is part of AI AppSec Academy™. Both entities refer to the same business and are used interchangeably throughout this website. The purpose of AI AppSec Consulting and AI AppSec Academy is to provide expert consulting services in Artificial Intelligence and Security for software products and applications, combining cutting-edge AI/ML security practices with traditional application security expertise.",
       "AI AppSec Consulting reserves the right to update these terms at any time. Continued use of the site after changes constitutes acceptance of the revised terms. It is your responsibility to review these terms periodically.",
     ],
   },
