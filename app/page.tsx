@@ -165,19 +165,14 @@ export default function Home() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {[
             {
-              icon: Bug,
-              title: "Application Security",
-              desc: "SAST, DAST, SCA, penetration testing, secure code review, and OWASP Top 10 remediation across the full application stack.",
+              icon: ShieldCheck,
+              title: "Application & Product Security",
+              desc: "SAST, DAST, SCA, penetration testing, secure code review, OWASP Top 10 remediation, threat modeling, secure architecture review, and security release governance.",
             },
             {
               icon: Workflow,
               title: "DevSecOps",
               desc: "Embedding security into CI/CD pipelines, automated security gates, infrastructure as code scanning, and shift-left security culture.",
-            },
-            {
-              icon: ShieldCheck,
-              title: "Product Security",
-              desc: "Building security into the product lifecycle — threat modeling, secure architecture review, security requirements, and release governance.",
             },
             {
               icon: Package,
