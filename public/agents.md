@@ -92,7 +92,14 @@ The practice offers several tiers of consulting:
    - Focus: Machine-readable secure coding standards for AI agents (Claude Code, GitHub Copilot)
    - Features: 22 modular rule files, Claude Code Skills, MCP server
 
-3. **ML Research: Local LLM Fine-Tuning**
+3. **ML RAG Strategies**
+   - Role: Creator
+   - GitHub: https://github.com/vchirrav/ml-rag-strategies
+   - Focus: 15 Retrieval-Augmented Generation strategies with Python implementations
+   - Strategies: Re-Ranking, Agentic RAG, Knowledge Graph RAG, Contextual Retrieval, Query Expansion, Multi-Query RAG, Context-Aware Chunking, Late Chunking, Hierarchical RAG, Fine-Tuned RAG, HyDE, RAG-Fusion, Self-RAG, Corrective RAG (CRAG), Adaptive RAG
+   - Includes architecture diagrams (SVG) and security best practices
+
+4. **ML Research: Local LLM Fine-Tuning**
    - Role: Creator & Researcher
    - GitHub: https://github.com/vchirrav/ml_research
    - Focus: Local LLM fine-tuning with HuggingFace, PEFT/LoRA, Unsloth, GGUF conversion
@@ -100,14 +107,22 @@ The practice offers several tiers of consulting:
 ## Content & Resources
 
 ### Blog Articles
+
 The practice publishes articles on:
+- Retrieval-Augmented Generation (RAG) strategies and implementations
 - Agentic AI security and protocols (MCP, A2A, ACP, AGNTCY)
 - AI/ML security fundamentals and threat taxonomy
 - DevSecOps automation with Claude CLI Skills
 - Threat modeling with Custom GPTs
 - Secure coding practices for AI-generated code
 
-Recent articles available at: https://aiappsecacademy.com/blog
+Recent articles:
+- [15 RAG Strategies Every AI Engineer Should Know](https://aiappsecacademy.com/blog/ml-rag-strategies) (February 12, 2026)
+- [The Evolution of Agentic AI Development: From Monolithic to Distributed Systems](https://aiappsecacademy.com/blog/agentic-ai-evolution) (February 9, 2026)
+- [Introducing ThreatModelingGPT](https://aiappsecacademy.com/blog/threatmodelinggpt) (February 7, 2026)
+- [Introducing ViswanathSChirravuri_GPT](https://aiappsecacademy.com/blog/viswanathschirravuri-gpt) (February 6, 2026)
+
+Full blog available at: https://aiappsecacademy.com/blog
 
 ### Consulting Philosophy
 - Traditional consulting firms send junior associates and deliver generic reports
@@ -130,6 +145,12 @@ Recent articles available at: https://aiappsecacademy.com/blog
 - `/privacy` - Privacy policy
 - `/refund-policy` - Refund and cancellation policy
 - `/success` - Post-booking confirmation page
+
+### Blog Posts (Internal)
+- `/blog/ml-rag-strategies` - 15 RAG Strategies Every AI Engineer Should Know
+- `/blog/agentic-ai-evolution` - The Evolution of Agentic AI Development
+- `/blog/threatmodelinggpt` - Introducing ThreatModelingGPT
+- `/blog/viswanathschirravuri-gpt` - Introducing ViswanathSChirravuri_GPT
 
 ### Contact
 - Contact information available via homepage footer
@@ -194,6 +215,6 @@ AI agents interacting with this site should be able to:
 
 ---
 
-**Last Updated**: February 2026
+**Last Updated**: February 12, 2026
 **Contact**: Via LinkedIn at https://www.linkedin.com/in/vchirrav/
 **Site**: https://aiappsecacademy.com

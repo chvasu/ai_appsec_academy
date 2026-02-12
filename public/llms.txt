@@ -31,6 +31,7 @@ AI AppSec Consulting provides hands-on, hourly consulting sessions across seven 
 
 ## Blog — Securing AI/ML
 
+- [15 RAG Strategies Every AI Engineer Should Know](https://aiappsecacademy.com/blog/ml-rag-strategies): A comprehensive guide to 15 RAG approaches with Python implementations, architecture diagrams, and security considerations
 - [The Evolution of Agentic AI Development: From Monolithic to Distributed Systems](https://aiappsecacademy.com/blog/agentic-ai-evolution): A practical journey through 4 architectural stages of building secure, local-first multi-agent AI systems
 - [From Monolith to Micro-Agents: My 4-Stage Journey in Building Secure Local AI Systems](https://www.linkedin.com/pulse/from-monolith-micro-agents-my-4-stage-journey-secure-local-2qcjc/): Four architectural phases for building a local AI system with security safeguards
 - [Why "AI Skills Developer" Will Be the Breakout Role of 2026](https://www.linkedin.com/pulse/why-ai-skills-developer-breakout-role-2026-viswanath-s-chirravuri-lpyzc/): An emerging role combining software engineering with LLM orchestration
