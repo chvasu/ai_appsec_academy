@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Bash(gh auth:*)",
+      "Bash(vercel whoami:*)",
+      "Bash(npm run build:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(npx vercel:*)",
+      "Bash(gh api:*)",
+      "Bash(python -m base64:*)",
+      "Bash(python3:*)",
+      "Bash(certutil -decode -f - -)",
+      "Bash(curl:*)",
+      "Bash(npm i:*)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(git pull:*)",
+      "Bash(git fetch:*)",
+      "Bash(git merge:*)",
+      "Bash(git diff:*)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash(git merge*)",
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "Analyze the git merge command in $ARGUMENTS. If merging into 'main' or 'master' branch, respond with:\n\n🔒 SECURITY AUDIT RECOMMENDED\n\nYou are about to merge changes into the production branch. It is recommended to run a security audit first.\n\n📋 Suggested Actions:\n1. Run: /secure-coding-audit --diff to audit all changes\n2. Or specify files: /secure-coding-audit <file-path>\n\nThis will check for:\n• Authentication vulnerabilities\n• Input validation issues  \n• SQL injection risks\n• XSS vulnerabilities\n• Secrets exposure\n• API security issues\n• And more based on file types\n\n⚡ Want to proceed with merge? You can:\n• Review the audit findings first (recommended)\n• Continue with merge if no code changes\n• Skip audit for emergency deployments (document reason)\n\nTo audit now, please use the secure-coding-audit skill before completing the merge.",
+            "model": "claude-haiku-4-5",
+            "statusMessage": "Checking if security audit is needed..."
+          }
+        ]
+      }
+    ]
+  }
+}

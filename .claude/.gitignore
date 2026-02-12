@@ -1,0 +1,13 @@
+# Ignore local settings that may contain sensitive data
+settings.local.json
+
+# Ignore session-specific files
+*.log
+*.tmp
+cache/
+temp/
+
+# Keep the structure and skills
+!skills/
+!hooks/
+!README.md
