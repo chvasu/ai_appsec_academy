@@ -1,5 +1,12 @@
 [
   {
+    "title": "15 RAG Strategies Every AI Engineer Should Know",
+    "date": "2026-02-12",
+    "url": "/blog/ml-rag-strategies",
+    "summary": "A comprehensive guide to 15 Retrieval-Augmented Generation strategies with Python implementations, architecture diagrams, and security considerations — from Re-Ranking and Agentic RAG to Self-RAG and Adaptive RAG.",
+    "category": "Securing AI/ML"
+  },
+  {
     "title": "The Evolution of Agentic AI Development: From Monolithic to Distributed Systems",
     "date": "2026-02-09",
     "url": "/blog/agentic-ai-evolution",
