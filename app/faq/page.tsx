@@ -16,7 +16,7 @@ const faqs = [
       },
       {
         q: "Who is the consultant?",
-        a: "All consulting is led by Viswanath Srinivasan Chirravuri (GSE #335, CISSP, PMP), a CompTIA Subject Matter Expert, SANS Teaching Assistant, and RSA Conference speaker. He holds 35+ certifications and is currently pursuing a D.Eng. in Cybersecurity Analytics at George Washington University (expected August 2026).",
+        a: "All consulting is led by Viswanath Srinivasan Chirravuri (GSE #335, CISSP, PMP), a CompTIA Subject Matter Expert, SANS Associate Instructor, and RSA Conference speaker. He holds 35+ certifications and is currently pursuing a D.Eng. in Cybersecurity Analytics at George Washington University (expected August 2026).",
       },
       {
         q: "Are consulting sessions available internationally?",

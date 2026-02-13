@@ -73,7 +73,7 @@ The practice offers several tiers of consulting:
   - D.Eng. Cybersecurity Analytics at George Washington University (In Progress, expected August 2026)
   - M.S. Information Security Engineering - SANS Technology Institute
 - **Roles**:
-  - SANS Teaching Assistant & Webinar Presenter
+  - SANS Associate Instructor (SEC545: GenAI and LLM Application Security) & Webinar Presenter
   - CompTIA Subject Matter Expert (SME) for Security+ and Cloud+
   - RSA Conference Speaker (2024, 2026)
 - **Career**: Credit Agricole CIB, J.P. Morgan, CA Technologies

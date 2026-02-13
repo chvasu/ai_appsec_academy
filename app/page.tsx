@@ -78,7 +78,7 @@ export default function Home() {
           <div className="flex flex-wrap items-center justify-center gap-6 text-xs text-cyber-muted">
             <div className="flex items-center gap-2">
               <Award className="w-4 h-4 text-cyber-accent" />
-              <span>SANS Teaching Assistant</span>
+              <span>SANS Associate Instructor</span>
             </div>
             <span className="hidden sm:inline text-cyber-border">|</span>
             <div className="flex items-center gap-2">
@@ -223,7 +223,7 @@ export default function Home() {
               { value: "20+", label: "Years in Cybersecurity" },
               { value: "35+", label: "Industry Certifications" },
               { value: "RSA", label: "2024 & 2026 Speaker" },
-              { value: "SANS", label: "Teaching Assistant & GSE" },
+              { value: "SANS", label: "Associate Instructor & GSE" },
             ].map((stat) => (
               <div key={stat.label}>
                 <div className="text-3xl font-bold gradient-text mb-1">

@@ -15,7 +15,7 @@ const exampleQuestions = [
   "What is his expertise in AI/ML security?",
   "How many GIAC certifications does he have?",
   "What is the Secure-ML project?",
-  "What courses does he teach as a SANS Teaching Assistant?",
+  "What courses does he teach as a SANS Associate Instructor?",
 ];
 
 export default function ViswanathSChirravuriGPTPost() {

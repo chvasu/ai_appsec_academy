@@ -44,7 +44,7 @@ export default function AboutPage() {
             rel="noopener noreferrer"
             className="text-cyber-accent hover:underline"
           >
-            Teaching Assistant for multiple SANS Institute courses
+            Associate Instructor for SEC545: GenAI and LLM Application Security
           </a>
           {" "}and a regular webinar presenter on AI/ML security topics. I am
           also a{" "}
@@ -106,7 +106,7 @@ export default function AboutPage() {
           <ul className="space-y-2 text-sm text-cyber-muted">
             <li className="flex items-center gap-2">
               <span className="text-cyber-accent">&gt;</span> SANS Institute —
-              Teaching Assistant &amp; Webinar Presenter
+              Associate Instructor (SEC545) &amp; Webinar Presenter
             </li>
             <li className="flex items-center gap-2">
               <span className="text-cyber-accent">&gt;</span> CompTIA —
