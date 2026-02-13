@@ -8,7 +8,6 @@
     "hourlyRateDisplay": "$300",
     "minHours": 1,
     "maxHours": 4,
-    "format": "1-on-1 Video Call",
     "highlights": [
       "Security program assessment & maturity evaluation",
       "AI/ML security strategy & roadmap planning",
@@ -29,7 +28,6 @@
     "hourlyRateDisplay": "$200",
     "minHours": 1,
     "maxHours": 4,
-    "format": "1-on-1 or Team Video Call",
     "highlights": [
       "Product security program design & maturity assessment",
       "Threat modeling frameworks (STRIDE, PASTA, Attack Trees)",
@@ -50,7 +48,6 @@
     "hourlyRateDisplay": "$200",
     "minHours": 1,
     "maxHours": 4,
-    "format": "1-on-1 Technical Session",
     "highlights": [
       "Tool selection guidance: Semgrep, SonarQube, CodeQL, Bandit, SpotBugs",
       "Language-specific SAST: Bandit (Python), Brakeman (Ruby), ESLint Security",
@@ -71,7 +68,6 @@
     "hourlyRateDisplay": "$200",
     "minHours": 1,
     "maxHours": 4,
-    "format": "1-on-1 Technical Session",
     "highlights": [
       "SCA tool comparison: OWASP Dependency-Check, Grype, Trivy, OSV Scanner",
       "Language-specific SCA: Safety (Python), Retire.js, Bundler-Audit (Ruby)",
@@ -92,7 +88,6 @@
     "hourlyRateDisplay": "$200",
     "minHours": 1,
     "maxHours": 4,
-    "format": "1-on-1 Technical Session",
     "highlights": [
       "DAST tool setup: OWASP ZAP, Nikto, Wapiti, Nuclei",
       "Web vulnerability scanning: w3af, Arachni, HTTPX for reconnaissance",
@@ -113,7 +108,6 @@
     "hourlyRateDisplay": "$200",
     "minHours": 1,
     "maxHours": 4,
-    "format": "1-on-1 Technical Session",
     "highlights": [
       "SBOM generation with Syft, CycloneDX, SPDX formats",
       "Vulnerability scanning with Grype and SBOM consumption",
@@ -134,7 +128,6 @@
     "hourlyRateDisplay": "$200",
     "minHours": 1,
     "maxHours": 4,
-    "format": "1-on-1 Technical Session",
     "highlights": [
       "Container security: Trivy, Grype, Docker Bench for Security",
       "IaC scanning: Checkov, TFSec, Kics for Terraform/CloudFormation/ARM",
@@ -155,7 +148,6 @@
     "hourlyRateDisplay": "$200",
     "minHours": 1,
     "maxHours": 4,
-    "format": "1-on-1 Technical Session",
     "highlights": [
       "OWASP ZAP: Automated scanning & manual penetration testing",
       "OWASP Dependency-Check: SCA integration & reporting",
@@ -176,7 +168,6 @@
     "hourlyRateDisplay": "$300",
     "minHours": 1,
     "maxHours": 4,
-    "format": "1-on-1 Technical Session",
     "highlights": [
       "RAG architecture security: vector databases, embeddings, retrieval hardening",
       "LLM fine-tuning best practices: LoRA/QLoRA with HuggingFace PEFT",
@@ -197,7 +188,6 @@
     "hourlyRateDisplay": "$300",
     "minHours": 1,
     "maxHours": 4,
-    "format": "1-on-1 Technical Session",
     "highlights": [
       "Vibecoding tools: Claude Code, Cline, Cursor, Aider, Gemini CLI",
       "Secure coding by default: OWASP-aligned security rules in AI prompts",
@@ -218,7 +208,6 @@
     "hourlyRateDisplay": "Custom Quote",
     "minHours": 0,
     "maxHours": 0,
-    "format": "On-Site or Virtual Engagement",
     "highlights": [
       "DevSecOps maturity assessment & transformation roadmap",
       "Application security program design (SAST, DAST, SCA)",
@@ -239,7 +228,6 @@
     "hourlyRateDisplay": "Custom Quote",
     "minHours": 0,
     "maxHours": 0,
-    "format": "On-Site or Virtual Engagement",
     "highlights": [
       "Secure-ML Framework: end-to-end ML pipeline security",
       "LLM AppSec: OWASP Top 10 for LLMs in practice",

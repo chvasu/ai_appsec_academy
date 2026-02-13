@@ -96,10 +96,6 @@ export function CourseCard({ course }: { course: Course }) {
             {isBookable && <span className="text-cyber-muted font-normal">/hr</span>}
           </span>
         </div>
-        <div className="flex justify-between text-sm">
-          <span className="text-cyber-muted">Format</span>
-          <span className="text-cyber-text">{course.format}</span>
-        </div>
         {isBookable && (
           <div className="flex justify-between text-sm">
             <span className="text-cyber-muted">Bookable</span>

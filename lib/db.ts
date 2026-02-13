@@ -10,7 +10,6 @@ export interface Course {
   hourlyRateDisplay: string;
   minHours: number;
   maxHours: number;
-  format: string;
   highlights: string[];
   icon: string;
   tier: "starter" | "professional" | "enterprise";
