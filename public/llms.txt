@@ -50,6 +50,7 @@ AI AppSec Consulting provides hands-on, hourly consulting sessions across AI/ML 
 
 ## Blog — Application Security
 
+- [Introducing Product Security AI Skills: The Toolkit for Modern AppSec](https://aiappsecacademy.com/blog/product-security-ai-skills): 36 open-source AI agent skills spanning SAST, SCA, DAST, container security, IaC scanning, secret detection, cloud security, and more
 - [Introducing ThreatModelingGPT: Your AI-Powered Threat Intelligence Partner](https://aiappsecacademy.com/blog/threatmodelinggpt): A free Custom GPT for threat modeling using STRIDE, PASTA, LINDDUN, MAESTRO, and more
 - [AppSec Using Agentic AI: Running SCA Scans via Claude CLI Skills](https://www.linkedin.com/pulse/appsec-using-agentic-ai-running-sca-scans-via-claude-cli-chirravuri-564cc/): Automating SCA scans through Claude CLI Skills
 - [Secure Source Code by Design with Cline](https://www.linkedin.com/pulse/secure-source-code-design-cline-practical-guide-teams-chirravuri-pfemc/): Configuring Cline to enforce OWASP security standards during code generation
@@ -57,6 +58,7 @@ AI AppSec Consulting provides hands-on, hourly consulting sessions across AI/ML 
 
 ## Open Source Contributions
 
+- [Product Security AI Skills](https://github.com/vchirrav/product-security-ai-skills): 36 ready-to-use AI agent skills for security scanning (SAST, SCA, DAST, containers, IaC, secrets, cloud, mobile, network, supply chain)
 - [Secure-ML Framework](https://github.com/thalesgroup/secure-ml): End-to-end ML pipeline security framework with 40+ curated open-source security tools. Presented at OWASP LASCON 2024.
 - [OWASP Secure Coding Practices (Markdown)](https://github.com/vchirrav/owasp-secure-coding-md): 22 modular rule files for security domains with Claude Code Skills integration and MCP server deployment
 - [ML RAG Strategies](https://github.com/vchirrav/ml-rag-strategies): 15 Retrieval-Augmented Generation strategies with Python implementations, architecture diagrams, and security best practices

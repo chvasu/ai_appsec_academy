@@ -1,5 +1,12 @@
 [
   {
+    "title": "Introducing Product Security AI Skills: The Toolkit for Modern AppSec",
+    "date": "2026-02-14",
+    "url": "/blog/product-security-ai-skills",
+    "summary": "An open-source catalog of 36 ready-to-use AI agent skills spanning SAST, SCA, DAST, container security, IaC scanning, secret detection, cloud security, and more — built for Claude Code, Cursor, and GitHub Copilot.",
+    "category": "Application Security"
+  },
+  {
     "title": "15 RAG Strategies Every AI Engineer Should Know",
     "date": "2026-02-12",
     "url": "/blog/ml-rag-strategies",

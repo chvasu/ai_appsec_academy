@@ -86,7 +86,13 @@ The practice offers 15 consulting services across two domains:
 
 ## Open-Source Contributions
 
-1. **Secure-ML Framework** (Thales Group)
+1. **Product Security AI Skills**
+   - Role: Creator & Maintainer
+   - GitHub: https://github.com/vchirrav/product-security-ai-skills
+   - Focus: 36 ready-to-use AI agent skills for security scanning across 16 categories
+   - Categories: SAST, SCA, DAST, Secret Scanning, Container Security, IaC, API Security, SBOM, Cloud Security, Mobile, Network, TLS/SSL, Malware, Supply Chain, License Compliance, Secure Coding
+
+2. **Secure-ML Framework** (Thales Group)
    - Role: Project Leader & Key Contributor
    - GitHub: https://github.com/thalesgroup/secure-ml
    - Focus: ML lifecycle security, threat taxonomy, 40+ curated security tools
@@ -125,6 +131,7 @@ The practice publishes articles on:
 - Software supply chain security and digital signing
 
 Recent articles:
+- [Introducing Product Security AI Skills: The Toolkit for Modern AppSec](https://aiappsecacademy.com/blog/product-security-ai-skills) (February 14, 2026)
 - [15 RAG Strategies Every AI Engineer Should Know](https://aiappsecacademy.com/blog/ml-rag-strategies) (February 12, 2026)
 - [The Evolution of Agentic AI Development: From Monolithic to Distributed Systems](https://aiappsecacademy.com/blog/agentic-ai-evolution) (February 9, 2026)
 - [Introducing ThreatModelingGPT](https://aiappsecacademy.com/blog/threatmodelinggpt) (February 7, 2026)
@@ -160,6 +167,7 @@ Full blog available at: https://aiappsecacademy.com/blog
 - `/success` - Post-booking confirmation page
 
 ### Blog Posts (Internal)
+- `/blog/product-security-ai-skills` - Introducing Product Security AI Skills: The Toolkit for Modern AppSec
 - `/blog/ml-rag-strategies` - 15 RAG Strategies Every AI Engineer Should Know
 - `/blog/agentic-ai-evolution` - The Evolution of Agentic AI Development
 - `/blog/threatmodelinggpt` - Introducing ThreatModelingGPT
