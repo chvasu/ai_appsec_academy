@@ -19,6 +19,8 @@ const projects = [
     accent: "emerald",
     summary:
       "A comprehensive framework for securing machine learning systems across the entire ML lifecycle. Developed as an industry-leading resource, it provides security policies, threat models, privacy-preserving techniques, and a curated collection of 40+ open-source security tools for ML.",
+    image: "/images/ml-secplan.png",
+    imageAlt: "Secure ML Cheatsheet: Pillars, Goals, Techniques, and Activities across Data Security, Model Security, Platform Security, Security Compliance, and Human Security",
     highlights: [
       "ML Security Policy framework covering datasets, models, platforms, and compliance",
       "Privacy-preserving techniques: Differential Privacy, Federated Learning, Homomorphic Encryption, SMPC",
@@ -161,6 +163,17 @@ export default function OpenSourcePage() {
                   {project.summary}
                 </p>
               </div>
+
+              {/* Image (if any) */}
+              {project.image && (
+                <div className="px-6 py-4 border-t border-cyber-border/50">
+                  <img
+                    src={project.image}
+                    alt={project.imageAlt || project.name}
+                    className="w-full rounded-lg border border-cyber-border/50"
+                  />
+                </div>
+              )}
 
               {/* Highlights */}
               <div className="px-6 py-4 border-t border-cyber-border/50">
