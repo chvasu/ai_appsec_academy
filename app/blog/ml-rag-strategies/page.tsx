@@ -197,6 +197,15 @@ export default function MLRAGStrategiesPost() {
         </p>
       </header>
 
+      {/* RAG Strategies Cheatsheet */}
+      <div className="mb-12">
+        <img
+          src="/images/rag-strategies.png"
+          alt="15 RAG Strategies cheatsheet: Re-Ranking, Agentic RAG, Knowledge Graph RAG, Contextual Retrieval, Query Expansion, Multi-Query RAG, Context-Aware Chunking, Late Chunking, Hierarchical RAG, Fine-Tuned RAG, HyDE, RAG-Fusion, Self-RAG, Corrective RAG (CRAG), and Adaptive RAG"
+          className="w-full rounded-lg border border-cyber-border/50"
+        />
+      </div>
+
       {/* GitHub CTA */}
       <div className="bg-cyber-surface border border-cyber-accent/30 rounded-lg p-6 mb-12">
         <div className="flex items-start gap-4">
