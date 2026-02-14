@@ -32,7 +32,7 @@ const projects = [
   },
   {
     icon: BookOpen,
-    name: "OWASP Secure Coding Practices (Markdown)",
+    name: "Secure Coding Practices (Markdown)",
     repo: "vchirrav/owasp-secure-coding-md",
     url: "https://github.com/vchirrav/owasp-secure-coding-md",
     stars: 1,
@@ -41,6 +41,8 @@ const projects = [
     accent: "sky",
     summary:
       "A machine-readable, Markdown-optimized implementation of the OWASP Secure Coding Practices Quick Reference Guide (v2.1), extended with modern security domains including API Security, Cloud/Kubernetes, CI/CD, Supply Chain, IaC, and Secrets Management. Designed specifically for AI agents (Claude Code, GitHub Copilot) and LLMs to enable token-efficient, context-aware security audits and code generation.",
+    image: "/images/secure-coding-rules.png",
+    imageAlt: "Secure-Coding Rules for AI-Generated Code cheatsheet covering 22 security domains including Access Control, API Security, Authentication, CI/CD, Docker, Cloud & Kubernetes, and more",
     highlights: [
       "22 modular rule files covering Access Control, API Security, Authentication, CI/CD, Cloud/K8s, Docker, IaC, Secrets Management, Supply Chain, and more",
       "3 integration options: CLAUDE.md persona reference, Claude Code Skills (audit & generate), or MCP server (Docker & Docker Compose ready)",
