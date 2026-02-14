@@ -7,23 +7,33 @@ import {
   Zap,
   Bot,
 } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function AboutPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-20">
       {/* Header */}
-      <div className="mb-12">
-        <p className="text-sm text-cyber-accent font-mono mb-2">
-          &gt; whoami
-        </p>
-        <h1 className="text-4xl md:text-5xl font-bold text-cyber-text mb-4">
-          Viswanath Srinivasan Chirravuri
-        </h1>
-        <p className="text-lg text-cyber-muted leading-relaxed">
-          Product Security &amp; Gen AI Consultant | GSE #335 | CompTIA SME |
-          D.Eng. Cybersecurity Analytics (expected Aug 2026) | RSA 2024 &amp; 2026 Speaker
-        </p>
+      <div className="mb-12 flex items-start gap-6">
+        <Image
+          src="/images/viswanath-chirravuri.png"
+          alt="Viswanath Chirravuri"
+          width={100}
+          height={100}
+          className="rounded-full border-2 border-cyber-accent/40 shrink-0"
+        />
+        <div>
+          <p className="text-sm text-cyber-accent font-mono mb-2">
+            &gt; whoami
+          </p>
+          <h1 className="text-4xl md:text-5xl font-bold text-cyber-text mb-4">
+            Viswanath Srinivasan Chirravuri
+          </h1>
+          <p className="text-lg text-cyber-muted leading-relaxed">
+            Product Security &amp; Gen AI Consultant | GSE #335 | CompTIA SME |
+            D.Eng. Cybersecurity Analytics (expected Aug 2026) | RSA 2024 &amp; 2026 Speaker
+          </p>
+        </div>
       </div>
 
       {/* Bio */}
