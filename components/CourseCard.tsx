@@ -147,7 +147,7 @@ export function CourseCard({ course }: { course: Course }) {
             {/* Highlights */}
             <div className="flex-1">
               <h4 className="text-xs font-semibold text-cyber-text uppercase tracking-wider mb-3">
-                What&apos;s Covered
+                Engagement Scope
               </h4>
               <ul className="space-y-2">
                 {course.highlights.map((h, i) => (
