@@ -15,6 +15,7 @@ export interface Course {
   tier: "starter" | "professional" | "enterprise";
   category: "general" | "ai" | "appsec";
   subcategory?: string;
+  reference?: { label: string; url: string };
 }
 
 const dataDir = path.join(process.cwd(), "data");

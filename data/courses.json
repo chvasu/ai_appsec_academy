@@ -44,22 +44,23 @@
     "id": "rag-security-consulting",
     "title": "RAG Security & Architecture",
     "subtitle": "Retrieval-Augmented Generation Pipeline Hardening",
-    "description": "Advisory on designing and securing Retrieval-Augmented Generation architectures. Covers vector database hardening, embedding security, retrieval pipeline integrity, document poisoning prevention, chunking strategy risks, and access control for knowledge bases used by LLM applications.",
+    "description": "Advisory on designing and securing Retrieval-Augmented Generation architectures. Covers 15+ RAG architecture strategies, chunking strategy security implications, vector database hardening, embedding security, retrieval pipeline integrity, document poisoning prevention, and access control for knowledge bases used by LLM applications.",
     "hourlyRate": 300,
     "hourlyRateDisplay": "$300",
     "minHours": 1,
     "maxHours": 4,
     "highlights": [
+      "15+ RAG architecture & chunking strategies with security analysis",
       "RAG architecture security review & threat modeling",
       "Vector database hardening: Pinecone, Weaviate, Chroma, pgvector",
       "Document poisoning prevention & knowledge base integrity",
-      "Embedding security & retrieval pipeline access control",
       "Data leakage prevention across chunking & retrieval boundaries"
     ],
     "icon": "code",
     "tier": "professional",
     "category": "ai",
-    "subcategory": "AI Application Security"
+    "subcategory": "AI Application Security",
+    "reference": { "label": "Read: 15 RAG Strategies Every AI Engineer Should Know", "url": "/blog/ml-rag-strategies" }
   },
   {
     "id": "agentic-ai-security",
@@ -80,28 +81,8 @@
     "icon": "terminal",
     "tier": "professional",
     "category": "ai",
-    "subcategory": "AI Application Security"
-  },
-  {
-    "id": "ai-red-teaming",
-    "title": "AI Red Teaming & Adversarial Testing",
-    "subtitle": "Jailbreak Assessment, Model Robustness & Automated Attack Simulation",
-    "description": "Advisory on red-teaming AI systems for production readiness. Covers jailbreak testing methodologies, adversarial prompt crafting, model robustness evaluation, automated red-team tooling (Garak, PyRIT, Counterfit), safety benchmark design, and building continuous adversarial testing programs.",
-    "hourlyRate": 300,
-    "hourlyRateDisplay": "$300",
-    "minHours": 1,
-    "maxHours": 4,
-    "highlights": [
-      "Jailbreak testing: single-turn, multi-turn & encoded payload techniques",
-      "Adversarial prompt engineering & model boundary testing",
-      "Automated red-team tooling: Garak, PyRIT, Counterfit, ART",
-      "Safety benchmark design & regression testing frameworks",
-      "Red team program design for continuous AI security validation"
-    ],
-    "icon": "shield",
-    "tier": "professional",
-    "category": "ai",
-    "subcategory": "AI Testing & Assessment"
+    "subcategory": "AI Application Security",
+    "reference": { "label": "Read: The Evolution of Agentic AI Development", "url": "/blog/agentic-ai-evolution" }
   },
   {
     "id": "mlsecops-consulting",
@@ -122,7 +103,8 @@
     "icon": "code",
     "tier": "professional",
     "category": "ai",
-    "subcategory": "AI Operations & Development"
+    "subcategory": "AI Operations & Development",
+    "reference": { "label": "Open Source: Secure-ML Framework", "url": "https://github.com/thalesgroup/secure-ml" }
   },
   {
     "id": "secure-ai-development",
@@ -143,7 +125,8 @@
     "icon": "terminal",
     "tier": "professional",
     "category": "ai",
-    "subcategory": "AI Operations & Development"
+    "subcategory": "AI Operations & Development",
+    "reference": { "label": "Speaking at RSA Conference 2026 on this topic", "url": "https://path.rsaconference.com/flow/rsac/us26/FullAgenda/page/catalog/session/1753456619857001mrPA" }
   },
   {
     "id": "enterprise-ai-security",

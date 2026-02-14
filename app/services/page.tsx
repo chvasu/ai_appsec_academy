@@ -1,6 +1,6 @@
 import { getCourses } from "@/lib/db";
 import { CourseCard } from "@/components/CourseCard";
-import { Brain, Shield, ShieldCheck, Crosshair, Settings } from "lucide-react";
+import { Brain, Shield, ShieldCheck, Settings } from "lucide-react";
 
 const aiSubcategoryMeta: Record<
   string,
@@ -11,12 +11,6 @@ const aiSubcategoryMeta: Record<
     description:
       "Secure LLM applications, RAG pipelines, and autonomous agent architectures against emerging threats",
     borderColor: "border-emerald-500/30",
-  },
-  "AI Testing & Assessment": {
-    icon: Crosshair,
-    description:
-      "Adversarial testing, jailbreak assessment, and model robustness validation",
-    borderColor: "border-violet-500/30",
   },
   "AI Operations & Development": {
     icon: Settings,
@@ -81,7 +75,7 @@ export default async function ServicesPage() {
             </h2>
             <p className="text-sm text-cyber-muted">
               Specialized advisory across LLM security, agentic AI, RAG
-              architectures, red teaming, and secure AI development
+              architectures, MLSecOps, and secure AI development
             </p>
           </div>
         </div>
@@ -113,7 +107,7 @@ export default async function ServicesPage() {
                   </p>
                 )}
 
-                <div className="grid md:grid-cols-3 gap-6">
+                <div className="space-y-3">
                   {group.services.map((service) => (
                     <CourseCard key={service.id} course={service} />
                   ))}
@@ -140,7 +134,7 @@ export default async function ServicesPage() {
             </p>
           </div>
         </div>
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="space-y-3">
           {appSecServices.map((service) => (
             <CourseCard key={service.id} course={service} />
           ))}
