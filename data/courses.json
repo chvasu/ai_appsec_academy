@@ -20,6 +20,153 @@
     "category": "general"
   },
   {
+    "id": "llm-appsec-consulting",
+    "title": "LLM Application Security",
+    "subtitle": "OWASP Top 10 for LLMs & Prompt Injection Defense",
+    "description": "Expert consulting on securing LLM-powered applications in production. Covers the OWASP Top 10 for Large Language Models, prompt injection prevention, output validation, sensitive data exposure mitigation, and building defense-in-depth architectures for GenAI applications.",
+    "hourlyRate": 300,
+    "hourlyRateDisplay": "$300",
+    "minHours": 1,
+    "maxHours": 4,
+    "highlights": [
+      "OWASP Top 10 for LLMs: assessment & remediation strategies",
+      "Prompt injection defense: direct, indirect & multi-turn attacks",
+      "Output validation, filtering & content safety guardrails",
+      "Sensitive data exposure prevention & PII handling in LLM pipelines",
+      "Insecure output handling & downstream injection prevention"
+    ],
+    "icon": "shield",
+    "tier": "professional",
+    "category": "ai",
+    "subcategory": "AI Application Security"
+  },
+  {
+    "id": "rag-security-consulting",
+    "title": "RAG Security & Architecture",
+    "subtitle": "Retrieval-Augmented Generation Pipeline Hardening",
+    "description": "Advisory on designing and securing Retrieval-Augmented Generation architectures. Covers vector database hardening, embedding security, retrieval pipeline integrity, document poisoning prevention, chunking strategy risks, and access control for knowledge bases used by LLM applications.",
+    "hourlyRate": 300,
+    "hourlyRateDisplay": "$300",
+    "minHours": 1,
+    "maxHours": 4,
+    "highlights": [
+      "RAG architecture security review & threat modeling",
+      "Vector database hardening: Pinecone, Weaviate, Chroma, pgvector",
+      "Document poisoning prevention & knowledge base integrity",
+      "Embedding security & retrieval pipeline access control",
+      "Data leakage prevention across chunking & retrieval boundaries"
+    ],
+    "icon": "code",
+    "tier": "professional",
+    "category": "ai",
+    "subcategory": "AI Application Security"
+  },
+  {
+    "id": "agentic-ai-security",
+    "title": "Agentic AI Security",
+    "subtitle": "Multi-Agent Systems, Tool-Use & Autonomous Agent Guardrails",
+    "description": "Consulting on securing autonomous AI agent architectures. Covers multi-agent system boundaries, tool-use exploitation prevention, MCP (Model Context Protocol) security, chain-of-thought manipulation risks, and designing guardrails for agents operating with real-world side effects.",
+    "hourlyRate": 300,
+    "hourlyRateDisplay": "$300",
+    "minHours": 1,
+    "maxHours": 4,
+    "highlights": [
+      "Multi-agent system security architecture & boundary enforcement",
+      "Tool-use & function-calling exploitation prevention",
+      "MCP (Model Context Protocol) security & server hardening",
+      "Autonomous agent guardrails: scope limits, approval gates, kill switches",
+      "Chain-of-thought manipulation & goal hijacking defenses"
+    ],
+    "icon": "terminal",
+    "tier": "professional",
+    "category": "ai",
+    "subcategory": "AI Application Security"
+  },
+  {
+    "id": "ai-red-teaming",
+    "title": "AI Red Teaming & Adversarial Testing",
+    "subtitle": "Jailbreak Assessment, Model Robustness & Automated Attack Simulation",
+    "description": "Advisory on red-teaming AI systems for production readiness. Covers jailbreak testing methodologies, adversarial prompt crafting, model robustness evaluation, automated red-team tooling (Garak, PyRIT, Counterfit), safety benchmark design, and building continuous adversarial testing programs.",
+    "hourlyRate": 300,
+    "hourlyRateDisplay": "$300",
+    "minHours": 1,
+    "maxHours": 4,
+    "highlights": [
+      "Jailbreak testing: single-turn, multi-turn & encoded payload techniques",
+      "Adversarial prompt engineering & model boundary testing",
+      "Automated red-team tooling: Garak, PyRIT, Counterfit, ART",
+      "Safety benchmark design & regression testing frameworks",
+      "Red team program design for continuous AI security validation"
+    ],
+    "icon": "shield",
+    "tier": "professional",
+    "category": "ai",
+    "subcategory": "AI Testing & Assessment"
+  },
+  {
+    "id": "mlsecops-consulting",
+    "title": "MLSecOps & Pipeline Security",
+    "subtitle": "ML Pipeline Hardening, Model Supply Chain & Training Data Integrity",
+    "description": "Expert consulting on securing the end-to-end machine learning lifecycle. Covers ML pipeline hardening with MLflow, Kubeflow, and SageMaker; model versioning and signing; training data poisoning defenses; model artifact supply chain security; and integrating security gates into MLOps workflows.",
+    "hourlyRate": 300,
+    "hourlyRateDisplay": "$300",
+    "minHours": 1,
+    "maxHours": 4,
+    "highlights": [
+      "ML pipeline hardening: MLflow, Kubeflow, SageMaker security",
+      "Model supply chain security: versioning, signing & provenance",
+      "Training data integrity & data poisoning defense strategies",
+      "Model artifact security: serialization attacks & deserialization risks",
+      "Security gate integration into MLOps CI/CD workflows"
+    ],
+    "icon": "code",
+    "tier": "professional",
+    "category": "ai",
+    "subcategory": "AI Operations & Development"
+  },
+  {
+    "id": "secure-ai-development",
+    "title": "Secure AI-Assisted Development",
+    "subtitle": "Vibecoding Tools, AI Code Generation Guardrails & Agentic SAST/SCA",
+    "description": "Consulting on implementing secure AI-assisted development workflows. Covers configuring Claude Code, Cline, Cursor, and Gemini CLI with security-by-default rules, building agentic SAST/SCA pipelines for AI-generated code, and establishing governance for AI coding tools across engineering teams.",
+    "hourlyRate": 300,
+    "hourlyRateDisplay": "$300",
+    "minHours": 1,
+    "maxHours": 4,
+    "highlights": [
+      "Vibecoding tools: Claude Code, Cline, Cursor, Aider, Gemini CLI",
+      "Security-by-default: OWASP-aligned rules in AI coding prompts",
+      "Agentic SAST & SCA: automated security audits of AI-generated code",
+      "Pre-commit hooks, custom linting & policy enforcement for AI code",
+      "AI coding tool governance & adoption strategy for teams"
+    ],
+    "icon": "terminal",
+    "tier": "professional",
+    "category": "ai",
+    "subcategory": "AI Operations & Development"
+  },
+  {
+    "id": "enterprise-ai-security",
+    "title": "Enterprise AI Security Engagement",
+    "subtitle": "Comprehensive AI/ML Security Program",
+    "description": "A multi-day consulting engagement covering the Secure-ML Framework, LLM Application Security, and AI governance. Tailored for organizations building or integrating AI/ML systems at scale. Includes threat modeling for LLMs, secure RAG architectures, red-teaming programs, and building an internal AI security governance framework.",
+    "hourlyRate": 0,
+    "hourlyRateDisplay": "Custom Quote",
+    "minHours": 0,
+    "maxHours": 0,
+    "highlights": [
+      "Secure-ML Framework: end-to-end ML pipeline security assessment",
+      "LLM AppSec: OWASP Top 10 for LLMs applied to your stack",
+      "AI red-teaming program design with automated tooling",
+      "Secure RAG architecture review & implementation guidance",
+      "Custom scope aligned to your tech stack & business goals"
+    ],
+    "icon": "shield",
+    "tier": "enterprise",
+    "category": "ai",
+    "subcategory": "Enterprise AI"
+  },
+  {
     "id": "product-security-consulting",
     "title": "Product Security Advisory",
     "subtitle": "Security Architecture & Supply Chain Strategy",
@@ -160,46 +307,6 @@
     "category": "appsec"
   },
   {
-    "id": "ai-security-consulting",
-    "title": "AI/ML Security Consulting",
-    "subtitle": "RAG Security, Fine-tuning & MLSecOps Advisory",
-    "description": "Expert consulting on building production-ready, secure AI systems. Covers RAG architecture security, LLM fine-tuning best practices, MLSecOps pipeline design, prompt injection defense, and data leakage prevention with LangChain, HuggingFace, Ollama, and open-source ML tooling.",
-    "hourlyRate": 300,
-    "hourlyRateDisplay": "$300",
-    "minHours": 1,
-    "maxHours": 4,
-    "highlights": [
-      "RAG architecture security: vector databases, embeddings, retrieval hardening",
-      "LLM fine-tuning best practices: LoRA/QLoRA with HuggingFace PEFT",
-      "Local model deployment: Ollama and vLLM for secure production inference",
-      "MLSecOps: model versioning, artifact security, training pipeline hardening",
-      "Prompt injection defense & data leakage prevention strategies"
-    ],
-    "icon": "code",
-    "tier": "professional",
-    "category": "ai"
-  },
-  {
-    "id": "vibecoding-consulting",
-    "title": "Secure Vibecoding Advisory",
-    "subtitle": "AI-Assisted Development with Security by Default",
-    "description": "Consulting on implementing 'Vibecoding' — AI-assisted development with security built-in from the start. Covers setting up Claude Code, Cline, Cursor, and Gemini CLI for secure code generation, implementing pre-defined security rules, and automated agentic SAST/SCA scans.",
-    "hourlyRate": 300,
-    "hourlyRateDisplay": "$300",
-    "minHours": 1,
-    "maxHours": 4,
-    "highlights": [
-      "Vibecoding tools: Claude Code, Cline, Cursor, Aider, Gemini CLI",
-      "Secure coding by default: OWASP-aligned security rules in AI prompts",
-      "Agentic SAST & SCA: Automated security audits of AI-generated code",
-      "Security & quality rules: Pre-commit hooks, custom linting, policy enforcement",
-      "Implementation plan for secure AI-assisted development workflows"
-    ],
-    "icon": "terminal",
-    "tier": "professional",
-    "category": "ai"
-  },
-  {
     "id": "enterprise-appsec",
     "title": "Enterprise AppSec Engagement",
     "subtitle": "DevSecOps Transformation & Program Building",
@@ -218,25 +325,5 @@
     "icon": "shield",
     "tier": "enterprise",
     "category": "appsec"
-  },
-  {
-    "id": "enterprise-ai-security",
-    "title": "AI Security Engagement",
-    "subtitle": "Enterprise AI/ML Security Program",
-    "description": "A multi-day consulting engagement covering the Secure-ML Framework and LLM Application Security. Tailored for organizations building or integrating AI/ML systems. Covers threat modeling for LLMs, secure RAG architectures, red-teaming AI systems, and building an internal AI security governance framework.",
-    "hourlyRate": 0,
-    "hourlyRateDisplay": "Custom Quote",
-    "minHours": 0,
-    "maxHours": 0,
-    "highlights": [
-      "Secure-ML Framework: end-to-end ML pipeline security",
-      "LLM AppSec: OWASP Top 10 for LLMs in practice",
-      "Red-teaming AI systems with automated tooling",
-      "Secure RAG architecture design & implementation",
-      "Custom scope aligned to your tech stack & business goals"
-    ],
-    "icon": "shield",
-    "tier": "enterprise",
-    "category": "ai"
   }
 ]

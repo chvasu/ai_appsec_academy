@@ -14,6 +14,7 @@ export interface Course {
   icon: string;
   tier: "starter" | "professional" | "enterprise";
   category: "general" | "ai" | "appsec";
+  subcategory?: string;
 }
 
 const dataDir = path.join(process.cwd(), "data");
