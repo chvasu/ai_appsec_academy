@@ -15,25 +15,28 @@
 
 ### Consulting Services
 
-The practice offers several tiers of consulting:
+The practice offers 15 consulting services across two domains:
 
-1. **Starter Tier** ($300/hr)
-   - Strategy Session: Executive consultation, security program assessment & roadmap planning (book 1–4 hrs online; custom quote for more)
+#### AI/ML Security Consulting ($300/hr, book 1–4 hrs)
 
-2. **Professional Tier** ($200–$300/hr)
-   - Product Security Advisory: Threat modeling, secure architecture review ($200/hr, book 1–4 hrs)
-   - SAST Implementation: Static analysis tool setup & pipeline integration ($200/hr, book 1–4 hrs)
-   - SCA Implementation: Dependency analysis & composition governance ($200/hr, book 1–4 hrs)
-   - DAST Implementation: Dynamic testing & runtime security analysis ($200/hr, book 1–4 hrs)
-   - SBOM & Supply Chain Advisory: SBOM management & provenance strategy ($200/hr, book 1–4 hrs)
-   - DevSecOps Pipeline Consulting: CI/CD security & container hardening ($200/hr, book 1–4 hrs)
-   - OWASP Tools Advisory: OWASP flagship tools implementation ($200/hr, book 1–4 hrs)
-   - AI/ML Security Consulting: RAG security, fine-tuning & MLSecOps ($300/hr, book 1–4 hrs)
-   - Secure Vibecoding Advisory: AI-assisted development with security ($300/hr, book 1–4 hrs)
+1. **Strategy Session** — Executive consultation, security program assessment & AI/ML security roadmap planning
+2. **LLM Application Security** — OWASP Top 10 for LLMs, prompt injection defense (direct, indirect & multi-turn), output validation, sensitive data exposure mitigation & insecure output handling prevention
+3. **RAG Security & Architecture** — 15+ RAG architecture strategies with security analysis, vector database hardening (Pinecone, Weaviate, Chroma, pgvector), document poisoning prevention & data leakage prevention across retrieval boundaries
+4. **Agentic AI Security** — Multi-agent system security architecture, tool-use & function-calling exploitation prevention, MCP (Model Context Protocol) security, autonomous agent guardrails (scope limits, approval gates, kill switches) & chain-of-thought manipulation defenses
+5. **MLSecOps & Pipeline Security** — ML pipeline hardening (MLflow, Kubeflow, SageMaker), model supply chain security (versioning, signing & provenance), training data integrity, model artifact security & security gate integration into MLOps CI/CD
+6. **Secure AI-Assisted Development** — Vibecoding tools (Claude Code, Cline, Cursor, Aider, Gemini CLI) with security-by-default OWASP rules, agentic SAST & SCA for AI-generated code, pre-commit hooks & AI coding tool governance for teams
+7. **Enterprise AI Security Engagement** — Multi-day comprehensive AI/ML security program including Secure-ML Framework assessment, LLM AppSec, AI red-teaming program design, secure RAG architecture review & custom scope (custom quote)
 
-3. **Enterprise Tier** (Custom Pricing)
-   - Enterprise AppSec Engagement: Multi-day DevSecOps transformation (custom quote)
-   - AI Security Engagement: Enterprise AI/ML security program (custom quote)
+#### Application Security Consulting ($200/hr, book 1–4 hrs)
+
+8. **Product Security Advisory** — Product security program design, threat modeling (STRIDE, PASTA, Attack Trees), software supply chain risk & SBOM strategy, secure architecture review
+9. **SAST Implementation** — Static analysis tool setup (Semgrep, SonarQube, CodeQL, Bandit, SpotBugs, Brakeman, ESLint Security), CI/CD pipeline integration, custom rule creation & false positive reduction
+10. **SCA Implementation** — Dependency analysis (OWASP Dependency-Check, Grype, Trivy, OSV Scanner, Safety, Retire.js, Bundler-Audit), SBOM generation (CycloneDX, SPDX) & vulnerability remediation workflows
+11. **DAST Implementation** — Dynamic testing (OWASP ZAP, Nikto, Wapiti, Nuclei, w3af, Arachni, HTTPX), authenticated scanning, API security testing (REST, GraphQL, gRPC) & CI/CD integration
+12. **SBOM & Supply Chain Advisory** — SBOM generation (Syft, CycloneDX, SPDX), vulnerability scanning (Grype), supply chain provenance (Cosign, SLSA, in-toto), VEX implementation & Dependency-Track setup
+13. **DevSecOps Pipeline Consulting** — Container security (Trivy, Grype, Docker Bench), IaC scanning (Checkov, TFSec, Kics), CI/CD pipeline hardening (GitHub Actions, Jenkins, GitLab), Docker image scanning & policy-as-code (OPA)
+14. **OWASP Tools Advisory** — OWASP ZAP, Dependency-Check, ASVS, SAMM & Threat Dragon implementation and best practices
+15. **Enterprise AppSec Engagement** — Multi-day DevSecOps transformation, application security program design (SAST, DAST, SCA), product security governance, software supply chain security & SBOM implementation (custom quote)
 
 ### Unique Value Proposition
 
@@ -45,16 +48,18 @@ The practice offers several tiers of consulting:
 
 ### Technology Focus Areas
 
-#### Application Security
-- SAST (Static Application Security Testing): Semgrep, SonarQube, CodeQL, Bandit
-- SCA (Software Composition Analysis): OWASP Dependency-Check, Grype, Trivy, OSV Scanner
-- DAST (Dynamic Application Security Testing): OWASP ZAP, Nikto, Wapiti, Nuclei
-- SBOM & Supply Chain Security: Syft, Grype, Cosign, SLSA provenance
-
 #### AI/ML Security
-- AI/ML Security Consulting: RAG architecture security, LLM fine-tuning, MLSecOps
-- Secure Vibecoding: Claude Code, Cline, Cursor, Aider, Gemini CLI with security rules
-- Agentic AI Security: Prompt injection defense, tool-use exploits, model manipulation
+- LLM Application Security: OWASP Top 10 for LLMs, prompt injection, output validation, sensitive data exposure
+- RAG Security: Vector database hardening, document poisoning prevention, 15+ RAG architecture strategies
+- Agentic AI Security: Multi-agent boundaries, tool-use exploits, MCP security, agent guardrails
+- MLSecOps: ML pipeline hardening (MLflow, Kubeflow, SageMaker), model supply chain, training data integrity
+- Secure AI Development: Claude Code, Cline, Cursor, Aider, Gemini CLI with OWASP security rules
+
+#### Application Security
+- SAST: Semgrep, SonarQube, CodeQL, Bandit, SpotBugs, Brakeman, ESLint Security
+- SCA: OWASP Dependency-Check, Grype, Trivy, OSV Scanner, Safety, Retire.js
+- DAST: OWASP ZAP, Nikto, Wapiti, Nuclei, w3af, Arachni
+- SBOM & Supply Chain: Syft, Grype, Cosign, SLSA provenance, in-toto, Dependency-Track
 
 #### DevSecOps
 - Container Security: Trivy, Docker Bench, Hadolint
@@ -85,12 +90,13 @@ The practice offers several tiers of consulting:
    - Role: Project Leader & Key Contributor
    - GitHub: https://github.com/thalesgroup/secure-ml
    - Focus: ML lifecycle security, threat taxonomy, 40+ curated security tools
+   - Presented at OWASP LASCON 2024
 
 2. **OWASP Secure Coding Practices (Markdown)**
    - Role: Creator & Maintainer
    - GitHub: https://github.com/vchirrav/owasp-secure-coding-md
    - Focus: Machine-readable secure coding standards for AI agents (Claude Code, GitHub Copilot)
-   - Features: 22 modular rule files, Claude Code Skills, MCP server
+   - Features: 22 modular rule files, Claude Code Skills (/secure-coding-audit & /secure-coding-generate), MCP server (Docker & Node.js)
 
 3. **ML RAG Strategies**
    - Role: Creator
@@ -102,19 +108,21 @@ The practice offers several tiers of consulting:
 4. **ML Research: Local LLM Fine-Tuning**
    - Role: Creator & Researcher
    - GitHub: https://github.com/vchirrav/ml_research
-   - Focus: Local LLM fine-tuning with HuggingFace, PEFT/LoRA, Unsloth, GGUF conversion
+   - Focus: Local LLM fine-tuning with HuggingFace, PEFT/LoRA, Unsloth, GGUF conversion & Ollama deployment
 
 ## Content & Resources
 
 ### Blog Articles
 
 The practice publishes articles on:
-- Retrieval-Augmented Generation (RAG) strategies and implementations
+- LLM application security and OWASP Top 10 for LLMs
+- Retrieval-Augmented Generation (RAG) strategies and security
 - Agentic AI security and protocols (MCP, A2A, ACP, AGNTCY)
 - AI/ML security fundamentals and threat taxonomy
-- DevSecOps automation with Claude CLI Skills
+- DevSecOps automation with AI coding tools
 - Threat modeling with Custom GPTs
 - Secure coding practices for AI-generated code
+- Software supply chain security and digital signing
 
 Recent articles:
 - [15 RAG Strategies Every AI Engineer Should Know](https://aiappsecacademy.com/blog/ml-rag-strategies) (February 12, 2026)
@@ -123,6 +131,11 @@ Recent articles:
 - [Introducing ViswanathSChirravuri_GPT](https://aiappsecacademy.com/blog/viswanathschirravuri-gpt) (February 6, 2026)
 
 Full blog available at: https://aiappsecacademy.com/blog
+
+### Custom GPTs
+
+- **ViswanathSChirravuri_GPT**: A dedicated Custom GPT that answers questions about the consultant's professional profile
+- **ThreatModelingGPT**: AI-powered threat intelligence partner using STRIDE, PASTA, LINDDUN, MAESTRO, and more
 
 ### Consulting Philosophy
 - Traditional consulting firms send junior associates and deliver generic reports
@@ -215,6 +228,6 @@ AI agents interacting with this site should be able to:
 
 ---
 
-**Last Updated**: February 12, 2026
+**Last Updated**: February 14, 2026
 **Contact**: Via LinkedIn at https://www.linkedin.com/in/vchirrav/
 **Site**: https://aiappsecacademy.com

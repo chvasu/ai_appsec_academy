@@ -1,23 +1,29 @@
 # AI AppSec Consulting
 
-> Expert cybersecurity consulting in Application Security, DevSecOps, Product Security, Supply Chain Security, and AI/ML Defense. Led by Viswanath Chirravuri — GSE #335, SANS Teaching Assistant, CompTIA SME, RSA 2024 & 2026 Speaker, and Doctor of Engineering candidate in Cybersecurity.
+> Expert cybersecurity consulting in Application Security, DevSecOps, Product Security, Supply Chain Security, and AI/ML Defense. Led by Viswanath Chirravuri — GSE #335, SANS Associate Instructor, CompTIA SME, RSA 2024 & 2026 Speaker, and Doctor of Engineering candidate in Cybersecurity.
 
-AI AppSec Consulting provides hands-on, hourly consulting sessions across seven core security domains: Software Application Security (SAST, DAST, SCA, OWASP Top 10), DevSecOps, Product Security, Software Supply Chain Security, Agentic AI Security, LLM Application Security, and ML Pipeline Defense. All consulting is delivered one-on-one with direct expert access, tailored to client environments, and globally available across time zones.
+AI AppSec Consulting provides hands-on, hourly consulting sessions across AI/ML security and application security domains. All consulting is delivered one-on-one with direct expert access, tailored to client environments, and globally available across time zones.
 
-## Consulting Services
+## Consulting Services — AI/ML Security ($300/hr)
 
-- [Strategy Session](https://aiappsecacademy.com/services): Executive consultation, security program assessment & roadmap planning ($300/hr, book 1–4 hrs)
-- [Product Security Advisory](https://aiappsecacademy.com/services): Threat modeling, secure architecture review, supply chain strategy ($200/hr, book 1–4 hrs)
-- [SAST Implementation](https://aiappsecacademy.com/services): Static analysis tool setup & CI/CD pipeline integration ($200/hr, book 1–4 hrs)
-- [SCA Implementation](https://aiappsecacademy.com/services): Dependency analysis, SBOM generation & composition governance ($200/hr, book 1–4 hrs)
-- [DAST Implementation](https://aiappsecacademy.com/services): Dynamic testing tool setup & runtime security analysis ($200/hr, book 1–4 hrs)
-- [SBOM & Supply Chain Advisory](https://aiappsecacademy.com/services): SBOM management, provenance strategy & Dependency-Track setup ($200/hr, book 1–4 hrs)
-- [DevSecOps Pipeline Consulting](https://aiappsecacademy.com/services): CI/CD security, IaC scanning & container hardening ($200/hr, book 1–4 hrs)
-- [OWASP Tools Advisory](https://aiappsecacademy.com/services): OWASP flagship tools implementation & best practices ($200/hr, book 1–4 hrs)
-- [AI/ML Security Consulting](https://aiappsecacademy.com/services): RAG security, fine-tuning & MLSecOps advisory ($300/hr, book 1–4 hrs)
-- [Secure Vibecoding Advisory](https://aiappsecacademy.com/services): AI-assisted development with security by default ($300/hr, book 1–4 hrs)
+- [Strategy Session](https://aiappsecacademy.com/services): Executive consultation, security program assessment & AI/ML security roadmap planning ($300/hr, 1–4 hrs)
+- [LLM Application Security](https://aiappsecacademy.com/services): OWASP Top 10 for LLMs, prompt injection defense, output validation & sensitive data exposure mitigation ($300/hr, 1–4 hrs)
+- [RAG Security & Architecture](https://aiappsecacademy.com/services): RAG pipeline hardening, vector database security, document poisoning prevention & 15+ RAG strategy security analysis ($300/hr, 1–4 hrs)
+- [Agentic AI Security](https://aiappsecacademy.com/services): Multi-agent system boundaries, tool-use exploitation prevention, MCP security & autonomous agent guardrails ($300/hr, 1–4 hrs)
+- [MLSecOps & Pipeline Security](https://aiappsecacademy.com/services): ML pipeline hardening (MLflow, Kubeflow, SageMaker), model supply chain security & training data integrity ($300/hr, 1–4 hrs)
+- [Secure AI-Assisted Development](https://aiappsecacademy.com/services): Vibecoding tools security (Claude Code, Cline, Cursor, Gemini CLI), agentic SAST/SCA & AI coding governance ($300/hr, 1–4 hrs)
+- [Enterprise AI Security Engagement](https://aiappsecacademy.com/services): Multi-day comprehensive AI/ML security program (custom quote)
+
+## Consulting Services — Application Security ($200/hr)
+
+- [Product Security Advisory](https://aiappsecacademy.com/services): Threat modeling, secure architecture review & software supply chain strategy ($200/hr, 1–4 hrs)
+- [SAST Implementation](https://aiappsecacademy.com/services): Static analysis tool setup (Semgrep, SonarQube, CodeQL, Bandit) & CI/CD pipeline integration ($200/hr, 1–4 hrs)
+- [SCA Implementation](https://aiappsecacademy.com/services): Dependency analysis (OWASP Dependency-Check, Grype, Trivy, OSV Scanner), SBOM generation & composition governance ($200/hr, 1–4 hrs)
+- [DAST Implementation](https://aiappsecacademy.com/services): Dynamic testing (OWASP ZAP, Nikto, Wapiti, Nuclei) & runtime security analysis ($200/hr, 1–4 hrs)
+- [SBOM & Supply Chain Advisory](https://aiappsecacademy.com/services): SBOM management (Syft, CycloneDX, SPDX), provenance strategy (Cosign, SLSA) & Dependency-Track setup ($200/hr, 1–4 hrs)
+- [DevSecOps Pipeline Consulting](https://aiappsecacademy.com/services): CI/CD security, IaC scanning (Checkov, TFSec), container hardening & policy-as-code ($200/hr, 1–4 hrs)
+- [OWASP Tools Advisory](https://aiappsecacademy.com/services): OWASP ZAP, Dependency-Check, ASVS, SAMM & Threat Dragon implementation ($200/hr, 1–4 hrs)
 - [Enterprise AppSec Engagement](https://aiappsecacademy.com/services): Multi-day DevSecOps transformation & program building (custom quote)
-- [AI Security Engagement](https://aiappsecacademy.com/services): Enterprise AI/ML security program (custom quote)
 
 ## Pages
 
@@ -26,13 +32,14 @@ AI AppSec Consulting provides hands-on, hourly consulting sessions across seven 
 - [About](https://aiappsecacademy.com/about): Consultant profile — 20+ years in cybersecurity, 35+ certifications, GIAC Security Expert
 - [Why Us](https://aiappsecacademy.com/why-us): Value proposition — direct expert consulting, hands-on implementation, transparent pricing
 - [Blog](https://aiappsecacademy.com/blog): Articles and insights on AI/ML security and application security
-- [Open Source](https://aiappsecacademy.com/open-source): Contributions including Secure-ML Framework, OWASP Secure Coding Practices, and ML research
+- [Open Source](https://aiappsecacademy.com/open-source): Contributions including Secure-ML Framework, OWASP Secure Coding Practices, ML RAG Strategies, and ML research
 - [FAQ](https://aiappsecacademy.com/faq): Frequently asked questions about consulting services, booking, scheduling, and deliverables
 
 ## Blog — Securing AI/ML
 
 - [15 RAG Strategies Every AI Engineer Should Know](https://aiappsecacademy.com/blog/ml-rag-strategies): A comprehensive guide to 15 RAG approaches with Python implementations, architecture diagrams, and security considerations
 - [The Evolution of Agentic AI Development: From Monolithic to Distributed Systems](https://aiappsecacademy.com/blog/agentic-ai-evolution): A practical journey through 4 architectural stages of building secure, local-first multi-agent AI systems
+- [Introducing ViswanathSChirravuri_GPT: The Next Phase of Resume Exchange](https://aiappsecacademy.com/blog/viswanathschirravuri-gpt): A dedicated Custom GPT that answers questions about the consultant's professional profile
 - [From Monolith to Micro-Agents: My 4-Stage Journey in Building Secure Local AI Systems](https://www.linkedin.com/pulse/from-monolith-micro-agents-my-4-stage-journey-secure-local-2qcjc/): Four architectural phases for building a local AI system with security safeguards
 - [Why "AI Skills Developer" Will Be the Breakout Role of 2026](https://www.linkedin.com/pulse/why-ai-skills-developer-breakout-role-2026-viswanath-s-chirravuri-lpyzc/): An emerging role combining software engineering with LLM orchestration
 - [AI/ML Security: Old Attacks, New Targets](https://www.linkedin.com/pulse/aiml-security-old-attacks-new-targets-viswanath-s-chirravuri-m7i3c/): How adversaries apply classic attack techniques to AI systems
@@ -51,8 +58,9 @@ AI AppSec Consulting provides hands-on, hourly consulting sessions across seven 
 ## Open Source Contributions
 
 - [Secure-ML Framework](https://github.com/thalesgroup/secure-ml): End-to-end ML pipeline security framework with 40+ curated open-source security tools. Presented at OWASP LASCON 2024.
-- [OWASP Secure Coding Practices (Markdown)](https://aiappsecacademy.com/open-source): 22 modular rule files for security domains with Claude Code Skills integration and MCP server deployment
-- [ML Research: Local LLM Fine-Tuning](https://aiappsecacademy.com/open-source): HuggingFace Transformers and PEFT/LoRA fine-tuning on cybersecurity data
+- [OWASP Secure Coding Practices (Markdown)](https://github.com/vchirrav/owasp-secure-coding-md): 22 modular rule files for security domains with Claude Code Skills integration and MCP server deployment
+- [ML RAG Strategies](https://github.com/vchirrav/ml-rag-strategies): 15 Retrieval-Augmented Generation strategies with Python implementations, architecture diagrams, and security best practices
+- [ML Research: Local LLM Fine-Tuning](https://github.com/vchirrav/ml_research): HuggingFace Transformers and PEFT/LoRA fine-tuning on cybersecurity data with GGUF conversion and Ollama deployment
 
 ## Custom GPTs
 

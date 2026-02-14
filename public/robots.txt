@@ -16,3 +16,6 @@ Sitemap: https://aiappsecacademy.com/sitemap.xml
 # LLMs.txt - AI-readable site summary
 # https://llmstxt.org/
 LLMsTxt: https://aiappsecacademy.com/llms.txt
+
+# Agents.md - AI agent information
+AgentsMd: https://aiappsecacademy.com/agents.md
