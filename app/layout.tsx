@@ -87,6 +87,11 @@ export default function RootLayout({
       </head>
       <body className="min-h-screen flex flex-col scan-line">
         <Script
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4439893005872161"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
+        <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-QS9GY50V6P"
           strategy="afterInteractive"
         />
