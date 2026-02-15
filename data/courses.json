@@ -7,7 +7,7 @@
     "hourlyRate": 300,
     "hourlyRateDisplay": "$300",
     "minHours": 1,
-    "maxHours": 4,
+    "maxHours": 8,
     "highlights": [
       "Security program assessment & maturity evaluation",
       "AI/ML security strategy & roadmap planning",
@@ -27,7 +27,7 @@
     "hourlyRate": 300,
     "hourlyRateDisplay": "$300",
     "minHours": 1,
-    "maxHours": 4,
+    "maxHours": 8,
     "highlights": [
       "OWASP Top 10 for LLMs: assessment & remediation strategies",
       "Prompt injection defense: direct, indirect & multi-turn attacks",
@@ -48,7 +48,7 @@
     "hourlyRate": 300,
     "hourlyRateDisplay": "$300",
     "minHours": 1,
-    "maxHours": 4,
+    "maxHours": 8,
     "highlights": [
       "15+ RAG architecture & chunking strategies with security analysis",
       "RAG architecture security review & threat modeling",
@@ -70,7 +70,7 @@
     "hourlyRate": 300,
     "hourlyRateDisplay": "$300",
     "minHours": 1,
-    "maxHours": 4,
+    "maxHours": 8,
     "highlights": [
       "Multi-agent system security architecture & boundary enforcement",
       "Tool-use & function-calling exploitation prevention",
@@ -92,7 +92,7 @@
     "hourlyRate": 300,
     "hourlyRateDisplay": "$300",
     "minHours": 1,
-    "maxHours": 4,
+    "maxHours": 8,
     "highlights": [
       "ML pipeline hardening: MLflow, Kubeflow, SageMaker security",
       "Model supply chain security: versioning, signing & provenance",
@@ -114,7 +114,7 @@
     "hourlyRate": 300,
     "hourlyRateDisplay": "$300",
     "minHours": 1,
-    "maxHours": 4,
+    "maxHours": 8,
     "highlights": [
       "Vibecoding tools: Claude Code, Cline, Cursor, Aider, Gemini CLI",
       "Security-by-default: OWASP-aligned rules in AI coding prompts",
@@ -157,7 +157,7 @@
     "hourlyRate": 200,
     "hourlyRateDisplay": "$200",
     "minHours": 1,
-    "maxHours": 4,
+    "maxHours": 8,
     "highlights": [
       "Product security program design & maturity assessment",
       "Threat modeling frameworks (STRIDE, PASTA, Attack Trees)",
@@ -177,7 +177,7 @@
     "hourlyRate": 200,
     "hourlyRateDisplay": "$200",
     "minHours": 1,
-    "maxHours": 4,
+    "maxHours": 8,
     "highlights": [
       "Tool selection guidance: Semgrep, SonarQube, CodeQL, Bandit, SpotBugs",
       "Language-specific SAST: Bandit (Python), Brakeman (Ruby), ESLint Security",
@@ -197,7 +197,7 @@
     "hourlyRate": 200,
     "hourlyRateDisplay": "$200",
     "minHours": 1,
-    "maxHours": 4,
+    "maxHours": 8,
     "highlights": [
       "SCA tool comparison: OWASP Dependency-Check, Grype, Trivy, OSV Scanner",
       "Language-specific SCA: Safety (Python), Retire.js, Bundler-Audit (Ruby)",
@@ -217,7 +217,7 @@
     "hourlyRate": 200,
     "hourlyRateDisplay": "$200",
     "minHours": 1,
-    "maxHours": 4,
+    "maxHours": 8,
     "highlights": [
       "DAST tool setup: OWASP ZAP, Nikto, Wapiti, Nuclei",
       "Web vulnerability scanning: w3af, Arachni, HTTPX for reconnaissance",
@@ -237,7 +237,7 @@
     "hourlyRate": 200,
     "hourlyRateDisplay": "$200",
     "minHours": 1,
-    "maxHours": 4,
+    "maxHours": 8,
     "highlights": [
       "SBOM generation with Syft, CycloneDX, SPDX formats",
       "Vulnerability scanning with Grype and SBOM consumption",
@@ -257,7 +257,7 @@
     "hourlyRate": 200,
     "hourlyRateDisplay": "$200",
     "minHours": 1,
-    "maxHours": 4,
+    "maxHours": 8,
     "highlights": [
       "Container security: Trivy, Grype, Docker Bench for Security",
       "IaC scanning: Checkov, TFSec, Kics for Terraform/CloudFormation/ARM",
@@ -277,7 +277,7 @@
     "hourlyRate": 200,
     "hourlyRateDisplay": "$200",
     "minHours": 1,
-    "maxHours": 4,
+    "maxHours": 8,
     "highlights": [
       "OWASP ZAP: Automated scanning & manual penetration testing",
       "OWASP Dependency-Check: SCA integration & reporting",
