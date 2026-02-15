@@ -78,6 +78,12 @@ export default function RootLayout({
     <html lang="en" className="dark">
       <head>
         <Script
+          id="Cookiebot"
+          src="https://consent.cookiebot.com/uc.js"
+          data-cbid="02599071-89f7-45f9-9043-72c1f058f412"
+          strategy="beforeInteractive"
+        />
+        <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-QS9GY50V6P"
           strategy="afterInteractive"
         />
