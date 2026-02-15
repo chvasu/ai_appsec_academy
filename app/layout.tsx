@@ -76,7 +76,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
-      <head>
+      <body className="min-h-screen flex flex-col scan-line">
         <Script
           id="Cookiebot"
           src="https://consent.cookiebot.com/uc.js"
@@ -95,8 +95,6 @@ export default function RootLayout({
             gtag('config', 'G-QS9GY50V6P');
           `}
         </Script>
-      </head>
-      <body className="min-h-screen flex flex-col scan-line">
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />
