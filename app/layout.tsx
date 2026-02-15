@@ -76,13 +76,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
-      <body className="min-h-screen flex flex-col scan-line">
-        <Script
+      <head>
+        <script
           id="Cookiebot"
           src="https://consent.cookiebot.com/uc.js"
           data-cbid="02599071-89f7-45f9-9043-72c1f058f412"
-          strategy="beforeInteractive"
-        />
+          type="text/javascript"
+          async
+        ></script>
+      </head>
+      <body className="min-h-screen flex flex-col scan-line">
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-QS9GY50V6P"
           strategy="afterInteractive"
