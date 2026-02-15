@@ -81,8 +81,8 @@ export default function RootLayout({
           id="Cookiebot"
           src="https://consent.cookiebot.com/uc.js"
           data-cbid="02599071-89f7-45f9-9043-72c1f058f412"
+          data-blockingmode="auto"
           type="text/javascript"
-          async
         ></script>
       </head>
       <body className="min-h-screen flex flex-col scan-line">
