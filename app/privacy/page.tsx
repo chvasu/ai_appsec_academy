@@ -105,19 +105,7 @@ export default function PrivacyPage() {
               cookies and does not collect personal information. Data is aggregated and anonymized.
             </p>
 
-            <h3 className="text-xl font-semibold text-cyber-text mt-4 mb-2">4.3 Google AdSense</h3>
-            <p className="leading-relaxed">
-              We use Google AdSense to display advertisements on our website. Google AdSense may use
-              cookies and web beacons to serve ads based on your prior visits to our website or other
-              websites. You can opt out of personalized advertising by visiting{" "}
-              <a href="https://www.google.com/settings/ads" target="_blank"
-              rel="noopener noreferrer" className="text-cyber-accent hover:underline">Google Ads Settings</a>.
-              For more information, see Google&apos;s{" "}
-              <a href="https://policies.google.com/privacy" target="_blank"
-              rel="noopener noreferrer" className="text-cyber-accent hover:underline">Privacy Policy</a>.
-            </p>
-
-            <h3 className="text-xl font-semibold text-cyber-text mt-4 mb-2">4.4 Vercel Hosting</h3>
+            <h3 className="text-xl font-semibold text-cyber-text mt-4 mb-2">4.3 Vercel Hosting</h3>
             <p className="leading-relaxed">
               Our website is hosted on Vercel. Server logs may be collected for security and performance
               monitoring purposes.
@@ -176,12 +164,9 @@ export default function PrivacyPage() {
           <section>
             <h2 className="text-2xl font-bold text-cyber-text mb-4">8. Cookies</h2>
             <p className="leading-relaxed">
-              Our website uses cookies for essential functionality, analytics, and advertising. Vercel
-              Web Analytics does not use cookies. Google Analytics uses cookies to understand website
-              usage. Google AdSense uses cookies to serve relevant advertisements and may track browsing
-              across websites for ad personalization. You can manage your cookie preferences through the
-              Cookiebot consent banner on our website. For full details, see our{" "}
-              <a href="/cookie-policy" className="text-cyber-accent hover:underline">Cookie Policy</a>.
+              Our website uses minimal cookies. Vercel Web Analytics does not use cookies. Any cookies
+              used are strictly necessary for website functionality (e.g., session management). We do
+              not use advertising or tracking cookies.
             </p>
           </section>
 

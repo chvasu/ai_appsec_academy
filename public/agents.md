@@ -192,7 +192,6 @@ Full blog available at: https://aiappsecacademy.com/blog
 - **Styling**: Tailwind CSS with custom "cyber" theme
 - **Hosting**: Vercel (auto-deploy from master branch)
 - **Analytics**: Vercel Web Analytics, Google Analytics
-- **Advertising**: Google AdSense
 - **Cookie Consent**: Cookiebot by Usercentrics
 - **Payment**: Stripe Checkout Sessions
 

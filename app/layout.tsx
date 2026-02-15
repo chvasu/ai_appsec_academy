@@ -84,11 +84,6 @@ export default function RootLayout({
           data-blockingmode="auto"
           type="text/javascript"
         ></script>
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4439893005872161"
-          crossOrigin="anonymous"
-        ></script>
       </head>
       <body className="min-h-screen flex flex-col scan-line">
         <Script

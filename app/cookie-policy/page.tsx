@@ -82,28 +82,10 @@ export default function CookiePolicyPage() {
               your preferences. If you do not allow these cookies, some features may not function properly.
             </p>
 
-            <h3 className="text-xl font-semibold text-cyber-text mt-4 mb-2">3.4 Advertising Cookies</h3>
-            <p className="leading-relaxed mb-3">
-              We use advertising cookies to display relevant advertisements on our website through
-              third-party advertising networks. These cookies may track your browsing activity across
-              websites to deliver targeted ads.
-            </p>
-            <ul className="list-disc pl-6 space-y-2">
-              <li><strong className="text-cyber-text">Google AdSense:</strong> Serves advertisements on our
-                website and may use cookies (including the DSID, IDE, and NID cookies) to personalize
-                ads based on your browsing history. Google&apos;s use of advertising cookies is governed by
-                their{" "}
-                <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer"
-                  className="text-cyber-accent hover:underline">Advertising Policies</a> and{" "}
-                <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer"
-                  className="text-cyber-accent hover:underline">Privacy Policy</a></li>
-            </ul>
-            <p className="leading-relaxed mt-3">
-              You can opt out of personalized advertising by visiting{" "}
-              <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener noreferrer"
-                className="text-cyber-accent hover:underline">Google Ads Settings</a> or{" "}
-              <a href="https://optout.aboutads.info/" target="_blank" rel="noopener noreferrer"
-                className="text-cyber-accent hover:underline">aboutads.info</a>.
+            <h3 className="text-xl font-semibold text-cyber-text mt-4 mb-2">3.4 Marketing Cookies</h3>
+            <p className="leading-relaxed">
+              We do not currently use marketing or advertising cookies. If this changes in the future,
+              this policy will be updated and your consent will be requested.
             </p>
           </section>
 
@@ -135,10 +117,6 @@ export default function CookiePolicyPage() {
               <li><strong className="text-cyber-text">Google Analytics:</strong> Website usage analytics —{" "}
                 <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer"
                   className="text-cyber-accent hover:underline">Opt-out browser add-on</a></li>
-              <li><strong className="text-cyber-text">Google AdSense:</strong> Advertising — serves relevant ads and may
-                track browsing for personalization —{" "}
-                <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener noreferrer"
-                  className="text-cyber-accent hover:underline">Manage Ad Settings</a></li>
               <li><strong className="text-cyber-text">Stripe:</strong> Payment processing — cookies are set only
                 during checkout sessions</li>
               <li><strong className="text-cyber-text">Cookiebot:</strong> Cookie consent management —{" "}
