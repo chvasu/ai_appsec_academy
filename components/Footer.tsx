@@ -100,6 +100,14 @@ export function Footer() {
                   Refund Policy
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/cookie-policy"
+                  className="hover:text-cyber-accent transition"
+                >
+                  Cookie Policy
+                </Link>
+              </li>
             </ul>
           </div>
 

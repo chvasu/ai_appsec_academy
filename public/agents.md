@@ -164,6 +164,7 @@ Full blog available at: https://aiappsecacademy.com/blog
 - `/terms` - Terms & conditions with consulting disclaimer
 - `/privacy` - Privacy policy
 - `/refund-policy` - Refund and cancellation policy
+- `/cookie-policy` - Cookie policy and consent management
 - `/success` - Post-booking confirmation page
 
 ### Blog Posts (Internal)
@@ -190,7 +191,8 @@ Full blog available at: https://aiappsecacademy.com/blog
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS with custom "cyber" theme
 - **Hosting**: Vercel (auto-deploy from master branch)
-- **Analytics**: Vercel Web Analytics
+- **Analytics**: Vercel Web Analytics, Google Analytics
+- **Cookie Consent**: Cookiebot by Usercentrics
 - **Payment**: Stripe Checkout Sessions
 
 ## Design System

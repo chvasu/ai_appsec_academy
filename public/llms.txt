@@ -34,6 +34,7 @@ AI AppSec Consulting provides hands-on, hourly consulting sessions across AI/ML 
 - [Blog](https://aiappsecacademy.com/blog): Articles and insights on AI/ML security and application security
 - [Open Source](https://aiappsecacademy.com/open-source): Contributions including Secure-ML Framework, OWASP Secure Coding Practices, ML RAG Strategies, and ML research
 - [FAQ](https://aiappsecacademy.com/faq): Frequently asked questions about consulting services, booking, scheduling, and deliverables
+- [Cookie Policy](https://aiappsecacademy.com/cookie-policy): How we use cookies and manage consent via Cookiebot
 
 ## Blog — Securing AI/ML
 
