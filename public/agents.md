@@ -176,6 +176,7 @@ Full blog available at: https://aiappsecacademy.com/blog
 
 ### Contact
 - Contact information available via homepage footer
+- Email: vis@aiappsecacademy.com
 - LinkedIn: https://www.linkedin.com/in/vchirrav/
 
 ## Payment & Booking
@@ -239,5 +240,5 @@ AI agents interacting with this site should be able to:
 ---
 
 **Last Updated**: February 15, 2026
-**Contact**: Via LinkedIn at https://www.linkedin.com/in/vchirrav/
+**Contact**: vis@aiappsecacademy.com | LinkedIn: https://www.linkedin.com/in/vchirrav/
 **Site**: https://aiappsecacademy.com

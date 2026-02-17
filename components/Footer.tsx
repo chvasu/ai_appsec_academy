@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Shield } from "lucide-react";
+import { Shield, Mail } from "lucide-react";
 import Link from "next/link";
 import { TermsCheckbox } from "./TermsCheckbox";
 
@@ -118,8 +118,17 @@ export function Footer() {
             </h4>
             <p className="text-sm text-cyber-muted leading-relaxed mb-3">
               For enterprise consulting inquiries, speaking engagements, or custom
-              engagements, reach out via LinkedIn.
+              engagements, reach out via email or LinkedIn.
             </p>
+            <div className="flex items-center gap-2 mb-3">
+              <Mail className="w-4 h-4 text-cyber-accent" />
+              <a
+                href="mailto:vis@aiappsecacademy.com"
+                className="text-sm text-cyber-accent hover:underline"
+              >
+                vis@aiappsecacademy.com
+              </a>
+            </div>
             <TermsCheckbox
               onAcceptChange={setContactTermsAccepted}
               className="mb-3"
