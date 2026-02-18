@@ -59,6 +59,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.6,
     },
     {
+      url: `${baseUrl}/blog/product-security-ai-skills`,
+      lastModified: new Date('2026-02-13'),
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    },
+    {
       url: `${baseUrl}/open-source`,
       lastModified: new Date(),
       changeFrequency: 'monthly',

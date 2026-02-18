@@ -99,13 +99,25 @@ export default function PrivacyPage() {
               We do not store credit card information on our servers.
             </p>
 
-            <h3 className="text-xl font-semibold text-cyber-text mt-4 mb-2">4.2 Vercel Web Analytics</h3>
+            <h3 className="text-xl font-semibold text-cyber-text mt-4 mb-2">4.2 Google Analytics</h3>
+            <p className="leading-relaxed">
+              We use Google Analytics (GA4) to understand how visitors interact with our website.
+              Google Analytics collects anonymized usage data including page views, session duration,
+              and traffic sources via cookies (_ga, _gid). Data is processed by Google per their{" "}
+              <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer"
+                className="text-cyber-accent hover:underline">Privacy Policy</a>.
+              You can opt out using the{" "}
+              <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer"
+                className="text-cyber-accent hover:underline">Google Analytics Opt-out Browser Add-on</a>.
+            </p>
+
+            <h3 className="text-xl font-semibold text-cyber-text mt-4 mb-2">4.3 Vercel Web Analytics</h3>
             <p className="leading-relaxed">
               We use Vercel Web Analytics for privacy-friendly website analytics. Vercel does not use
               cookies and does not collect personal information. Data is aggregated and anonymized.
             </p>
 
-            <h3 className="text-xl font-semibold text-cyber-text mt-4 mb-2">4.3 Vercel Hosting</h3>
+            <h3 className="text-xl font-semibold text-cyber-text mt-4 mb-2">4.4 Vercel Hosting</h3>
             <p className="leading-relaxed">
               Our website is hosted on Vercel. Server logs may be collected for security and performance
               monitoring purposes.
@@ -163,10 +175,17 @@ export default function PrivacyPage() {
 
           <section>
             <h2 className="text-2xl font-bold text-cyber-text mb-4">8. Cookies</h2>
-            <p className="leading-relaxed">
-              Our website uses minimal cookies. Vercel Web Analytics does not use cookies. Any cookies
-              used are strictly necessary for website functionality (e.g., session management). We do
-              not use advertising or tracking cookies.
+            <p className="leading-relaxed mb-3">
+              Our website uses the following categories of cookies:
+            </p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li><strong className="text-cyber-text">Strictly Necessary:</strong> Session management cookies essential for website functionality</li>
+              <li><strong className="text-cyber-text">Analytics:</strong> Google Analytics (_ga, _gid) to understand visitor behavior and improve our services. Data is anonymized and processed by Google per their Privacy Policy.</li>
+              <li><strong className="text-cyber-text">Consent Management:</strong> Cookiebot stores your cookie consent preferences so the banner is not shown repeatedly</li>
+            </ul>
+            <p className="leading-relaxed mt-3">
+              We do not use advertising or marketing cookies. For full cookie details and to manage your preferences, see our{" "}
+              <a href="/cookie-policy" className="text-cyber-accent hover:underline">Cookie Policy</a>.
             </p>
           </section>
 
