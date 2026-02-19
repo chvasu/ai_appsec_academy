@@ -27,7 +27,7 @@ export default function AboutPage() {
             &gt; whoami
           </p>
           <h1 className="text-4xl md:text-5xl font-bold text-cyber-text mb-4">
-            Viswanath Srinivasan Chirravuri
+            Viswanath S. Chirravuri
           </h1>
           <p className="text-lg text-cyber-muted leading-relaxed">
             Product Security &amp; Gen AI Consultant | GSE #335 | CompTIA SME |
