@@ -38,6 +38,7 @@ AI AppSec Consulting provides hands-on, hourly consulting sessions across AI/ML 
 
 ## Blog — Securing AI/ML
 
+- [ML RAG, Fine-tuning and Security — SANS Institute Webinar](https://aiappsecacademy.com/blog/sans-webinar-ml-rag-finetuning): Recording and slides from a 1-hour SANS Institute webinar on the evolution from prompting to RAG to fine-tuning, covering security risks at each layer (February 18, 2026)
 - [15 RAG Strategies Every AI Engineer Should Know](https://aiappsecacademy.com/blog/ml-rag-strategies): A comprehensive guide to 15 RAG approaches with Python implementations, architecture diagrams, and security considerations
 - [The Evolution of Agentic AI Development: From Monolithic to Distributed Systems](https://aiappsecacademy.com/blog/agentic-ai-evolution): A practical journey through 4 architectural stages of building secure, local-first multi-agent AI systems
 - [Introducing ViswanathSChirravuri_GPT: The Next Phase of Resume Exchange](https://aiappsecacademy.com/blog/viswanathschirravuri-gpt): A dedicated Custom GPT that answers questions about the consultant's professional profile

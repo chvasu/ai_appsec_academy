@@ -1,5 +1,12 @@
 [
   {
+    "title": "ML RAG, Fine-tuning and Security — SANS Institute Webinar",
+    "date": "2026-02-18",
+    "url": "/blog/sans-webinar-ml-rag-finetuning",
+    "summary": "Recording and slides from my 1-hour SANS Institute webinar exploring the architectural evolution from context-based prompting to RAG to fine-tuning, with security risks and practical hardening guidance at each layer.",
+    "category": "Securing AI/ML"
+  },
+  {
     "title": "Introducing Product Security AI Skills: The Toolkit for Modern AppSec",
     "date": "2026-02-14",
     "url": "/blog/product-security-ai-skills",

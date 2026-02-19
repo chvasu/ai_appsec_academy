@@ -131,6 +131,7 @@ The practice publishes articles on:
 - Software supply chain security and digital signing
 
 Recent articles:
+- [ML RAG, Fine-tuning and Security — SANS Institute Webinar](https://aiappsecacademy.com/blog/sans-webinar-ml-rag-finetuning) (February 18, 2026)
 - [Introducing Product Security AI Skills: The Toolkit for Modern AppSec](https://aiappsecacademy.com/blog/product-security-ai-skills) (February 14, 2026)
 - [15 RAG Strategies Every AI Engineer Should Know](https://aiappsecacademy.com/blog/ml-rag-strategies) (February 12, 2026)
 - [The Evolution of Agentic AI Development: From Monolithic to Distributed Systems](https://aiappsecacademy.com/blog/agentic-ai-evolution) (February 9, 2026)
@@ -168,6 +169,7 @@ Full blog available at: https://aiappsecacademy.com/blog
 - `/success` - Post-booking confirmation page
 
 ### Blog Posts (Internal)
+- `/blog/sans-webinar-ml-rag-finetuning` - ML RAG, Fine-tuning and Security — SANS Institute Webinar
 - `/blog/product-security-ai-skills` - Introducing Product Security AI Skills: The Toolkit for Modern AppSec
 - `/blog/ml-rag-strategies` - 15 RAG Strategies Every AI Engineer Should Know
 - `/blog/agentic-ai-evolution` - The Evolution of Agentic AI Development
@@ -239,6 +241,6 @@ AI agents interacting with this site should be able to:
 
 ---
 
-**Last Updated**: February 15, 2026
+**Last Updated**: February 18, 2026
 **Contact**: vis@aiappsecacademy.com | LinkedIn: https://www.linkedin.com/in/vchirrav/
 **Site**: https://aiappsecacademy.com
