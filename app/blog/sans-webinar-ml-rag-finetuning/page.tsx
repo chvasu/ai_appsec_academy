@@ -47,6 +47,7 @@ const topicsCovered = [
 ];
 
 const WEBCAST_URL = "https://www.sans.org/webcasts/ml-rag-fine-tuning-security";
+const SLIDES_URL = "https://drive.google.com/file/d/1jpTxXdTpNyqZjmwZBUr8VjtALWbW5ZnA/view?usp=sharing";
 
 export default function SANSWebinarMLRAGFinetuning() {
   return (
@@ -118,7 +119,7 @@ export default function SANSWebinarMLRAGFinetuning() {
               <ExternalLink className="w-4 h-4" />
             </a>
             <a
-              href={WEBCAST_URL}
+              href={SLIDES_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-5 py-3 border border-cyber-border text-cyber-text rounded-lg hover:border-cyber-accent/50 hover:text-cyber-accent transition text-sm"
@@ -360,7 +361,7 @@ export default function SANSWebinarMLRAGFinetuning() {
                     <ExternalLink className="w-3.5 h-3.5" />
                   </a>
                   <a
-                    href={WEBCAST_URL}
+                    href={SLIDES_URL}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-sm text-cyber-accent hover:text-cyber-accent-bright transition font-mono bg-cyber-bg border border-cyber-border rounded px-4 py-2"
